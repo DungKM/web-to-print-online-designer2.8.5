@@ -1,0 +1,1 @@
+{"version":3,"file":"./style-cart-block.css","mappings":";;;AAAA;EACC;AACD,C","sources":["webpack://online-design/./src/js/cart-block/style.scss"],"sourcesContent":[".shipping-workshop-other-value input {\n\twidth: 100%;\n}\n"],"names":[],"sourceRoot":""}
