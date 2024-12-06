@@ -19,7 +19,7 @@ if( !class_exists('Nbdesigner_Appearance_Settings') ) {
                 ),
                 'modern' => array( 
                     array(
-                        'title'         => esc_html__('Show nbdesigner colorpallet', 'web-to-print-online-designer'),
+                        'title'         => esc_html__('Show cmsmart colorpallet', 'web-to-print-online-designer'),
                         'id'            => 'nbdesigner_show_type_background',
                         'description'   => esc_html__( 'Show type colorpallet in design editor.', 'web-to-print-online-designer'),
                         'default'       => 'no',

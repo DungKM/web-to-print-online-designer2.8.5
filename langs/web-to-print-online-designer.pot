@@ -1061,7 +1061,7 @@ msgid "Continue"
 msgstr ""
 
 #: includes/class-setup-wizard.php:223 views/nbdesigner-tools.php:141
-msgid "Create default NBDesigner pages"
+msgid "Create default Cmsmart pages"
 msgstr ""
 
 #: includes/class-setup-wizard.php:226 includes/settings/general.php:274
@@ -1480,7 +1480,7 @@ msgid "Remote get"
 msgstr ""
 
 #: includes/class-util.php:4290
-msgid "NBDesigner directory size"
+msgid "Cmsmart directory size"
 msgstr ""
 
 #: includes/class-widget.php:8 includes/class-widget.php:62
@@ -1683,7 +1683,7 @@ msgid "New / Modified order(s)"
 msgstr ""
 
 #: includes/class.nbdesigner.php:919
-msgid "Has NBDesigner"
+msgid "Has Cmsmart"
 msgstr ""
 
 #: includes/class.nbdesigner.php:956
@@ -1803,7 +1803,7 @@ msgstr ""
 #: includes/class.nbdesigner.php:1089
 #, php-format
 msgid ""
-"If you <span style=\"color: #e25555;\">♥</span> <strong>NBDesigner</strong> "
+"If you <span style=\"color: #e25555;\">♥</span> <strong>Cmsmart</strong> "
 "please leave us a %s&#9733;&#9733;&#9733;&#9733;&#9733;%s rating. A huge "
 "thanks in advance!"
 msgstr ""
@@ -1813,7 +1813,7 @@ msgid "Thanks :)"
 msgstr ""
 
 #: includes/class.nbdesigner.php:1107
-msgid "NBDesigner Settings"
+msgid "Cmsmart Settings"
 msgstr ""
 
 #: includes/class.nbdesigner.php:1113
@@ -1857,11 +1857,11 @@ msgid "System info"
 msgstr ""
 
 #: includes/class.nbdesigner.php:1141
-msgid "NBDesigner Tools"
+msgid "Cmsmart Tools"
 msgstr ""
 
 #: includes/class.nbdesigner.php:1147
-msgid "NBDesigner Support"
+msgid "Cmsmart Support"
 msgstr ""
 
 #: includes/class.nbdesigner.php:1147 templates/gallery/artist.php:124
@@ -1949,7 +1949,7 @@ msgid ""
 msgstr ""
 
 #: includes/class.nbdesigner.php:1888
-msgid "Setting NBDesigner"
+msgid "Setting Cmsmart"
 msgstr ""
 
 #: includes/class.nbdesigner.php:1889
@@ -5170,7 +5170,7 @@ msgstr ""
 
 #: includes/settings/frontend.php:511
 #, php-format
-msgid "Require <a href=\"%s\" target=\"_blank\" >NBDesigner PDF cloud api</a>"
+msgid "Require <a href=\"%s\" target=\"_blank\" >Cmsmart PDF cloud api</a>"
 msgstr ""
 
 #: includes/settings/frontend.php:521
@@ -5842,11 +5842,11 @@ msgid "Fix lost images when export design into PDF"
 msgstr ""
 
 #: includes/settings/general.php:453
-msgid "Enable NBDesigner cloud api to create PDF"
+msgid "Enable Cmsmart cloud api to create PDF"
 msgstr ""
 
 #: includes/settings/general.php:464
-msgid "Enable NBDesigner cloud api to export design into JPEG and PNG format"
+msgid "Enable Cmsmart cloud api to export design into JPEG and PNG format"
 msgstr ""
 
 #: includes/settings/general.php:475
@@ -9215,7 +9215,7 @@ msgid "Email send successfully"
 msgstr ""
 
 #: views/manager-product.php:3
-msgid "Manager NBDesigner Products"
+msgid "Manager Cmsmart Products"
 msgstr ""
 
 #: views/manager-product.php:6
@@ -11471,7 +11471,7 @@ msgid "Start check"
 msgstr ""
 
 #: views/nbdesigner-tools.php:46
-msgid "Edit custom CSS for NBDesigner frontend"
+msgid "Edit custom CSS for Cmsmart frontend"
 msgstr ""
 
 #: views/nbdesigner-tools.php:54
@@ -11483,7 +11483,7 @@ msgid "Using bad CSS code could break the appearance of your plugin"
 msgstr ""
 
 #: views/nbdesigner-tools.php:84
-msgid "Edit custom JS for NBDesigner frontend"
+msgid "Edit custom JS for Cmsmart frontend"
 msgstr ""
 
 #: views/nbdesigner-tools.php:92
@@ -11528,7 +11528,7 @@ msgstr ""
 
 #: views/nbdesigner-tools.php:145
 msgid ""
-"This tool will install all the missing NBDesigner pages. Pages already "
+"This tool will install all the missing Cmsmart pages. Pages already "
 "defined and set up will not be replaced."
 msgstr ""
 

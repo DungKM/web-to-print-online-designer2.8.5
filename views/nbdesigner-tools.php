@@ -43,7 +43,7 @@
 </div>
 <div class="nbdesigner-editor nbd-tool-section">
     <h2>
-        <?php  esc_html_e('Edit custom CSS for NBDesigner frontend', 'web-to-print-online-designer'); ?>
+        <?php  esc_html_e('Edit custom CSS for Cmsmart frontend', 'web-to-print-online-designer'); ?>
         <img src="<?php echo NBDESIGNER_PLUGIN_URL.'assets/images/loading.gif' ?>" class="nbdesigner_loaded nbd-admin-tool-img-loading" id="nbdesigner_custom_css_loading" />
     </h2>
     <div id="nbdesigner_custom_css_con">
@@ -81,7 +81,7 @@
 </div>
 <div class="nbdesigner-editor nbd-tool-section">
     <h2>
-        <?php  esc_html_e('Edit custom JS for NBDesigner frontend', 'web-to-print-online-designer'); ?>
+        <?php  esc_html_e('Edit custom JS for Cmsmart frontend', 'web-to-print-online-designer'); ?>
         <img src="<?php echo NBDESIGNER_PLUGIN_URL.'assets/images/loading.gif' ?>" class="nbdesigner_loaded nbd-admin-tool-img-loading" id="nbdesigner_custom_js_loading" />
     </h2>
     <div id="nbdesigner_custom_js_con">
@@ -138,11 +138,11 @@
     </div>
 </div>
 <div id="nbd-setup-wizard" class="nbd-tool-section">
-    <h2><?php esc_html_e('Create default NBDesigner pages', 'web-to-print-online-designer'); ?></h2>
+    <h2><?php esc_html_e('Create default Cmsmart pages', 'web-to-print-online-designer'); ?></h2>
     <?php wp_nonce_field('nbd-create-pages', '_nbdesigner_update_product'); ?>
     <button class="button-primary" id="nbd-create-pages" <?php if(!current_user_can('update_nbd_data')) echo "disabled"; ?>><?php esc_html_e('Create pages', 'web-to-print-online-designer'); ?></button>
     <img src="<?php echo NBDESIGNER_PLUGIN_URL.'assets/images/loading.gif' ?>" class="nbdesigner_loaded nbd-admin-tool-img-loading" id="nbdesigner_create_pages_loading" />   
-    <p><strong class="nbd-admin-tool-note"><?php esc_html_e('Note', 'web-to-print-online-designer'); ?>: </strong><?php esc_html_e('This tool will install all the missing NBDesigner pages. Pages already defined and set up will not be replaced.', 'web-to-print-online-designer'); ?></p>
+    <p><strong class="nbd-admin-tool-note"><?php esc_html_e('Note', 'web-to-print-online-designer'); ?>: </strong><?php esc_html_e('This tool will install all the missing Cmsmart pages. Pages already defined and set up will not be replaced.', 'web-to-print-online-designer'); ?></p>
 </div>
 <div id="nbd-logs" class="nbd-tool-section">
     <h2><?php esc_html_e('Logs', 'web-to-print-online-designer'); ?><a href="<?php echo esc_url( wp_nonce_url( add_query_arg( array( 'action' => 'remove_log' ), admin_url( 'admin.php?page=nbdesigner_tools' ) ), 'remove_log' ) ); ?>" class="button-primary nbd-admin-tool-delete-log" ><?php esc_html_e('Delete log', 'web-to-print-online-designer'); ?></a></h2>

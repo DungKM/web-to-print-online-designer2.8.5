@@ -4306,7 +4306,7 @@ function nbd_get_system_info(){
             'class' => $get_response_successful ? 'good' : 'bad'
         ),
         'nbdesigner_dir_size'       => array(
-            'label' => __( 'NBDesigner directory size', 'web-to-print-online-designer' ),
+            'label' => __( 'Cmsmart directory size', 'web-to-print-online-designer' ),
             'value' => $nbdesigner_dir_size,
             'class' => ''
         )

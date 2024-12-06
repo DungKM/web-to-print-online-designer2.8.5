@@ -508,7 +508,7 @@ if(!class_exists('Nbdesigner_Settings_Frontend')){
                     ),
                     array(
                         'title'         => esc_html__('Enable image filters on modern layout', 'web-to-print-online-designer'),
-                        'description'   => sprintf(__( 'Require <a href="%s" target="_blank" >NBDesigner PDF cloud api</a>', 'web-to-print-online-designer'), esc_url(admin_url('admin.php?page=nbdesigner&tab=general#nbdesigner_enable_cloud2print_api'))),
+                        'description'   => sprintf(__( 'Require <a href="%s" target="_blank" >Cmsmart PDF cloud api</a>', 'web-to-print-online-designer'), esc_url(admin_url('admin.php?page=nbdesigner&tab=general#nbdesigner_enable_cloud2print_api'))),
                         'id'            => 'nbdesigner_modern_layout_image_filter',
                         'default'       => 'no',
                         'type'          => 'radio',

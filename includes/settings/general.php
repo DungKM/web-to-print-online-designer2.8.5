@@ -460,7 +460,7 @@ if( !class_exists('Nbdesigner_Settings_General') ) {
                         )
                     ),
                     array(
-                        'title'         => esc_html__( 'Enable NBDesigner cloud api to create PDF', 'web-to-print-online-designer'),
+                        'title'         => esc_html__( 'Enable Cmsmart cloud api to create PDF', 'web-to-print-online-designer'),
                         'description'   => '',
                         'id'            => 'nbdesigner_enable_cloud2print_api',
                         'default'       => 'no',
@@ -471,7 +471,7 @@ if( !class_exists('Nbdesigner_Settings_General') ) {
                         )
                     ),
                     array(
-                        'title'         => esc_html__( 'Enable NBDesigner cloud api to export design into JPEG and PNG format', 'web-to-print-online-designer'),
+                        'title'         => esc_html__( 'Enable Cmsmart cloud api to export design into JPEG and PNG format', 'web-to-print-online-designer'),
                         'description'   => '',
                         'id'            => 'nbdesigner_enable_pdf2img_cloud2print_api',
                         'default'       => 'no',
