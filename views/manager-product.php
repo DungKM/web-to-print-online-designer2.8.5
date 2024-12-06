@@ -1,6 +1,6 @@
 <?php if (!defined('ABSPATH')) exit; // Exit if accessed directly  ?>
 <div class="nbd-header-with-form">
-    <h2 class="nbd-title-page"><?php esc_html_e('Manager NBDesigner Products', 'web-to-print-online-designer'); ?></h2>
+    <h2 class="nbd-title-page"><?php esc_html_e('Manager Cmsmart Products', 'web-to-print-online-designer'); ?></h2>
     <form action="#" method="POST" class="nbd-header-form">
         <input type="search" name="q" value="<?php echo( $q ); ?>"/>
         <input type="submit" value="<?php esc_attr_e('Search products', 'web-to-print-online-designer'); ?>" class="button" />

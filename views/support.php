@@ -176,7 +176,7 @@ $faqs = $nbd_news->sections->faq;
 </style>
 <div class="nbd-support-wrap">
     <section class="nbd-welcome-nav">
-        <span class="nbd-welcome-nav__version">NBDESIGNER <?php echo NBDESIGNER_VERSION; ?></span>
+        <span class="nbd-welcome-nav__version">CMSMART <?php echo NBDESIGNER_VERSION; ?></span>
         <ul>
             <li><a href="https://cmsmart.net/support_ticket" target="_blank"><?php esc_html_e( 'Support', 'web-to-print-online-designer' ); ?></a></li>
             <li><a href="https://cmsmart.net/community/woocommerce-online-product-designer-plugin/userguides" target="_blank"><?php esc_html_e( 'Documentation', 'web-to-print-online-designer' ); ?></a></li>
@@ -187,7 +187,7 @@ $faqs = $nbd_news->sections->faq;
         <img src="<?php echo NBDESIGNER_PLUGIN_URL; ?>/assets/images/logo.svg" alt="Storefront" />
     </div> 
     <div class="nbd-intro">
-        <p><?php esc_html_e('Hello! You might be interested in the following NBDesigner NEWS and our printing solutions.', 'web-to-print-online-designer'); ?></p>
+        <p><?php esc_html_e('Hello! You might be interested in the following Cmsmart NEWS and our printing solutions.', 'web-to-print-online-designer'); ?></p>
     </div>
     <div class="nbd-enhance">
         <div class="nbd-enhance__column nbd-change-log">

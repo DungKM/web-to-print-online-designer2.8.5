@@ -946,7 +946,7 @@ class Nbdesigner_Plugin {
         $class            = '';
         $query_string     = remove_query_arg( array( 'orderby', 'order' ) );
         $query_string     = add_query_arg( 'has_nbd', urlencode('1'), $query_string );
-        $views['has_nbd'] = '<a href="' . esc_url( $query_string ) . '" class="' . esc_attr( $class ) . '">' . esc_html__( 'Has NBDesigner', 'web-to-print-online-designer') . '</a>';        
+        $views['has_nbd'] = '<a href="' . esc_url( $query_string ) . '" class="' . esc_attr( $class ) . '">' . esc_html__( 'Has Cmsmart', 'web-to-print-online-designer') . '</a>';        
         return $views;
     }
     public function nbdesigner_lincense_notices(){
@@ -1116,7 +1116,7 @@ class Nbdesigner_Plugin {
         $current_screen     = get_current_screen();
         $nbd_pages          = nbd_admin_pages();
         if ( isset( $current_screen->id ) && in_array( $current_screen->id, $nbd_pages ) ){
-            $footer_text = sprintf( __( 'If you <span style="color: #e25555;">♥</span> <strong>NBDesigner</strong> please leave us a %s&#9733;&#9733;&#9733;&#9733;&#9733;%s rating. A huge thanks in advance!', 'web-to-print-online-designer'), '<a href="https://cmsmart.net/wordpress-plugins/woocommerce-online-product-designer-plugin" target="_blank" class="nbd-rating-link" data-rated="' . esc_attr__( 'Thanks :)', 'web-to-print-online-designer') . '">', '</a>' );
+            $footer_text = sprintf( __( 'If you <span style="color: #e25555;">♥</span> <strong>Cmsmart</strong> please leave us a %s&#9733;&#9733;&#9733;&#9733;&#9733;%s rating. A huge thanks in advance!', 'web-to-print-online-designer'), '<a href="https://cmsmart.net/wordpress-plugins/woocommerce-online-product-designer-plugin" target="_blank" class="nbd-rating-link" data-rated="' . esc_attr__( 'Thanks :)', 'web-to-print-online-designer') . '">', '</a>' );
         }
         return $footer_text;
     }
@@ -1132,9 +1132,9 @@ class Nbdesigner_Plugin {
             $layout = sanitize_text_field( $_POST['nbdesigner_design_layout'] );
         };
         if( current_user_can( 'manage_nbd_setting' ) ) {
-            add_menu_page( 'Nbdesigner', 'NBDesigner', 'manage_nbd_setting', 'nbdesigner', array( $this, 'nbdesigner_settings'), NBDESIGNER_PLUGIN_URL . 'assets/images/logo-icon-r.svg', 26 );
+            add_menu_page( 'Nbdesigner', 'Cmsmart', 'manage_nbd_setting', 'nbdesigner', array( $this, 'nbdesigner_settings'), NBDESIGNER_PLUGIN_URL . 'assets/images/logo-icon-r.svg', 26 );
             $nbdesigner_manage = add_submenu_page(
-                'nbdesigner', esc_html__('NBDesigner Settings', 'web-to-print-online-designer'), esc_html__('Settings', 'web-to-print-online-designer'), 'manage_nbd_setting', 'nbdesigner', array( $this, 'nbdesigner_settings' )
+                'nbdesigner', esc_html__('Cmsmart Settings', 'web-to-print-online-designer'), esc_html__('Settings', 'web-to-print-online-designer'), 'manage_nbd_setting', 'nbdesigner', array( $this, 'nbdesigner_settings' )
             );
             add_action( 'load-'.$nbdesigner_manage, array( 'Nbdesigner_Helper', 'settings_helper' ) );
         }
@@ -1173,13 +1173,13 @@ class Nbdesigner_Plugin {
                 'nbdesigner', esc_html__( 'System info', 'web-to-print-online-designer' ), esc_html__( 'System info', 'web-to-print-online-designer' ), 'manage_nbd_tool', 'nbdesigner_system_info', array( $this, 'system_info' )
             );
             add_submenu_page(
-                'nbdesigner', esc_html__( 'NBDesigner Tools', 'web-to-print-online-designer' ), esc_html__( 'Tools', 'web-to-print-online-designer' ), 'manage_nbd_tool', 'nbdesigner_tools', array( $this, 'nbdesigner_tools' )
+                'nbdesigner', esc_html__( 'Cmsmart Tools', 'web-to-print-online-designer' ), esc_html__( 'Tools', 'web-to-print-online-designer' ), 'manage_nbd_tool', 'nbdesigner_tools', array( $this, 'nbdesigner_tools' )
             );
         }
         $remote = get_transient( 'nbd_upgrade_news_web-to-print-online-designer' );
         if( $remote ){
             add_submenu_page(
-                'nbdesigner', esc_html__( 'NBDesigner Support', 'web-to-print-online-designer' ), esc_html__( 'About', 'web-to-print-online-designer' ), 'manage_nbd_setting', 'nbd_support', array( $this, 'nbd_support' )
+                'nbdesigner', esc_html__( 'Cmsmart Support', 'web-to-print-online-designer' ), esc_html__( 'About', 'web-to-print-online-designer' ), 'manage_nbd_setting', 'nbd_support', array( $this, 'nbd_support' )
             );
         }
     }
@@ -1921,7 +1921,7 @@ class Nbdesigner_Plugin {
     }
     public function add_design_box() {
         $current_screen = get_current_screen();
-        add_meta_box( 'nbdesigner_setting', esc_html__( 'Setting NBDesigner', 'web-to-print-online-designer' ), array( $this, 'setting_design' ), 'product', 'normal', 'high' );
+        add_meta_box( 'nbdesigner_setting', esc_html__( 'Setting Cmsmart', 'web-to-print-online-designer' ), array( $this, 'setting_design' ), 'product', 'normal', 'high' );
         add_meta_box( 'nbdesigner_order', esc_html__( 'Customer Design', 'web-to-print-online-designer' ), array( $this, 'order_design' ), 'shop_order', 'side', 'default' );
         add_meta_box( 'nbdesigner_order', esc_html__( 'Customer Design', 'web-to-print-online-designer' ), array( $this, 'order_design_wcorder' ), 'woocommerce_page_wc-orders', 'side', 'default' );
     }
