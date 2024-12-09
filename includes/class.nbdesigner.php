@@ -957,7 +957,7 @@ class Nbdesigner_Plugin {
     }
     public function nbdesigner_lincense_notices_content(){
         //$mes = nbd_custom_notices('notices', 'You\'re using NBDesigner free version (full features and function but for max 5 products) or expired pro version. <br /><a class="nbd-notice-action" href="http://cmsmart.net/wordpress-plugins/woocommerce-online-product-designer-plugin" target="_blank">Please buy the Premium version here to use for all product </a>');
-        $mes            = nbd_custom_notices( 'notices', '<a class="nbd-license-notice" href="https://cmsmart.net/wordpress-plugins/woocommerce-online-product-designer-plugin?utm_source=backend&utm_medium=cpc&utm_campaign=wpol&utm_content=banner" target="_blank"><img src="'.NBDESIGNER_ASSETS_URL . 'images/lite_version.jpg" alt="Lite version"/></a>' );
+        $mes            = nbd_custom_notices( 'notices', '<a class="nbd-license-notice" href="https://cmsmart.net/?id=1074&layout=pricing&view=solution" target="_blank"><img src="'.NBDESIGNER_ASSETS_URL . 'images/lite_version.png" alt="Lite version"/></a>' );
         $current_screen = get_current_screen();
         $nbd_pages      = nbd_admin_pages();
         if ( isset( $current_screen->id ) && in_array( $current_screen->id, $nbd_pages ) ) printf( $mes );
