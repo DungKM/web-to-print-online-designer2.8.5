@@ -504,7 +504,8 @@ add_action('admin_head', function () {
         'nbdesigner_tools',
         'nbd_support',
         'nbd_faq',
-        'nbd_designers'
+        'nbd_designers',
+        'nbd_ticket'
     ];
 
     if (isset($_GET['page']) && in_array($_GET['page'], $plugin_pages)) {
