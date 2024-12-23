@@ -39,6 +39,8 @@
         <?php if( $settings["nbdesigner_hide_layer_tab"] == "no" ): ?>
         <li id="nav-layers" data-tour="layers" data-tour-priority="6" class="<?php if( $active_layers ) echo 'active'; ?> tab animated <?php echo( $animation_dir ); ?> animate900" ng-click="disableDrawMode();disablePreventClickMode()"><i class="icon-nbd icon-nbd-stack"></i><span><?php esc_html_e('Layers','web-to-print-online-designer'); ?></span></li>
         <?php endif; ?>
+        <li id="nav-ai" data-tour="ai" data-tour-priority="8" class="<?php if( $active_aidesign ) echo 'active'; ?> tab animated <?php echo( $animation_dir ); ?> animate1000" ng-click="disableDrawMode();disablePreventClickMode()"><i class="icon-nbd icon-nbd-apps"></i><span><?php esc_html_e('AI Design','web-to-print-online-designer'); ?></span></li>
+
         <li id="nav-end" class="tab tab-end" ></li>
     </ul>
     <div class="keyboard-shortcuts"><i class="icon-nbd icon-nbd-info-circle nbd-tooltip-hover tooltipstered nbd-hover-shadow"></i></div>

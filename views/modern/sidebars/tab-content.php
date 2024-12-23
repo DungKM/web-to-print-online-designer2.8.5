@@ -15,4 +15,5 @@
     <?php if($show_elements_tab) include 'tab-elements.php'; ?>
     <?php do_action( 'nbd_editor_extra_tab_content' ); ?>
     <?php if($settings["nbdesigner_hide_layer_tab"] == "no") include 'tab-layer.php'; ?>
+    <?php include 'tab-ai.php'; ?>
 </div>

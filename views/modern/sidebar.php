@@ -12,6 +12,7 @@
         $show_elements_tab  = (!($settings["nbdesigner_enable_clipart"] == "yes" || $settings["nbdesigner_enable_qrcode"] == "yes" || $settings["nbdesigner_enable_draw"] == "yes") || $settings["nbdesigner_hide_element_tab"] == "yes" ) ? false: true;
         $active_elements    = (!$active_product && !$active_design && !$active_typos && !$active_cliparts && !$active_photos && $show_elements_tab && !$active_template && $settings["nbdesigner_hide_element_tab"] == "no") ? true : false;
         $active_layers      = (!$active_product && !$active_design && !$active_typos && !$active_cliparts && !$active_photos && !$active_elements && !$active_template && $settings["nbdesigner_hide_layer_tab"] != "no") ? true : false;
+        $active_aidesign     = (!$active_product && !$active_design && !$active_typos && !$active_cliparts && !$active_photos && !$active_elements && !$active_template && $settings["nbdesigner_hide_ai_tab"] != "no") ? true : false;
 
         $nbav_active_tabs['active_background'] = (!$active_product && !$active_design && !$active_typos && !$active_cliparts && !$active_photos && !$active_elements && !$active_template && !$active_layers) ? true : false;
         
