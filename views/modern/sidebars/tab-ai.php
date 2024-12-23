@@ -1,6 +1,6 @@
-<div class="tab-ai tab <?php if( $active_aidesign ) echo 'active'; ?>" id="tab-ai">
+<div class="nbd-tab-ai tab <?php if( $active_aidesign ) echo 'active'; ?>" id="tab-ai">
 <style>
-.tab-ai {
+.nbd-tab-ai {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -14,27 +14,27 @@
     font-family: 'Arial', sans-serif;
 }
 
-.tab-main {
+.nbd-tab-main {
     padding: 20px;
     overflow-y: auto;
     max-height: 500px;
 }
 
-.tab-scroll {
+.nbd-tab-scroll {
     scrollbar-width: thin;
     scrollbar-color: #ccc #f9f9f9;
 }
 
-.tab-scroll::-webkit-scrollbar {
+.nbd-tab-scroll::-webkit-scrollbar {
     width: 8px;
 }
 
-.tab-scroll::-webkit-scrollbar-thumb {
+.nbd-tab-scroll::-webkit-scrollbar-thumb {
     background-color: #ccc;
     border-radius: 4px;
 }
 
-input[type="text"] {
+.nbd-prompt-ai {
     width: 100%;
     padding: 12px 15px;
     margin-bottom: 15px;
@@ -47,12 +47,12 @@ input[type="text"] {
     transition: border-color 0.2s ease-in-out;
 }
 
-input[type="text"]:focus {
+.nbd-prompt-ai:focus {
     border-color: #007bff;
     background-color: #fff;
 }
 
-button {
+.nbd-btn-generate-image {
     width: 100%;
     padding: 12px 20px;
     font-size: 16px;
@@ -65,17 +65,17 @@ button {
     transition: background-color 0.3s ease-in-out;
 }
 
-button:hover {
+.nbd-btn-generate-image:hover {
     background-color: #0056b3;
 }
 
-div[ng-bind="loadingMessage"] {
+.nbd-loading-message {
     margin-top: 15px;
     font-size: 14px;
     color: #777;
     text-align: center;
 }
-img {
+.nbd-image-ai {
     display: block;
     max-width: 100%;
     margin: 20px auto 0;
@@ -94,15 +94,15 @@ img {
     text-align: center;
 }
 </style>
-    <div class="tab-main tab-scroll">
+    <div class="nbd-tab-main nbd-tab-scroll">
        <div ng-app="nbd-app" ng-controller="MyController">
-            <input type="text" ng-model="prompt" placeholder="Enter text">
-            <button ng-click="generateImage()">Generate Image</button>
-            <div ng-bind="loadingMessage"></div>
+            <input class="nbd-prompt-ai" type="text" ng-model="prompt" placeholder="Enter text">
+            <button class="nbd-btn-generate-image" ng-click="generateImage()">Generate Image</button>
+            <div class="nbd-loading-message" ng-bind="loadingMessage"></div>
             <div ng-if="!imageUrls || imageUrls.length === 0" class="no-images">
                     You don’t have any images yet.
             </div>
-            <img ng-if="imageUrls && imageUrls.length > 0" ng-src="{{imageUrls[0]}}" alt="Hình ảnh đầu tiên">
+            <img ng-if="imageUrls && imageUrls.length > 0" ng-src="{{imageUrls[0]}}" alt="Hình ảnh đầu tiên" class="nbd-image-ai">
        </div>
     </div>
 </div>
