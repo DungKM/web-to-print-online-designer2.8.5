@@ -22,7 +22,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.icon-nbd-apps:before{content:"\E909"}
 .icon-nbd-lock:before {
   content: "\F023";
 }
