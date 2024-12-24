@@ -6,7 +6,7 @@
     <?php endif; ?>
 >
 
-    <div class="nbd-search"">
+    <div class="nbd-search">
         <input id="nbd-search-template" ng-model="resource.templateSearch.value" 
             placeholder="<?php esc_attr_e('Seach templates','web-to-print-online-designer'); ?>" 
             ng-mousedown="resource.templateSearch.focus = true;"
