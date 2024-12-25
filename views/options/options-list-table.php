@@ -1,11 +1,24 @@
 <?php 
     if (!defined('ABSPATH')) exit; 
+    global $wpdb;
+    $table_name = $wpdb->prefix . 'nbdesigner_options';
+    $total_options = $wpdb->get_var("SELECT COUNT(*) FROM {$table_name}");
+    if ($total_options >= 5) {
+
+        echo '<div class="notice notice-error"><p>';
+        _e('You have reached the limit of 5 options. Please recharge your account to add more options.', 'web-to-print-online-designer');
+        echo '</p></div>';
+    } else {
     $link_create_option = add_query_arg(array(
             'action'    => 'edit',
             'paged'     => 1,
             'id'        => 0
         ),
         admin_url('admin.php?page=nbd_printing_options'));
+        // echo '<a class="button button-primary" href="' . esc_url($link_create_option) . '">';
+        // _e('Add New Option', 'web-to-print-online-designer');
+        // echo '</a>';
+    }
 ?>
 <div class="wrap">
     <h1>
