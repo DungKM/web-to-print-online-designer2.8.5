@@ -15,9 +15,7 @@
             'id'        => 0
         ),
         admin_url('admin.php?page=nbd_printing_options'));
-        // echo '<a class="button button-primary" href="' . esc_url($link_create_option) . '">';
-        // _e('Add New Option', 'web-to-print-online-designer');
-        // echo '</a>';
+        
     }
 ?>
 <div class="wrap">
