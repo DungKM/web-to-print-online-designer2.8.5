@@ -105,7 +105,7 @@ class NBD3DPreview {
       const boxSize = box.getSize(new THREE.Vector3()).length();
       const boxCenter = box.getCenter(new THREE.Vector3());
 
-      frameArea(boxSize * 2, boxSize, boxCenter, this.camera);
+      frameArea(boxSize * 1.3, boxSize, boxCenter, this.camera);
 
       this.controls.maxDistance = boxSize * 10;
       this.controls.target.copy(boxCenter);

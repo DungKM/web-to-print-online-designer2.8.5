@@ -399,6 +399,14 @@ if( !class_exists('Nbdesigner_Settings_General') ) {
                         'class'         => 'regular-text',
                         'default'       => '',
                         'type'          => 'text'
+                    ),
+                    array(
+                        'title'         => esc_html__( 'Open AI API key', 'web-to-print-online-designer'),
+                        'description'   => esc_html__( 'This feature allows customers to search for and insert OpenAI-generated content into their designs.', 'web-to-print-online-designer').' <a href="https://platform.openai.com/api-keys" target="_blank">' . esc_html__("Where do I get the OpenAI API key?", 'web-to-print-online-designer').'</a>',
+                        'id'            => 'nbdesigner_open_ai_api_key',
+                        'class'         => 'regular-text',
+                        'default'       => '',
+                        'type'          => 'text'
                     )
                 ),
                 'customization' => array(

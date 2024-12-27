@@ -1378,6 +1378,7 @@ function default_frontend_setting(){
         'nbdesigner_pexels_api_key'                 => '563492ad6f91700001000001a626f8ddac7d48a88fc0856cb7622195',
         'nbdesigner_flaticon_api_key'               => '',
         'nbdesigner_static_map_api_key'             => '',
+        'nbdesigner_open_ai_api_key'                => '',
         'nbdesigner_enable_pixabay'                 => 'yes',
         'nbdesigner_enable_unsplash'                => 'yes',
         'nbdesigner_enable_pexels'                  => 'yes',

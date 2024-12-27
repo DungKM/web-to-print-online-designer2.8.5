@@ -4201,7 +4201,8 @@ ul[data-tab=tab-9] #selectedTab {
 .preview-3d-wrap {
     position: fixed;
     bottom: 30px;
-    left: 15px;
+    top: 356px;
+    left: 220px;
     width: 400px;
     height: 300px;
     background: #fff;
