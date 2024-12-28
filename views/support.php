@@ -181,6 +181,7 @@ $faqs = $nbd_news->sections->faq;
             <li><a href="https://cmsmart.net/support_ticket" target="_blank"><?php esc_html_e( 'Support', 'web-to-print-online-designer' ); ?></a></li>
             <li><a href="https://cmsmart.net/community/woocommerce-online-product-designer-plugin/userguides" target="_blank"><?php esc_html_e( 'Documentation', 'web-to-print-online-designer' ); ?></a></li>
             <li><a href="https://cmsmart.net/community/woocommerce-online-product-designer-plugin" target="_blank"><?php esc_html_e( 'Community', 'web-to-print-online-designer' ); ?></a></li>
+            <li><a href="https://dashboard.cmsmart.net/apps/client-view/work-app/cmsmart-stores" target="_blank"><?php esc_html_e( 'Cmsmart Stores', 'web-to-print-online-designer' ); ?></a></li>
         </ul>        
     </section>
     <div class="nbd-logo">
