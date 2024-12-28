@@ -174,6 +174,9 @@ if( !isset( $image['0'] ) ){
             </i>
         </li>
         <?php endif; ?>
+        <li class="menu-item item-process animated slideInDown animate900 save-data" ng-show="threeDimensionPreview.modelLoaded" ng-click="show3DPreview()" style="margin-right: 5px;">
+            <span><?php esc_html_e('Apply','web-to-print-online-designer'); ?></span>
+        </li>
         <?php if( $enable_3d_preview && !wp_is_mobile() ): ?>
         <li ng-click="show3DPreview()" class="menu-item nbd-show-3d-preview nbd-change-product animated slideInDown animate700 main-menu-action" >
             <i class="nbd-svg-icon" style="margin-left: 0;" >

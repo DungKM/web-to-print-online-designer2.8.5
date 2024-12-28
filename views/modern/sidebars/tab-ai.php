@@ -113,7 +113,12 @@
                 <span ng-if="isLoading" style="color:#f9f9f9">Loading...</span></button>
         </div>
         <div class="nbd-tab-main tab-main nbd-tab-scroll">
-            <img ng-if="imageUrls && imageUrls.length > 0" ng-src="{{imageUrls[0]}}" alt="Hình ảnh đầu tiên" class="nbd-image-ai">
+            <img ng-repeat="url in imageUrls track by $index"
+                ng-src="{{url}}"
+                alt="Image AI {{$index + 1}}"
+                ng-click="addImageFromUrl(url, true, ilr)"
+                class="nbd-image-ai">
         </div>
+
     </div>
 </div>
