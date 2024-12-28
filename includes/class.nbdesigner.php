@@ -1179,9 +1179,6 @@ class Nbdesigner_Plugin {
         $remote = get_transient( 'nbd_upgrade_news_web-to-print-online-designer' );
         if( $remote ){
             add_submenu_page(
-                'nbdesigner', esc_html__( 'Cmsmart Support', 'web-to-print-online-designer' ), esc_html__( 'About', 'web-to-print-online-designer' ), 'manage_nbd_setting', 'nbd_support', array( $this, 'nbd_support' )
-            );
-            add_submenu_page(
                 'nbdesigner', esc_html__( 'Support Ticket', 'web-to-print-online-designer' ), esc_html__( 'Ticket', 'web-to-print-online-designer' ), 'manage_nbd_setting', 'nbd_ticket', array( $this, 'nbd_ticket' )
             );
         }

@@ -502,7 +502,6 @@ add_action('admin_head', function () {
         'nbdesigner_manager_backgrounds',
         'nbdesigner_system_info',
         'nbdesigner_tools',
-        'nbd_support',
         'nbd_faq',
         'nbd_designers',
         'nbd_ticket'
