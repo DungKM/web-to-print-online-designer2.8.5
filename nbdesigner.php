@@ -4,7 +4,7 @@
  * @package Nbdesigner
  */
 /*
-Plugin Name: NBDesigner
+Plugin Name: CmsMart
 Plugin URI: https://cmsmart.net/wordpress-plugins/woocommerce-online-product-designer-plugin
 Description: A Woocommerce printing ecosystem.
 Version: 2.8.5
