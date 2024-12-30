@@ -1,8 +1,6 @@
 
-<!-- <iframe src="https://dashboard.cmsmart.net/apps/tickets/all-tickets" width="100%" height="100%" title="Support Ticket"></iframe> -->
-    <style>
-.container {
-  position: relative;
+<style>
+.nbd-container {
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -20,6 +18,6 @@
   border: none;
 }
 </style>
-<div class="container"> 
+<div class="nbd-container"> 
   <iframe class="responsive-iframe" src="https://dashboard.cmsmart.net/apps/tickets/all-tickets"></iframe>
 </div>

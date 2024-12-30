@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @package Nbdesigner
+ * @package Cmsmart
  */
 /*
 Plugin Name: CmsMart
