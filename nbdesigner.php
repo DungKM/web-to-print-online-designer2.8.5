@@ -4,7 +4,7 @@
  * @package Cmsmart
  */
 /*
-Plugin Name: CmsMart
+Plugin Name: Cmsmart
 Plugin URI: https://cmsmart.net/wordpress-plugins/woocommerce-online-product-designer-plugin
 Description: A Woocommerce printing ecosystem.
 Version: 2.8.5
