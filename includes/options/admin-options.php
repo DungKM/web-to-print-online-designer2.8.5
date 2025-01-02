@@ -287,7 +287,7 @@ CREATE TABLE {$wpdb->prefix}nbdesigner_options (
             }
         }
         public function admin_enqueue_scripts( $hook ){
-            if( $hook == 'nbdesigner_page_nbd_printing_options' ){
+            if( $hook == 'cmsmart_page_nbd_printing_options' ){
                 wp_register_style( 'nbd_options', NBDESIGNER_CSS_URL . 'admin-options.css', array( 'wp-color-picker' ), NBDESIGNER_VERSION );
                 wp_register_script( 'snap_svg', NBDESIGNER_ASSETS_URL . 'libs/snap.svg.js', array(), '0.3.0');
                 wp_register_script( 'nbd_options', NBDESIGNER_JS_URL . 'admin-options.js', array('jquery', 'jquery-ui-resizable', 'jquery-ui-draggable', 'jquery-ui-droppable', 'jquery-ui-sortable', 'jquery-ui-datepicker', 'jquery-ui-autocomplete', 'wp-color-picker', 'angularjs', 'wc-enhanced-select', 'snap_svg'), NBDESIGNER_VERSION);
