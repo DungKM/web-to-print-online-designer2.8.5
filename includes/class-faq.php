@@ -131,7 +131,8 @@ if( !class_exists('Nbdesigner_FAQ') ){
             <?php
         }
         public function admin_enqueue_scripts( $hook ) {
-            if( $hook == 'nbdesigner_page_nbd_faq' ){
+            error_log( "Current hook: $hook" );
+            if( $hook == 'cmsmart_page_nbd_faq' ){
                 wp_enqueue_script( array( 'jquery-ui-sortable' ) );
                 wp_enqueue_style( array( 'admin_nbdesigner' ) );
             }

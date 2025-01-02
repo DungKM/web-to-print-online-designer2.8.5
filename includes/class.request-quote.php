@@ -215,7 +215,7 @@ if(!class_exists('NBD_Request_Quote')) {
             return false;
         }
         public function admin_enqueue_scripts( $hook ){
-            if( $hook == 'nbdesigner_page_nbdesigner_get_quote' ){
+            if( $hook == 'cmsmart_page_nbdesigner_get_quote' ){
                 global $woocommerce;
                 $woocommerce_version = function_exists( 'WC' ) ? WC()->version : $woocommerce->version;
                 $css_libs = array(

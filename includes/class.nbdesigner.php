@@ -633,7 +633,7 @@ class Nbdesigner_Plugin {
     } 
     public function nbdesigner_admin_enqueue_scripts( $hook ){
 
-        if ($hook == 'nbdesigner_page_nbdesigner_manager_backgrounds'){
+        if ($hook == 'cmsmart_page_nbdesigner_manager_backgrounds'){
             wp_enqueue_style( 'nbdesigner_sweetalert_css', NBDESIGNER_CSS_URL . 'sweetalert.css' );
             wp_enqueue_script( 'nbdesigner_sweetalert_js', NBDESIGNER_JS_URL . 'sweetalert.min.js' , array( 'jquery' ) );
         }
@@ -650,7 +650,7 @@ class Nbdesigner_Plugin {
         wp_enqueue_style( array( 'nbd-general' ) );
 
         wp_register_style( 'admin_nbdesigner', NBDESIGNER_CSS_URL . 'admin-nbdesigner.css', array('wp-color-picker'), NBDESIGNER_VERSION );
-        if ( in_array( $hook, apply_filters( 'nbd_admin_hooks_need_asset', array( 'post.php', 'post-new.php', 'nbdesigner_page_nbdesigner_manager_fonts', 'nbdesigner_page_nbdesigner_manager_arts', 'toplevel_page_nbdesigner', 'nbdesigner_page_nbdesigner_manager_product', 'toplevel_page_nbdesigner_shoper', 'nbdesigner_page_nbdesigner_frontend_translate', 'nbdesigner_page_nbdesigner_tools', 'nbdesigner_page_manage_color', 'nbdesigner_page_nbdesigner_manager_backgrounds' ) ) ) ){
+        if ( in_array( $hook, apply_filters( 'nbd_admin_hooks_need_asset', array( 'post.php', 'post-new.php', 'cmsmart_page_nbdesigner_manager_fonts', 'cmsmart_page_nbdesigner_manager_arts', 'toplevel_page_nbdesigner', 'cmsmart_page_nbdesigner_manager_product', 'toplevel_page_nbdesigner_shoper', 'cmsmart_page_nbdesigner_frontend_translate', 'cmsmart_page_nbdesigner_tools', 'cmsmart_page_manage_color', 'cmsmart_page_nbdesigner_manager_backgrounds' ) ) ) ){
             wp_register_script( 'admin_nbdesigner', NBDESIGNER_JS_URL . 'admin-nbdesigner.js', array('jquery', 'jquery-ui-resizable', 'jquery-ui-draggable', 'jquery-ui-autocomplete', 'wp-color-picker', 'jquery-ui-datepicker', 'jquery-ui-sortable' ), NBDESIGNER_VERSION );
             wp_localize_script( 'admin_nbdesigner', 'admin_nbds', array(
                 'url'               => admin_url( 'admin-ajax.php' ),
@@ -666,7 +666,7 @@ class Nbdesigner_Plugin {
             wp_enqueue_style( array( 'wp-pointer', 'wp-jquery-ui-dialog', 'admin_nbdesigner' ) );
             wp_enqueue_script( array( 'wp-pointer', 'wpdialogs', 'admin_nbdesigner' ) );
         }
-        if( $hook == 'admin_page_nbdesigner_detail_order' || $hook == 'nbdesigner_page_nbdesigner_manager_product' ){
+        if( $hook == 'admin_page_nbdesigner_detail_order' || $hook == 'cmsmart_page_nbdesigner_manager_product' ){
             wp_enqueue_media();
             wp_register_style(
                 'admin_nbdesigner_detail_order', 
@@ -684,22 +684,22 @@ class Nbdesigner_Plugin {
                 NBDESIGNER_VERSION );
             wp_enqueue_script( array( 'jquery', 'jquery-ui-tabs' ) );
         }
-        if( $hook == 'nbdesigner_page_nbdesigner_manager_fonts' ){
+        if( $hook == 'cmsmart_page_nbdesigner_manager_fonts' ){
             wp_enqueue_script( 'angularjs' );
             wp_enqueue_script( 'fontfaceobserver' );
         }
-        if( $hook == 'nbdesigner_page_nbdesigner_frontend_translate' ){
+        if( $hook == 'cmsmart_page_nbdesigner_frontend_translate' ){
             wp_register_script( 'admin_nbdesigner_jeditable', NBDESIGNER_JS_URL . 'jquery.jeditable.js', array( 'jquery' ) );
             wp_enqueue_script( 'admin_nbdesigner_jeditable' );
         }
-        if( $hook == 'nbdesigner_page_nbdesigner_tools' ){
+        if( $hook == 'cmsmart_page_nbdesigner_tools' ){
             wp_enqueue_style( 'admin_nbdesigner_codemirror', NBDESIGNER_PLUGIN_URL . 'assets/codemirror/codemirror.css' );
             wp_enqueue_script( 'nbdesigner_codemirror_js', NBDESIGNER_PLUGIN_URL . 'assets/codemirror/codemirror.js' , array() );
             wp_enqueue_script( 'nbdesigner_codemirror_css_js', NBDESIGNER_PLUGIN_URL . 'assets/codemirror/css.js' , array() );
         }
-        if( $hook == 'nbdesigner_page_nbdesigner_admin_template' || $hook == 'nbdesigner_page_nbdesigner_manager_arts'
-            || $hook == 'admin_page_nbdesigner_detail_order' || $hook == 'nbdesigner_page_nbdesigner_manager_fonts' 
-            || $hook == 'nbdesigner_page_nbdesigner_tools' || $hook == 'nbdesigner_page_nbdesigner_frontend_translate' || $hook == 'nbdesigner_page_manage_color' ){
+        if( $hook == 'cmsmart_page_nbdesigner_admin_template' || $hook == 'cmsmart_page_nbdesigner_manager_arts'
+            || $hook == 'admin_page_nbdesigner_detail_order' || $hook == 'cmsmart_page_nbdesigner_manager_fonts' 
+            || $hook == 'cmsmart_page_nbdesigner_tools' || $hook == 'cmsmart_page_nbdesigner_frontend_translate' || $hook == 'cmsmart_page_manage_color' ){
             wp_enqueue_style( 'nbdesigner_sweetalert_css', NBDESIGNER_CSS_URL . 'sweetalert.css' );
             wp_enqueue_script( 'nbdesigner_sweetalert_js', NBDESIGNER_JS_URL . 'sweetalert.min.js' , array( 'jquery' ) );
         }
