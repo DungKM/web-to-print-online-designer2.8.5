@@ -15,26 +15,25 @@ global $wpdb;
 $action = isset($_GET['action']) ? sanitize_text_field($_GET['action']) : '';
 $id = isset($_GET['id']) ? intval($_GET['id']) : 0;
 $table_name = $wpdb->prefix . 'nbdesigner_options';
+$license = json_decode(get_option('nbdesigner_license'), true);
+
+
 $total_options = $wpdb->get_var("SELECT COUNT(*) FROM {$table_name}");
-if ($action === 'edit' && $id === 0 && $total_options >= 5) {
+if (!isset($license['key']) && $action === 'edit' && $id === 0 && $total_options >= 5) {
     wp_redirect(admin_url('admin.php?page=nbd_printing_options'));
     exit;
 }
-if ($total_options >= 5) {
 
-    echo '<div class="notice notice-error"><p>';
-    _e('You have reached the limit of 5 options. Please recharge your account to add more options.', 'web-to-print-online-designer');
-    echo '</p></div>';
-} else {
-    $link_create_option = add_query_arg(
-        array(
-            'action'    => 'edit',
-            'paged'     => 1,
-            'id'        => 0
-        ),
-        admin_url('admin.php?page=nbd_printing_options')
-    );
-}
+
+$link_create_option = add_query_arg(
+    array(
+        'action'    => 'edit',
+        'paged'     => 1,
+        'id'        => 0
+    ),
+    admin_url('admin.php?page=nbd_printing_options')
+);
+
 wp_enqueue_media();
 $current_url = add_query_arg($_GET, admin_url('admin.php?page=nbd_printing_options'));
 $link_create_pre_builder = add_query_arg(array(
