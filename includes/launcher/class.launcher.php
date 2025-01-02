@@ -416,7 +416,7 @@ class NBD_Design_Launcher{
         return $actions;
     }
     public function admin_enqueue_scripts( $hook ) {
-        if( $hook == 'nbdesigner_page_nbd_designers' ){
+        if( $hook == 'cmsmart_page_nbd_designers' ){
             wp_enqueue_media();
             wp_register_script( 'nbd-admin-launcher', NBDESIGNER_PLUGIN_URL . 'views/launcher/dist/app.js', array('jquery', 'accounting', 'wc-enhanced-select'), NBDESIGNER_VERSION, true );
             wp_enqueue_script( 'nbd-admin-launcher' );

@@ -138,7 +138,7 @@ if( !class_exists('Nbdesigner_Live_Chat') ){
             include_once( NBDESIGNER_PLUGIN_DIR . 'views/live-chat/admin-console.php' );
         }
         public function admin_enqueue_scripts( $hook ) {
-            if( $hook == 'nbdesigner_page_nbd_live_chat' ){
+            if( $hook == 'cmsmart_page_nbd_live_chat' ){
                 $suffix      = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
                 $depend_jss  = array(
                     'select2'     => array(
