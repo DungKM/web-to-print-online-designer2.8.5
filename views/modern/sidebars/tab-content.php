@@ -16,4 +16,5 @@
     <?php do_action('nbd_editor_extra_tab_content'); ?>
     <?php if ($settings["nbdesigner_hide_layer_tab"] == "no") include 'tab-layer.php'; ?>
     <?php if ($settings["nbdesigner_open_ai_api_key"] != '') include 'tab-ai.php'; ?>
+    <?php if ($settings["nbdesigner_open_ai_api_key"] != '') include 'tab-ai-chat.php'; ?>
 </div>
