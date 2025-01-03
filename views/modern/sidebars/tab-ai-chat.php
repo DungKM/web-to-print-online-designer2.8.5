@@ -110,14 +110,13 @@
     <link href="https://cdn.jsdelivr.net/npm/quill@2.0.3/dist/quill.snow.css" rel="stylesheet">
     <div ng-app="nbd-app" ng-controller="ChatController">
     <div class="nbd-search-ai">
-        <textarea placeholder="Enter your prompt..." class="nbd-prompt-ai" ng-model="prompt"></textarea>
+        <textarea placeholder="Enter your text..." class="nbd-prompt-ai" ng-model="prompt"></textarea>
         <button class="nbd-btn-generate-image" ng-disabled="isLoading" ng-click="generateResponse()">
             <span ng-if="!isLoading" style="color:#f9f9f9">Send</span>
             <span ng-if="isLoading" style="color:#f9f9f9">Loading...</span>
         </button>
     </div>
     <div class="nbd-tab-main tab-main nbd-tab-scroll">
-        <div class="nbd-loading-message" ng-if="isLoading">Processing your request...</div>
         <div class="chat-output">
             <div style="background-color: #fff;margin-top: 20px;">
                 <div id="editor" class="editor">
