@@ -21,11 +21,11 @@ if(!class_exists('NBD_Template_Field_Mapping')) {
             add_action( 'nbd_modern_extra_popup', array( $this, 'template_fields_popup' ), 20, 2 );
         }
         public function admin_pages( $pages ){
-            $pages[] = 'nbdesigner_page_nbd_template_mapping';
+            $pages[] = 'cmsmart_page_nbd_template_mapping';
             return $pages;
         }
         public function admin_hook_need_asset( $hooks ){
-            $hooks[] = 'nbdesigner_page_nbd_template_mapping';
+            $hooks[] = 'cmsmart_page_nbd_template_mapping';
             return $hooks;
         }
         public function add_sub_menu(){
@@ -61,6 +61,7 @@ if(!class_exists('NBD_Template_Field_Mapping')) {
                     'no'     => esc_html__('No', 'web-to-print-online-designer')
                 ) 
             );
+
             return $settings;
         }
         public function default_settings( $settings ){
@@ -321,6 +322,7 @@ if(!class_exists('NBD_Template_Field_Mapping')) {
         }
         public function get_vcard_values(){
             $fields              = get_option( 'nbdesigner_template_vcard_fields', array() );
+
             $vcard_field_options = $this->get_vcard_field_options();
             $new_fields          = array();
             $current_user        = wp_get_current_user();
