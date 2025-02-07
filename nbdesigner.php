@@ -521,11 +521,3 @@ add_action('admin_head', function () {
         }
     }
 });
-
-function my_plugin_enqueue_scripts() {
-    if (is_admin()) {
-        return;
-    }
-    wp_enqueue_script('custom-js', plugin_dir_url(__FILE__) . 'custom-CROS.js', array(), null, true);
-}
-add_action('wp_enqueue_scripts', 'my_plugin_enqueue_scripts');
