@@ -1,4 +1,4 @@
-<div class="nbd-stages" id="nbd-stages" nbd-drop-zone="uploadFile(files)">
+<div class="nbd-stages" id="nbd-stages" nbd-drop-zone="">
     <div class="stages-inner">
         <div class="stage" ng-repeat="(stageIndex, stage) in stages" id='stage-container-{{$index}}' ng-mousedown="onClickStage($event)" ng-class="{'_nbd_hidden':$index > 0}" >
             <?php do_action('nbd_modern_before_stage'); ?>
