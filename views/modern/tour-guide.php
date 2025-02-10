@@ -47,4 +47,12 @@
         <div class="tour-title"><?php esc_html_e('Process','web-to-print-online-designer'); ?></div>
         <div class="tour-intro"><?php esc_html_e('Your design will be saved before continuing with other options or directly add to cart.','web-to-print-online-designer'); ?></div>
     <?php echo '</script>'; ?>
+    <?php echo '<script type="text/ng-template" id="tour_guide.backgrounds">'; ?>
+        <div class="tour-title"><?php esc_html_e('Backgrounds','web-to-print-online-designer'); ?></div>
+        <div class="tour-intro"><?php esc_html_e('Easily change your design’s background with a diverse image library or custom colors, creating a professional look in just a few clicks!','web-to-print-online-designer'); ?></div>
+    <?php echo '</script>'; ?>
+    <?php echo '<script type="text/ng-template" id="tour_guide.ai">'; ?>
+        <div class="tour-title"><?php esc_html_e('AI design','web-to-print-online-designer'); ?></div>
+        <div class="tour-intro"><?php esc_html_e('Generate stunning images instantly with AI-powered rendering—just enter a description, and let the AI bring your vision to life!','web-to-print-online-designer'); ?></div>
+    <?php echo '</script>'; ?>
 </div>

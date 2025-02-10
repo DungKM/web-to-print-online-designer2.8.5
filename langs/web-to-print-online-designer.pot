@@ -1,7 +1,8 @@
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: web-to-print-online-designer\n"
-"POT-Creation-Date: 2021-03-05 14:31+0700\n"
+"POT-Creation-Date: 2025-02-10 18:19+0700\n"
 "PO-Revision-Date: 2021-03-05 14:31+0700\n"
 "Last-Translator: \n"
 "Language-Team: netbaseteam\n"
@@ -9,16 +10,21 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.1\n"
-"X-Poedit-Basepath: web-to-print-online-designer\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e;esc_html__;esc_html_e\n"
 "X-Poedit-SearchPath-0: includes\n"
-"X-Poedit-SearchPath-1: templates\n"
-"X-Poedit-SearchPath-2: views\n"
-"X-Poedit-SearchPathExcluded-0: includes/tcpdf\n"
-"X-Poedit-SearchPathExcluded-1: includes/fpdi\n"
-"X-Poedit-SearchPathExcluded-2: views/launcher/dist\n"
+"X-Poedit-SearchPath-1: views\n"
+"X-Poedit-SearchPath-2: templates\n"
+"X-Poedit-SearchPathExcluded-0: includes/fpdi\n"
+"X-Poedit-SearchPathExcluded-1: includes/tcpdf\n"
+"X-Poedit-SearchPathExcluded-2: includes/tcpdi\n"
+"X-Poedit-SearchPathExcluded-3: views/launcher/dist\n"
+
+#: includes/block_woo/cart-item-blocks-integration.php:134
+msgid "Shipping Instructions"
+msgstr ""
 
 #: includes/class-api.php:35
 msgid "Enable generate gallery API"
@@ -33,14 +39,14 @@ msgstr ""
 #: includes/class-api.php:41 includes/class.appearance.customize.php:181
 #: includes/class.request-quote.php:263 includes/class.template-mapping.php:49
 #: includes/class.template-mapping.php:60
-#: includes/options/admin-options.php:925
-#: includes/options/admin-options.php:944
-#: includes/options/admin-options.php:963
-#: includes/options/admin-options.php:1058
-#: includes/options/admin-options.php:1077
-#: includes/options/admin-options.php:1305
-#: includes/options/admin-options.php:1333
-#: includes/options/admin-options.php:1352 includes/options/fields/input.php:51
+#: includes/options/admin-options.php:927
+#: includes/options/admin-options.php:946
+#: includes/options/admin-options.php:965
+#: includes/options/admin-options.php:1060
+#: includes/options/admin-options.php:1079
+#: includes/options/admin-options.php:1307
+#: includes/options/admin-options.php:1335
+#: includes/options/admin-options.php:1354 includes/options/fields/input.php:51
 #: includes/options/fields/input.php:64 includes/settings/appearance.php:15
 #: includes/settings/appearance.php:28 includes/settings/appearance.php:39
 #: includes/settings/appearance.php:50 includes/settings/appearance.php:61
@@ -48,46 +54,47 @@ msgstr ""
 #: includes/settings/appearance.php:94 includes/settings/appearance.php:105
 #: includes/settings/appearance.php:116 includes/settings/appearance.php:127
 #: includes/settings/appearance.php:138 includes/settings/appearance.php:149
-#: includes/settings/appearance.php:160 includes/settings/appearance.php:184
-#: includes/settings/appearance.php:216 includes/settings/appearance.php:240
-#: includes/settings/appearance.php:260 includes/settings/appearance.php:294
-#: includes/settings/appearance.php:307 includes/settings/appearance.php:318
-#: includes/settings/appearance.php:329 includes/settings/appearance.php:342
-#: includes/settings/appearance.php:353 includes/settings/colors.php:15
-#: includes/settings/colors.php:45 includes/settings/frontend.php:14
-#: includes/settings/frontend.php:34 includes/settings/frontend.php:62
-#: includes/settings/frontend.php:73 includes/settings/frontend.php:93
-#: includes/settings/frontend.php:104 includes/settings/frontend.php:115
-#: includes/settings/frontend.php:144 includes/settings/frontend.php:209
-#: includes/settings/frontend.php:237 includes/settings/frontend.php:247
-#: includes/settings/frontend.php:258 includes/settings/frontend.php:268
-#: includes/settings/frontend.php:278 includes/settings/frontend.php:288
-#: includes/settings/frontend.php:299 includes/settings/frontend.php:311
-#: includes/settings/frontend.php:321 includes/settings/frontend.php:331
-#: includes/settings/frontend.php:388 includes/settings/frontend.php:398
-#: includes/settings/frontend.php:409 includes/settings/frontend.php:420
-#: includes/settings/frontend.php:431 includes/settings/frontend.php:442
-#: includes/settings/frontend.php:452 includes/settings/frontend.php:462
-#: includes/settings/frontend.php:472 includes/settings/frontend.php:483
-#: includes/settings/frontend.php:494 includes/settings/frontend.php:505
-#: includes/settings/frontend.php:516 includes/settings/frontend.php:527
-#: includes/settings/frontend.php:538 includes/settings/frontend.php:615
-#: includes/settings/frontend.php:692 includes/settings/frontend.php:713
-#: includes/settings/frontend.php:724 includes/settings/frontend.php:735
-#: includes/settings/frontend.php:746 includes/settings/frontend.php:757
-#: includes/settings/frontend.php:767 includes/settings/frontend.php:777
-#: includes/settings/frontend.php:787 includes/settings/frontend.php:798
-#: includes/settings/general.php:66 includes/settings/general.php:77
-#: includes/settings/general.php:88 includes/settings/general.php:99
-#: includes/settings/general.php:110 includes/settings/general.php:121
-#: includes/settings/general.php:166 includes/settings/general.php:199
-#: includes/settings/general.php:231 includes/settings/general.php:251
-#: includes/settings/general.php:415 includes/settings/general.php:426
-#: includes/settings/general.php:437 includes/settings/general.php:448
-#: includes/settings/general.php:459 includes/settings/general.php:470
-#: includes/settings/general.php:481 includes/settings/general.php:492
-#: includes/settings/general.php:503 includes/settings/general.php:514
-#: includes/settings/general.php:527 includes/settings/launcher.php:15
+#: includes/settings/appearance.php:160 includes/settings/appearance.php:171
+#: includes/settings/appearance.php:195 includes/settings/appearance.php:227
+#: includes/settings/appearance.php:251 includes/settings/appearance.php:271
+#: includes/settings/appearance.php:305 includes/settings/appearance.php:318
+#: includes/settings/appearance.php:329 includes/settings/appearance.php:340
+#: includes/settings/appearance.php:353 includes/settings/appearance.php:364
+#: includes/settings/colors.php:15 includes/settings/colors.php:45
+#: includes/settings/frontend.php:14 includes/settings/frontend.php:34
+#: includes/settings/frontend.php:62 includes/settings/frontend.php:73
+#: includes/settings/frontend.php:93 includes/settings/frontend.php:104
+#: includes/settings/frontend.php:115 includes/settings/frontend.php:144
+#: includes/settings/frontend.php:209 includes/settings/frontend.php:237
+#: includes/settings/frontend.php:247 includes/settings/frontend.php:258
+#: includes/settings/frontend.php:268 includes/settings/frontend.php:278
+#: includes/settings/frontend.php:288 includes/settings/frontend.php:299
+#: includes/settings/frontend.php:311 includes/settings/frontend.php:321
+#: includes/settings/frontend.php:331 includes/settings/frontend.php:388
+#: includes/settings/frontend.php:398 includes/settings/frontend.php:409
+#: includes/settings/frontend.php:420 includes/settings/frontend.php:431
+#: includes/settings/frontend.php:442 includes/settings/frontend.php:452
+#: includes/settings/frontend.php:462 includes/settings/frontend.php:472
+#: includes/settings/frontend.php:483 includes/settings/frontend.php:494
+#: includes/settings/frontend.php:505 includes/settings/frontend.php:516
+#: includes/settings/frontend.php:527 includes/settings/frontend.php:538
+#: includes/settings/frontend.php:615 includes/settings/frontend.php:692
+#: includes/settings/frontend.php:713 includes/settings/frontend.php:724
+#: includes/settings/frontend.php:735 includes/settings/frontend.php:746
+#: includes/settings/frontend.php:757 includes/settings/frontend.php:767
+#: includes/settings/frontend.php:777 includes/settings/frontend.php:787
+#: includes/settings/frontend.php:798 includes/settings/general.php:66
+#: includes/settings/general.php:77 includes/settings/general.php:88
+#: includes/settings/general.php:99 includes/settings/general.php:110
+#: includes/settings/general.php:121 includes/settings/general.php:166
+#: includes/settings/general.php:199 includes/settings/general.php:231
+#: includes/settings/general.php:251 includes/settings/general.php:420
+#: includes/settings/general.php:433 includes/settings/general.php:444
+#: includes/settings/general.php:455 includes/settings/general.php:466
+#: includes/settings/general.php:477 includes/settings/general.php:488
+#: includes/settings/general.php:499 includes/settings/general.php:510
+#: includes/settings/general.php:521 includes/settings/general.php:532
+#: includes/settings/general.php:545 includes/settings/launcher.php:15
 #: includes/settings/launcher.php:132 includes/settings/libraries.php:15
 #: includes/settings/libraries.php:26 includes/settings/libraries.php:39
 #: includes/settings/live-chat.php:15 includes/settings/live-chat.php:63
@@ -155,13 +162,13 @@ msgstr ""
 #: includes/class-api.php:42 includes/class.appearance.customize.php:180
 #: includes/class.template-mapping.php:50
 #: includes/class.template-mapping.php:61
-#: includes/options/admin-options.php:929
-#: includes/options/admin-options.php:948
-#: includes/options/admin-options.php:967
-#: includes/options/admin-options.php:1062
-#: includes/options/admin-options.php:1309
-#: includes/options/admin-options.php:1337
-#: includes/options/admin-options.php:1356 includes/options/fields/input.php:52
+#: includes/options/admin-options.php:931
+#: includes/options/admin-options.php:950
+#: includes/options/admin-options.php:969
+#: includes/options/admin-options.php:1064
+#: includes/options/admin-options.php:1311
+#: includes/options/admin-options.php:1339
+#: includes/options/admin-options.php:1358 includes/options/fields/input.php:52
 #: includes/options/fields/input.php:65 includes/settings/appearance.php:16
 #: includes/settings/appearance.php:29 includes/settings/appearance.php:40
 #: includes/settings/appearance.php:51 includes/settings/appearance.php:62
@@ -169,46 +176,47 @@ msgstr ""
 #: includes/settings/appearance.php:95 includes/settings/appearance.php:106
 #: includes/settings/appearance.php:117 includes/settings/appearance.php:128
 #: includes/settings/appearance.php:139 includes/settings/appearance.php:150
-#: includes/settings/appearance.php:161 includes/settings/appearance.php:185
-#: includes/settings/appearance.php:217 includes/settings/appearance.php:241
-#: includes/settings/appearance.php:261 includes/settings/appearance.php:295
-#: includes/settings/appearance.php:308 includes/settings/appearance.php:319
-#: includes/settings/appearance.php:330 includes/settings/appearance.php:343
-#: includes/settings/appearance.php:354 includes/settings/colors.php:16
-#: includes/settings/colors.php:46 includes/settings/frontend.php:15
-#: includes/settings/frontend.php:35 includes/settings/frontend.php:63
-#: includes/settings/frontend.php:74 includes/settings/frontend.php:94
-#: includes/settings/frontend.php:105 includes/settings/frontend.php:116
-#: includes/settings/frontend.php:145 includes/settings/frontend.php:210
-#: includes/settings/frontend.php:238 includes/settings/frontend.php:248
-#: includes/settings/frontend.php:259 includes/settings/frontend.php:269
-#: includes/settings/frontend.php:279 includes/settings/frontend.php:289
-#: includes/settings/frontend.php:300 includes/settings/frontend.php:312
-#: includes/settings/frontend.php:322 includes/settings/frontend.php:332
-#: includes/settings/frontend.php:389 includes/settings/frontend.php:399
-#: includes/settings/frontend.php:410 includes/settings/frontend.php:421
-#: includes/settings/frontend.php:432 includes/settings/frontend.php:443
-#: includes/settings/frontend.php:453 includes/settings/frontend.php:463
-#: includes/settings/frontend.php:473 includes/settings/frontend.php:484
-#: includes/settings/frontend.php:495 includes/settings/frontend.php:506
-#: includes/settings/frontend.php:517 includes/settings/frontend.php:528
-#: includes/settings/frontend.php:539 includes/settings/frontend.php:616
-#: includes/settings/frontend.php:693 includes/settings/frontend.php:714
-#: includes/settings/frontend.php:725 includes/settings/frontend.php:736
-#: includes/settings/frontend.php:747 includes/settings/frontend.php:758
-#: includes/settings/frontend.php:768 includes/settings/frontend.php:778
-#: includes/settings/frontend.php:788 includes/settings/frontend.php:799
-#: includes/settings/general.php:67 includes/settings/general.php:78
-#: includes/settings/general.php:89 includes/settings/general.php:100
-#: includes/settings/general.php:111 includes/settings/general.php:122
-#: includes/settings/general.php:134 includes/settings/general.php:167
-#: includes/settings/general.php:200 includes/settings/general.php:232
-#: includes/settings/general.php:252 includes/settings/general.php:416
-#: includes/settings/general.php:427 includes/settings/general.php:438
-#: includes/settings/general.php:449 includes/settings/general.php:460
-#: includes/settings/general.php:471 includes/settings/general.php:482
-#: includes/settings/general.php:493 includes/settings/general.php:504
-#: includes/settings/general.php:515 includes/settings/general.php:528
+#: includes/settings/appearance.php:161 includes/settings/appearance.php:172
+#: includes/settings/appearance.php:196 includes/settings/appearance.php:228
+#: includes/settings/appearance.php:252 includes/settings/appearance.php:272
+#: includes/settings/appearance.php:306 includes/settings/appearance.php:319
+#: includes/settings/appearance.php:330 includes/settings/appearance.php:341
+#: includes/settings/appearance.php:354 includes/settings/appearance.php:365
+#: includes/settings/colors.php:16 includes/settings/colors.php:46
+#: includes/settings/frontend.php:15 includes/settings/frontend.php:35
+#: includes/settings/frontend.php:63 includes/settings/frontend.php:74
+#: includes/settings/frontend.php:94 includes/settings/frontend.php:105
+#: includes/settings/frontend.php:116 includes/settings/frontend.php:145
+#: includes/settings/frontend.php:210 includes/settings/frontend.php:238
+#: includes/settings/frontend.php:248 includes/settings/frontend.php:259
+#: includes/settings/frontend.php:269 includes/settings/frontend.php:279
+#: includes/settings/frontend.php:289 includes/settings/frontend.php:300
+#: includes/settings/frontend.php:312 includes/settings/frontend.php:322
+#: includes/settings/frontend.php:332 includes/settings/frontend.php:389
+#: includes/settings/frontend.php:399 includes/settings/frontend.php:410
+#: includes/settings/frontend.php:421 includes/settings/frontend.php:432
+#: includes/settings/frontend.php:443 includes/settings/frontend.php:453
+#: includes/settings/frontend.php:463 includes/settings/frontend.php:473
+#: includes/settings/frontend.php:484 includes/settings/frontend.php:495
+#: includes/settings/frontend.php:506 includes/settings/frontend.php:517
+#: includes/settings/frontend.php:528 includes/settings/frontend.php:539
+#: includes/settings/frontend.php:616 includes/settings/frontend.php:693
+#: includes/settings/frontend.php:714 includes/settings/frontend.php:725
+#: includes/settings/frontend.php:736 includes/settings/frontend.php:747
+#: includes/settings/frontend.php:758 includes/settings/frontend.php:768
+#: includes/settings/frontend.php:778 includes/settings/frontend.php:788
+#: includes/settings/frontend.php:799 includes/settings/general.php:67
+#: includes/settings/general.php:78 includes/settings/general.php:89
+#: includes/settings/general.php:100 includes/settings/general.php:111
+#: includes/settings/general.php:122 includes/settings/general.php:134
+#: includes/settings/general.php:167 includes/settings/general.php:200
+#: includes/settings/general.php:232 includes/settings/general.php:252
+#: includes/settings/general.php:421 includes/settings/general.php:434
+#: includes/settings/general.php:445 includes/settings/general.php:456
+#: includes/settings/general.php:467 includes/settings/general.php:478
+#: includes/settings/general.php:489 includes/settings/general.php:500
+#: includes/settings/general.php:511 includes/settings/general.php:522
+#: includes/settings/general.php:533 includes/settings/general.php:546
 #: includes/settings/launcher.php:16 includes/settings/launcher.php:133
 #: includes/settings/libraries.php:16 includes/settings/libraries.php:27
 #: includes/settings/libraries.php:40 includes/settings/live-chat.php:16
@@ -275,17 +283,17 @@ msgstr ""
 msgid "No"
 msgstr ""
 
-#: includes/class-compatibility.php:49
+#: includes/class-compatibility.php:68
 #: templates/compatibility/dokan/product_setting.php:4
 msgid "NBDesigner Options"
 msgstr ""
 
-#: includes/class-compatibility.php:126 templates/product-variation-form.php:13
+#: includes/class-compatibility.php:145 templates/product-variation-form.php:13
 #: views/options/appearance.php:106
 msgid "Clear"
 msgstr ""
 
-#: includes/class-compatibility.php:127 views/options/appearance.php:9
+#: includes/class-compatibility.php:146 views/options/appearance.php:9
 #: views/options/quantity.php:74
 #: views/options/templates/field-body/attributes.php:41
 #: views/options/templates/field-body/attributes.php:122
@@ -293,24 +301,24 @@ msgstr ""
 msgid "Default"
 msgstr ""
 
-#: includes/class-compatibility.php:128
+#: includes/class-compatibility.php:147
 msgid "Select Color"
 msgstr ""
 
-#: includes/class-compatibility.php:129
+#: includes/class-compatibility.php:148
 msgid "Current Color"
 msgstr ""
 
-#: includes/class-compatibility.php:165
+#: includes/class-compatibility.php:184
 #: templates/emails/notify-admin-when-approve-design.php:20
 msgid "Custom designs"
 msgstr ""
 
-#: includes/class-compatibility.php:178 templates/order/download-section.php:21
+#: includes/class-compatibility.php:197 templates/order/download-section.php:21
 msgid "Upload files"
 msgstr ""
 
-#: includes/class-compatibility.php:199 includes/class-compatibility.php:217
+#: includes/class-compatibility.php:218 includes/class-compatibility.php:236
 #: templates/gallery/artist.php:243 templates/gallery/artist.php:299
 #: templates/order/download-section.php:24 views/detail-order.php:139
 #: views/detail-order.php:155 views/detail-order.php:209
@@ -320,27 +328,27 @@ msgstr ""
 msgid "Download"
 msgstr ""
 
-#: includes/class-compatibility.php:203
+#: includes/class-compatibility.php:222
 msgid "Download designs: PNG"
 msgstr ""
 
-#: includes/class-compatibility.php:204
+#: includes/class-compatibility.php:223
 msgid "Download designs: PDF"
 msgstr ""
 
-#: includes/class-compatibility.php:205
+#: includes/class-compatibility.php:224
 msgid "Download designs: SVG"
 msgstr ""
 
-#: includes/class-compatibility.php:207
+#: includes/class-compatibility.php:226
 msgid "Download designs: JPG"
 msgstr ""
 
-#: includes/class-compatibility.php:208
+#: includes/class-compatibility.php:227
 msgid "Download designs: CMYK - JPG"
 msgstr ""
 
-#: includes/class-compatibility.php:212
+#: includes/class-compatibility.php:231
 msgid "Download upload files"
 msgstr ""
 
@@ -379,8 +387,8 @@ msgstr ""
 msgid "You do not have permission to update data!"
 msgstr ""
 
-#: includes/class-debug.php:130 includes/class.nbdesigner.php:628
-#: includes/class.nbdesigner.php:6732 includes/launcher/class.launcher.php:1509
+#: includes/class-debug.php:130 includes/class.nbdesigner.php:658
+#: includes/class.nbdesigner.php:6799 includes/launcher/class.launcher.php:1510
 msgid "Success!"
 msgstr ""
 
@@ -417,93 +425,94 @@ msgstr ""
 msgid "Printing FAQs"
 msgstr ""
 
-#: includes/class-faq.php:91 includes/class.nbdesigner.php:989
+#: includes/class-faq.php:91 includes/class.nbdesigner.php:1019
 #: views/faq/dashboard.php:203
 #: views/modern/popup-contents/global-template-category.php:18
 msgid "Category"
 msgstr ""
 
-#: includes/class-faq.php:91 includes/class-faq.php:142
+#: includes/class-faq.php:91 includes/class-faq.php:143
 #: views/faq/dashboard.php:203 views/faq/faq-table.php:10
 msgid "FAQ"
 msgstr ""
 
-#: includes/class-faq.php:141 includes/class-faq.php:143
-#: includes/class-faq.php:596 views/support.php:210
+#: includes/class-faq.php:142 includes/class-faq.php:144
+#: includes/class-faq.php:597 views/support.php:211
 msgid "FAQs"
 msgstr ""
 
-#: includes/class-faq.php:144
+#: includes/class-faq.php:145
 msgid "Add New FAQ"
 msgstr ""
 
-#: includes/class-faq.php:145
+#: includes/class-faq.php:146
 msgid "Edit FAQ"
 msgstr ""
 
-#: includes/class-faq.php:146
+#: includes/class-faq.php:147
 msgid "New FAQ"
 msgstr ""
 
-#: includes/class-faq.php:147
+#: includes/class-faq.php:148
 msgid "View FAQ"
 msgstr ""
 
-#: includes/class-faq.php:148
+#: includes/class-faq.php:149
 msgid "Search FAQs"
 msgstr ""
 
-#: includes/class-faq.php:181 includes/class-faq.php:191
+#: includes/class-faq.php:182 includes/class-faq.php:192
 #: views/faq/dashboard.php:34
 msgid "FAQ Categories"
 msgstr ""
 
-#: includes/class-faq.php:182
+#: includes/class-faq.php:183
 msgid "FAQ Category"
 msgstr ""
 
-#: includes/class-faq.php:183
+#: includes/class-faq.php:184
 msgid "Search FAQ Categories"
 msgstr ""
 
-#: includes/class-faq.php:184
+#: includes/class-faq.php:185
 msgid "All FAQ Categories"
 msgstr ""
 
-#: includes/class-faq.php:185
+#: includes/class-faq.php:186
 msgid "Parent FAQ Category"
 msgstr ""
 
-#: includes/class-faq.php:186
+#: includes/class-faq.php:187
 msgid "Parent FAQ Category:"
 msgstr ""
 
-#: includes/class-faq.php:187
+#: includes/class-faq.php:188
 msgid "Edit FAQ Category"
 msgstr ""
 
-#: includes/class-faq.php:188
+#: includes/class-faq.php:189
 msgid "Update FAQ Category"
 msgstr ""
 
-#: includes/class-faq.php:189
+#: includes/class-faq.php:190
 msgid "Add New FAQ Category"
 msgstr ""
 
-#: includes/class-faq.php:190
+#: includes/class-faq.php:191
 msgid "New FAQ Category Name"
 msgstr ""
 
-#: includes/class-faq.php:216 includes/options/fields-list-table.php:37
+#: includes/class-faq.php:217 includes/options/fields-list-table.php:37
 #: includes/options/fields-list-table.php:193
-#: includes/settings/appearance.php:173 views/faq/dashboard.php:15
-#: views/nbdesigner-manager-arts.php:30 views/nbdesigner-manager-fonts.php:129
-#: views/options/edit-option.php:116
+#: includes/settings/appearance.php:184 views/faq/dashboard.php:15
+#: views/nbdesigner-manager-arts.php:30
+#: views/nbdesigner-manager-backgrounds.php:30
+#: views/nbdesigner-manager-fonts.php:129 views/options/edit-option.php:140
 msgid "Categories"
 msgstr ""
 
-#: includes/class-faq.php:217 includes/class.request-quote.php:266
-#: includes/launcher/class.launcher.php:1439
+#: includes/class-faq.php:218 includes/class.request-quote.php:266
+#: includes/launcher/class.launcher.php:1440
 #: includes/options/fields-list-table.php:38 includes/quote/functions.php:97
 #: includes/table/class.product.templates.php:262
 #: templates/launcher/store/design-table.php:16
@@ -516,12 +525,12 @@ msgstr ""
 msgid "Date"
 msgstr ""
 
-#: includes/class-faq.php:262 includes/class.nbdesigner.php:1107
-#: includes/class.nbdesigner.php:1196 templates/launcher/store/tabs.php:19
+#: includes/class-faq.php:263 includes/class.nbdesigner.php:1137
+#: includes/class.nbdesigner.php:1231 templates/launcher/store/tabs.php:19
 msgid "Settings"
 msgstr ""
 
-#: includes/class-faq.php:300
+#: includes/class-faq.php:301
 msgid "Printing FAQ"
 msgstr ""
 
@@ -617,8 +626,8 @@ msgid ""
 "Facebook, first try to <a href=\"https://www.google.com/search?q=Facebook "
 "API create application\" target=\"_blank\">Google it</a>, then check it on "
 "<a href=\"http://www.youtube.com/results?search_query=Facebook API create "
-"application \" target=\"_blank\">Youtube</a>, and if nothing works <a href="
-"\"https://cmsmart.net/support_ticket\">ask for support</a>"
+"application \" target=\"_blank\">Youtube</a>, and if nothing works <a "
+"href=\"https://cmsmart.net/support_ticket\">ask for support</a>"
 msgstr ""
 
 #: includes/class-helper.php:30
@@ -674,8 +683,8 @@ msgstr ""
 
 #: includes/class-helper.php:49
 msgid ""
-"<a class=\"button\" href=\"https://cmsmart.net/support_ticket\" target="
-"\"_blank\">Support ticket</a>"
+"<a class=\"button\" href=\"https://cmsmart.net/support_ticket\" "
+"target=\"_blank\">Support ticket</a>"
 msgstr ""
 
 #: includes/class-helper.php:50
@@ -692,8 +701,8 @@ msgstr ""
 
 #: includes/class-helper.php:52
 msgid ""
-"<a class=\"button\" href=\"https://vimeo.com/album/5056824\" target=\"_blank"
-"\">Video guide</a>"
+"<a class=\"button\" href=\"https://vimeo.com/album/5056824\" "
+"target=\"_blank\">Video guide</a>"
 msgstr ""
 
 #: includes/class-install.php:15
@@ -714,9 +723,9 @@ msgstr ""
 msgid "Gallery"
 msgstr ""
 
-#: includes/class-install.php:82 includes/launcher/class.launcher.php:341
-#: includes/launcher/class.launcher.php:502
-#: includes/launcher/class.launcher.php:1441 templates/gallery/sidebar.php:14
+#: includes/class-install.php:82 includes/launcher/class.launcher.php:342
+#: includes/launcher/class.launcher.php:503
+#: includes/launcher/class.launcher.php:1442 templates/gallery/sidebar.php:14
 #: templates/gallery/sidebar.php:18
 msgid "Designer"
 msgstr ""
@@ -730,9 +739,9 @@ msgid "Live chat & Design monitor"
 msgstr ""
 
 #: includes/class-live-chat.php:48 includes/class-setup-wizard.php:125
-#: includes/class.nbdesigner.php:954 includes/class.nbdesigner.php:1018
+#: includes/class.nbdesigner.php:984 includes/class.nbdesigner.php:1048
 #: includes/class.request-quote.php:137
-#: includes/launcher/class.launcher.php:339 views/options/field.php:6
+#: includes/launcher/class.launcher.php:340 views/options/field.php:6
 #: views/options/global_field.php:20
 msgid "General"
 msgstr ""
@@ -753,7 +762,7 @@ msgstr ""
 msgid "WhatsApp"
 msgstr ""
 
-#: includes/class-live-chat.php:53 includes/launcher/class.launcher.php:1500
+#: includes/class-live-chat.php:53 includes/launcher/class.launcher.php:1501
 msgid "Send Email"
 msgstr ""
 
@@ -761,8 +770,8 @@ msgstr ""
 msgid "FAQs - Helper"
 msgstr ""
 
-#: includes/class-live-chat.php:55 includes/class.nbdesigner.php:955
-#: views/options/edit-option.php:281 views/options/field.php:8
+#: includes/class-live-chat.php:55 includes/class.nbdesigner.php:985
+#: views/options/edit-option.php:307 views/options/field.php:8
 #: views/options/global_field.php:22
 msgid "Appearance"
 msgstr ""
@@ -860,7 +869,7 @@ msgstr ""
 #: includes/class-settings.php:280
 #: templates/single-product/variation-bulk.php:4
 #: views/metabox-design-setting.php:555 views/metaboxes/local-settings.php:45
-#: views/metaboxes/local-settings.php:267
+#: views/metaboxes/local-settings.php:299
 #: views/modern/popup-contents/stage-grid-view.php:19
 #: views/modern/popup-contents/template-tags.php:63
 msgid "Add"
@@ -875,7 +884,7 @@ msgstr ""
 msgid "Select"
 msgstr ""
 
-#: includes/class-settings.php:296 includes/launcher/class.launcher.php:1412
+#: includes/class-settings.php:296 includes/launcher/class.launcher.php:1413
 #: templates/gallery/search-bar.php:6 templates/gallery/search-bar.php:18
 #: views/nbdesigner-manager-fonts.php:231
 msgid "All"
@@ -885,14 +894,14 @@ msgstr ""
 msgid "Add type"
 msgstr ""
 
-#: includes/class-settings.php:399 includes/launcher/class.launcher.php:1440
+#: includes/class-settings.php:399 includes/launcher/class.launcher.php:1441
 #: includes/options/fields-list-table.php:168
 #: includes/table/class.product.templates.php:153
 #: includes/table/class.product.templates.php:185
 #: templates/launcher/store/design-table.php:61
 #: templates/mydesign/my-designs.php:58 views/live-chat/admin-console.php:66
 #: views/live-chat/admin-console.php:117
-#: views/metaboxes/guideline-download.php:12 views/modern/context-menu.php:95
+#: views/metaboxes/guideline-download.php:12 views/modern/context-menu.php:122
 #: views/modern/popup-contents/user-design.php:21
 #: views/modern/sidebars/tab-layer.php:18
 #: views/modern/sidebars/tab-layer.php:28
@@ -907,7 +916,7 @@ msgstr ""
 msgid "Delete"
 msgstr ""
 
-#: includes/class-settings.php:571 includes/class.nbdesigner.php:994
+#: includes/class-settings.php:571 includes/class.nbdesigner.php:1024
 msgid "Text Options"
 msgstr ""
 
@@ -915,28 +924,28 @@ msgstr ""
 msgid "Clipart Options"
 msgstr ""
 
-#: includes/class-settings.php:573 includes/class.nbdesigner.php:996
+#: includes/class-settings.php:573 includes/class.nbdesigner.php:1026
 msgid "Image Options"
 msgstr ""
 
-#: includes/class-settings.php:574 includes/class.nbdesigner.php:997
+#: includes/class-settings.php:574 includes/class.nbdesigner.php:1027
 msgid "Free draw Options"
 msgstr ""
 
-#: includes/class-settings.php:575 includes/class.nbdesigner.php:998
+#: includes/class-settings.php:575 includes/class.nbdesigner.php:1028
 msgid "Qr Code Options"
 msgstr ""
 
-#: includes/class-settings.php:576 includes/class.nbdesigner.php:991
-#: includes/class.nbdesigner.php:999
+#: includes/class-settings.php:576 includes/class.nbdesigner.php:1021
+#: includes/class.nbdesigner.php:1029
 msgid "Misc"
 msgstr ""
 
-#: includes/class-settings.php:577 includes/class.nbdesigner.php:1002
+#: includes/class-settings.php:577 includes/class.nbdesigner.php:1032
 msgid "Setting color"
 msgstr ""
 
-#: includes/class-settings.php:578 includes/class.nbdesigner.php:987
+#: includes/class-settings.php:578 includes/class.nbdesigner.php:1017
 msgid "Modern layout"
 msgstr ""
 
@@ -944,7 +953,7 @@ msgstr ""
 msgid "Design Editor Setting"
 msgstr ""
 
-#: includes/class-settings.php:816 includes/class.nbdesigner.php:6677
+#: includes/class-settings.php:816 includes/class.nbdesigner.php:6744
 msgid "You do not have permission to do this action!"
 msgstr ""
 
@@ -964,11 +973,11 @@ msgstr ""
 msgid "General setup"
 msgstr ""
 
-#: includes/class-setup-wizard.php:26 includes/class.nbdesigner.php:981
+#: includes/class-setup-wizard.php:26 includes/class.nbdesigner.php:1011
 msgid "NBD Pages"
 msgstr ""
 
-#: includes/class-setup-wizard.php:31 includes/launcher/class.launcher.php:1479
+#: includes/class-setup-wizard.php:31 includes/launcher/class.launcher.php:1480
 #: templates/launcher/store/tabs.php:10
 msgid "Overview"
 msgstr ""
@@ -984,8 +993,8 @@ msgstr ""
 #: includes/class-setup-wizard.php:132
 #, php-format
 msgid ""
-"<strong>Premium license key ( from CMSMART )</strong> — get your <a target="
-"\"_blank\" href=\"%s\">premium license key</a>"
+"<strong>Premium license key ( from CMSMART )</strong> — get your <a "
+"target=\"_blank\" href=\"%s\">premium license key</a>"
 msgstr ""
 
 #: includes/class-setup-wizard.php:140
@@ -1006,8 +1015,8 @@ msgstr ""
 msgid "Name"
 msgstr ""
 
-#: includes/class-setup-wizard.php:147 includes/class-util.php:3667
-#: includes/class.request-quote.php:353 includes/class.template-mapping.php:134
+#: includes/class-setup-wizard.php:147 includes/class-util.php:3687
+#: includes/class.request-quote.php:353 includes/class.template-mapping.php:135
 #: includes/options/fields/input.php:39 includes/quote/functions.php:67
 #: views/live-chat/frontend/wrap.php:94 views/live-chat/frontend/wrap.php:95
 #: views/live-chat/frontend/wrap.php:248 views/live-chat/frontend/wrap.php:249
@@ -1060,8 +1069,8 @@ msgstr ""
 msgid "Continue"
 msgstr ""
 
-#: includes/class-setup-wizard.php:223 views/nbdesigner-tools.php:141
-msgid "Create default Cmsmart pages"
+#: includes/class-setup-wizard.php:223
+msgid "Create default NBDesigner pages"
 msgstr ""
 
 #: includes/class-setup-wizard.php:226 includes/settings/general.php:274
@@ -1109,180 +1118,180 @@ msgstr ""
 msgid "Silence is golden."
 msgstr ""
 
-#: includes/class-util.php:741
+#: includes/class-util.php:753
 msgid "File not found"
 msgstr ""
 
-#: includes/class-util.php:907 includes/class-util.php:3120
+#: includes/class-util.php:919 includes/class-util.php:3139
 msgid "Go to shop"
 msgstr ""
 
-#: includes/class-util.php:1101
+#: includes/class-util.php:1113
 msgid "Your term"
 msgstr ""
 
-#: includes/class-util.php:1225
+#: includes/class-util.php:1243
 msgid "Text here"
 msgstr ""
 
-#: includes/class-util.php:1326
+#: includes/class-util.php:1344
 msgid "example.com"
 msgstr ""
 
-#: includes/class-util.php:1876
+#: includes/class-util.php:1895
 msgid "Oops! Try again later!"
 msgstr ""
 
-#: includes/class-util.php:1877
+#: includes/class-util.php:1896
 msgid "Complete!"
 msgstr ""
 
-#: includes/class-util.php:1878 templates/launcher/store/design-table.php:76
+#: includes/class-util.php:1897 templates/launcher/store/design-table.php:76
 msgid "Are you sure?"
 msgstr ""
 
-#: includes/class-util.php:1879
+#: includes/class-util.php:1898
 msgid "You will not be able to recover this file!"
 msgstr ""
 
-#: includes/class-util.php:1880
+#: includes/class-util.php:1899
 msgid "You will not be able to recover this category!"
 msgstr ""
 
-#: includes/class-util.php:1881
+#: includes/class-util.php:1900
 msgid "Please fill category name!"
 msgstr ""
 
-#: includes/class-util.php:1882
+#: includes/class-util.php:1901
 msgid "Restore your last data!"
 msgstr ""
 
-#: includes/class-util.php:1883
+#: includes/class-util.php:1902
 msgid "You will not be able to recover this language!"
 msgstr ""
 
-#: includes/class-util.php:1884
+#: includes/class-util.php:1903
 msgid "Please choose a setting!"
 msgstr ""
 
-#: includes/class-util.php:1885 views/metabox-design-setting.php:73
+#: includes/class-util.php:1904 views/metabox-design-setting.php:73
 msgid "Less setting"
 msgstr ""
 
-#: includes/class-util.php:1886
+#: includes/class-util.php:1905
 #: views/nbdesigner-box-design-setting-variation.php:23
 msgid "More setting"
 msgstr ""
 
-#: includes/class-util.php:2253
+#: includes/class-util.php:2272
 msgid "Any option"
 msgstr ""
 
-#: includes/class-util.php:2472
+#: includes/class-util.php:2491
 msgid "Continue Shopping &rarr;"
 msgstr ""
 
-#: includes/class-util.php:2472 includes/class-util.php:2474
+#: includes/class-util.php:2491 includes/class-util.php:2493
 #: includes/options/frontend-options.php:2222
 #, php-format
 msgid "%s products successfully added to your cart."
 msgstr ""
 
-#: includes/class-util.php:2474
+#: includes/class-util.php:2493
 msgid "View Cart &rarr;"
 msgstr ""
 
-#: includes/class-util.php:3121
+#: includes/class-util.php:3140
 msgid "No file defined"
 msgstr ""
 
-#: includes/class-util.php:3165 includes/class.nbdesigner.php:1716
-#: includes/class.nbdesigner.php:1880
+#: includes/class-util.php:3184 includes/class.nbdesigner.php:1751
+#: includes/class.nbdesigner.php:1915
 msgid "Your settings have been saved."
 msgstr ""
 
-#: includes/class-util.php:3169 includes/class-util.php:3179
-#: includes/class-util.php:3196 includes/class.nbdesigner.php:1720
-#: includes/class.nbdesigner.php:1729 includes/class.nbdesigner.php:1744
-#: includes/class.nbdesigner.php:1882
+#: includes/class-util.php:3188 includes/class-util.php:3198
+#: includes/class-util.php:3215 includes/class.nbdesigner.php:1755
+#: includes/class.nbdesigner.php:1764 includes/class.nbdesigner.php:1779
+#: includes/class.nbdesigner.php:1917
 msgid "Dismiss this notice."
 msgstr ""
 
-#: includes/class-util.php:3175 includes/class-util.php:3185
-#: includes/class.nbdesigner.php:1725 includes/class.nbdesigner.php:1734
+#: includes/class-util.php:3194 includes/class-util.php:3204
+#: includes/class.nbdesigner.php:1760 includes/class.nbdesigner.php:1769
 msgid "Irks! An error has occurred."
 msgstr ""
 
-#: includes/class-util.php:3192 includes/class.nbdesigner.php:1740
+#: includes/class-util.php:3211 includes/class.nbdesigner.php:1775
 msgid "Warning."
 msgstr ""
 
-#: includes/class-util.php:3635
+#: includes/class-util.php:3655
 msgid "Full name"
 msgstr ""
 
-#: includes/class-util.php:3639 includes/class.template-mapping.php:106
+#: includes/class-util.php:3659 includes/class.template-mapping.php:107
 msgid "First name"
 msgstr ""
 
-#: includes/class-util.php:3643 includes/class.template-mapping.php:110
+#: includes/class-util.php:3663 includes/class.template-mapping.php:111
 msgid "Last name"
 msgstr ""
 
-#: includes/class-util.php:3647 includes/class-util.php:3648
+#: includes/class-util.php:3667 includes/class-util.php:3668
 msgid "Company"
 msgstr ""
 
-#: includes/class-util.php:3651 includes/class-util.php:3652
-#: includes/class.template-mapping.php:114
-#: includes/launcher/class.launcher.php:1422
+#: includes/class-util.php:3671 includes/class-util.php:3672
+#: includes/class.template-mapping.php:115
+#: includes/launcher/class.launcher.php:1423
 #: templates/launcher/store/settings.php:47 templates/mydesign/edit-info.php:54
 #: views/user-profile.php:61
 msgid "Address"
 msgstr ""
 
-#: includes/class-util.php:3655 includes/class.template-mapping.php:122
+#: includes/class-util.php:3675 includes/class.template-mapping.php:123
 msgid "Postcode"
 msgstr ""
 
-#: includes/class-util.php:3656
+#: includes/class-util.php:3676
 msgid "12345"
 msgstr ""
 
-#: includes/class-util.php:3659 includes/class.template-mapping.php:118
+#: includes/class-util.php:3679 includes/class.template-mapping.php:119
 msgid "City"
 msgstr ""
 
-#: includes/class-util.php:3660
+#: includes/class-util.php:3680
 msgid "City Name"
 msgstr ""
 
-#: includes/class-util.php:3663 includes/class.request-quote.php:352
-#: includes/class.template-mapping.php:130 includes/quote/functions.php:89
+#: includes/class-util.php:3683 includes/class.request-quote.php:352
+#: includes/class.template-mapping.php:131 includes/quote/functions.php:89
 msgid "Phone"
 msgstr ""
 
-#: includes/class-util.php:3664 includes/class-util.php:3672
+#: includes/class-util.php:3684 includes/class-util.php:3692
 msgid "+012 346 6789"
 msgstr ""
 
-#: includes/class-util.php:3668
+#: includes/class-util.php:3688
 msgid "example@website.com"
 msgstr ""
 
-#: includes/class-util.php:3671
+#: includes/class-util.php:3691
 msgid "Mobile"
 msgstr ""
 
-#: includes/class-util.php:3675 includes/class.template-mapping.php:138
+#: includes/class-util.php:3695 includes/class.template-mapping.php:139
 msgid "Website"
 msgstr ""
 
-#: includes/class-util.php:3676
+#: includes/class-util.php:3696
 msgid "website.com"
 msgstr ""
 
-#: includes/class-util.php:3679 includes/class-util.php:3680
+#: includes/class-util.php:3699 includes/class-util.php:3700
 #: includes/options/fields-list-table.php:32
 #: includes/options/fields/input.php:11 includes/options/fields/input.php:105
 #: includes/options/fields/input.php:114 views/faq/dashboard.php:14
@@ -1293,169 +1302,170 @@ msgstr ""
 msgid "Title"
 msgstr ""
 
-#: includes/class-util.php:3683 includes/class-util.php:3684
-#: includes/class.template-mapping.php:126 includes/quote/functions.php:94
+#: includes/class-util.php:3703 includes/class-util.php:3704
+#: includes/class.template-mapping.php:127 includes/quote/functions.php:94
 msgid "Country"
 msgstr ""
 
-#: includes/class-util.php:3948
+#: includes/class-util.php:3968
 msgid ""
 "The size cannot be calculated. The directory is not accessible. Usually "
 "caused by invalid permissions."
 msgstr ""
 
-#: includes/class-util.php:3955
+#: includes/class-util.php:3975
 msgid ""
 "The directory size calculation has timed out. Usually caused by a very large "
 "number of sub-directories and files."
 msgstr ""
 
-#: includes/class-util.php:3982
+#: includes/class-util.php:4002
 msgid ""
 "Total size is not available. Some errors were encountered when determining "
 "the size of your installation."
 msgstr ""
 
-#: includes/class-util.php:4072 includes/class-util.php:4210
-#: includes/class-util.php:4215 includes/class-util.php:4251
-#: includes/class-util.php:4261 includes/launcher/class.launcher.php:1448
+#: includes/class-util.php:4092 includes/class-util.php:4230
+#: includes/class-util.php:4235 includes/class-util.php:4271
+#: includes/class-util.php:4281 includes/launcher/class.launcher.php:1449
 #: includes/options/fields-list-table.php:196
 #: includes/options/fields-list-table.php:211
 msgid "Disabled"
 msgstr ""
 
-#: includes/class-util.php:4076 includes/class-util.php:4084
-#: includes/class-util.php:4210 includes/class-util.php:4215
-#: includes/class-util.php:4251 includes/class-util.php:4261
-#: includes/launcher/class.launcher.php:1453
-#: includes/options/admin-options.php:918 includes/options/fields/input.php:43
+#: includes/class-util.php:4096 includes/class-util.php:4104
+#: includes/class-util.php:4230 includes/class-util.php:4235
+#: includes/class-util.php:4271 includes/class-util.php:4281
+#: includes/launcher/class.launcher.php:1454
+#: includes/options/admin-options.php:920 includes/options/fields/input.php:43
 #: views/options/global_field.php:7
 #: views/options/templates/field-body/enabled.php:5
 msgid "Enabled"
 msgstr ""
 
-#: includes/class-util.php:4129
+#: includes/class-util.php:4149
 msgid "<b>Total size</b>: "
 msgstr ""
 
-#: includes/class-util.php:4139
+#: includes/class-util.php:4159
 msgid "Server IP Address"
 msgstr ""
 
-#: includes/class-util.php:4144
+#: includes/class-util.php:4164
 msgid "Wordpress version"
 msgstr ""
 
-#: includes/class-util.php:4149
+#: includes/class-util.php:4169
 msgid "Woocommerce version"
 msgstr ""
 
-#: includes/class-util.php:4154
+#: includes/class-util.php:4174
 msgid "Server architecture"
 msgstr ""
 
-#: includes/class-util.php:4159
+#: includes/class-util.php:4179
 msgid "Web server"
 msgstr ""
 
-#: includes/class-util.php:4164
+#: includes/class-util.php:4184
 msgid "PHP version"
 msgstr ""
 
-#: includes/class-util.php:4169
+#: includes/class-util.php:4189
 msgid "PHP max input variables"
 msgstr ""
 
-#: includes/class-util.php:4174
+#: includes/class-util.php:4194
 msgid "PHP memory limit"
 msgstr ""
 
-#: includes/class-util.php:4179
+#: includes/class-util.php:4199
 msgid "WP_MEMORY_LIMIT"
 msgstr ""
 
-#: includes/class-util.php:4184
+#: includes/class-util.php:4204
 msgid "PHP time limit"
 msgstr ""
 
-#: includes/class-util.php:4189
+#: includes/class-util.php:4209
 msgid "Upload max filesize"
 msgstr ""
 
-#: includes/class-util.php:4194
+#: includes/class-util.php:4214
 msgid "Maximum number of files allowed to be uploaded"
 msgstr ""
 
-#: includes/class-util.php:4199
+#: includes/class-util.php:4219
 msgid "PHP post max size"
 msgstr ""
 
-#: includes/class-util.php:4204
+#: includes/class-util.php:4224
 msgid "cURL version"
 msgstr ""
 
-#: includes/class-util.php:4209
+#: includes/class-util.php:4229
 msgid "URL fopen"
 msgstr ""
 
-#: includes/class-util.php:4214
+#: includes/class-util.php:4234
 msgid "Exif extension is enabled"
 msgstr ""
 
-#: includes/class-util.php:4219
+#: includes/class-util.php:4239
 msgid "ImageMagick version"
 msgstr ""
 
-#: includes/class-util.php:4224
+#: includes/class-util.php:4244
 msgid "ImageMagick version string"
 msgstr ""
 
-#: includes/class-util.php:4229
+#: includes/class-util.php:4249
 msgid "Ghostscript version"
 msgstr ""
 
-#: includes/class-util.php:4234
+#: includes/class-util.php:4254
 msgid "GD version"
 msgstr ""
 
-#: includes/class-util.php:4239
+#: includes/class-util.php:4259
 msgid "DOMDocument"
 msgstr ""
 
-#: includes/class-util.php:4245
+#: includes/class-util.php:4265
 msgid "WordPress directory location ( ABSPATH )"
 msgstr ""
 
-#: includes/class-util.php:4265
+#: includes/class-util.php:4285
 msgid "The uploads directory"
 msgstr ""
 
-#: includes/class-util.php:4266 includes/class-util.php:4271
+#: includes/class-util.php:4286 includes/class-util.php:4291
 msgid "Writable"
 msgstr ""
 
-#: includes/class-util.php:4266 includes/class-util.php:4271
+#: includes/class-util.php:4286 includes/class-util.php:4291
 msgid "Not writable"
 msgstr ""
 
-#: includes/class-util.php:4270
+#: includes/class-util.php:4290
 msgid "The plugins directory"
 msgstr ""
 
-#: includes/class-util.php:4275
+#: includes/class-util.php:4295
 msgid "WordPress Cron"
 msgstr ""
 
-#: includes/class-util.php:4276 includes/class-util.php:4281
-#: includes/class-util.php:4286 views/faq/panel.php:13
+#: includes/class-util.php:4296 includes/class-util.php:4301
+#: includes/class-util.php:4306 views/faq/panel.php:13
 #: views/metaboxes/design-guideline-panel.php:76
 #: views/metaboxes/local-settings.php:14 views/metaboxes/local-settings.php:82
-#: views/metaboxes/local-settings.php:104
-#: views/metaboxes/local-settings.php:126
-#: views/metaboxes/local-settings.php:174
-#: views/metaboxes/local-settings.php:227
-#: views/metaboxes/local-settings.php:289
-#: views/metaboxes/local-settings.php:319 views/options/options-mapping.php:75
+#: views/metaboxes/local-settings.php:113
+#: views/metaboxes/local-settings.php:136
+#: views/metaboxes/local-settings.php:158
+#: views/metaboxes/local-settings.php:206
+#: views/metaboxes/local-settings.php:259
+#: views/metaboxes/local-settings.php:321
+#: views/metaboxes/local-settings.php:351 views/options/options-mapping.php:75
 #: views/options/templates/field-body/attributes-conditional.php:13
 #: views/options/templates/field-body/sub-attributes-conditional.php:13
 #: views/quote/admin/default-form.php:18 views/quote/admin/default-form.php:92
@@ -1463,7 +1473,7 @@ msgstr ""
 msgid "Enable"
 msgstr ""
 
-#: includes/class-util.php:4276
+#: includes/class-util.php:4296
 #: views/options/templates/field-body/attributes-conditional.php:14
 #: views/options/templates/field-body/sub-attributes-conditional.php:14
 #: views/quote/admin/default-form.php:19 views/quote/admin/default-form.php:92
@@ -1471,15 +1481,15 @@ msgstr ""
 msgid "Disable"
 msgstr ""
 
-#: includes/class-util.php:4280
+#: includes/class-util.php:4300
 msgid "Remote post"
 msgstr ""
 
-#: includes/class-util.php:4285
+#: includes/class-util.php:4305
 msgid "Remote get"
 msgstr ""
 
-#: includes/class-util.php:4290
+#: includes/class-util.php:4310
 msgid "Cmsmart directory size"
 msgstr ""
 
@@ -1608,94 +1618,94 @@ msgstr ""
 msgid "Gallery design templates"
 msgstr ""
 
-#: includes/class.my.design.php:1235 includes/class.nbdesigner.php:3158
+#: includes/class.my.design.php:1235 includes/class.nbdesigner.php:3208
 msgid "Error adding to the cart"
 msgstr ""
 
-#: includes/class.nbdesigner.php:144
+#: includes/class.nbdesigner.php:159
 msgid "Only authenticated users can access the REST API."
 msgstr ""
 
-#: includes/class.nbdesigner.php:171
+#: includes/class.nbdesigner.php:186
 msgid "You're not authorized to access this site."
 msgstr ""
 
-#: includes/class.nbdesigner.php:171
+#: includes/class.nbdesigner.php:186
 msgid "Error"
 msgstr ""
 
-#: includes/class.nbdesigner.php:362
+#: includes/class.nbdesigner.php:379
 msgid "Get a Quote"
 msgstr ""
 
-#: includes/class.nbdesigner.php:369 includes/class.nbdesigner.php:380
-#: includes/class.nbdesigner.php:2477
+#: includes/class.nbdesigner.php:386 includes/class.nbdesigner.php:397
+#: includes/class.nbdesigner.php:2527
 #: templates/single-product/nbd-section.php:6
 msgid "Start Design"
 msgstr ""
 
-#: includes/class.nbdesigner.php:394
+#: includes/class.nbdesigner.php:411
 msgid "Add to cart & start design"
 msgstr ""
 
-#: includes/class.nbdesigner.php:705
+#: includes/class.nbdesigner.php:735
 msgid "Are you sure you want to delete this design?"
 msgstr ""
 
-#: includes/class.nbdesigner.php:706
+#: includes/class.nbdesigner.php:736
 msgid "Delete successfully!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:729
+#: includes/class.nbdesigner.php:759
 #, php-format
 msgid ""
 "<p>Plugin <strong>not compatible</strong> with WordPress %s. Requires "
 "WordPress %s to use this Plugin.</p>"
 msgstr ""
 
-#: includes/class.nbdesigner.php:733
+#: includes/class.nbdesigner.php:763
 #, php-format
 msgid ""
 "<p>Plugin <strong>not compatible</strong> with PHP %s. Requires PHP %s to "
 "use this Plugin.</p>"
 msgstr ""
 
-#: includes/class.nbdesigner.php:737
+#: includes/class.nbdesigner.php:767
 #, php-format
 msgid "WooCommerce is not active. Please activate WooCommerce before using %s."
 msgstr ""
 
-#: includes/class.nbdesigner.php:742
+#: includes/class.nbdesigner.php:772
 #, php-format
 msgid "WoooCommerce %s or greater is required"
 msgstr ""
 
-#: includes/class.nbdesigner.php:784
+#: includes/class.nbdesigner.php:814
 msgid "Once Hourly"
 msgstr ""
 
-#: includes/class.nbdesigner.php:787
+#: includes/class.nbdesigner.php:817
 msgid "Every 6 Hours"
 msgstr ""
 
-#: includes/class.nbdesigner.php:873
+#: includes/class.nbdesigner.php:903
 msgid "New / Modified order(s)"
 msgstr ""
 
-#: includes/class.nbdesigner.php:919
+#: includes/class.nbdesigner.php:949
 msgid "Has Cmsmart"
 msgstr ""
 
-#: includes/class.nbdesigner.php:956
+#: includes/class.nbdesigner.php:986
 msgid "Design Tool"
 msgstr ""
 
-#: includes/class.nbdesigner.php:957 templates/gallery/tag-list.php:24
+#: includes/class.nbdesigner.php:987 templates/gallery/tag-list.php:24
 #: views/options/templates/nbpb_text.php:94
 msgid "Colors"
 msgstr ""
 
-#: includes/class.nbdesigner.php:958 includes/class.nbdesigner.php:3852
+#: includes/class.nbdesigner.php:988 includes/class.nbdesigner.php:3912
 #: templates/loop/start-design.php:28
 #: templates/single-product/nbd-section.php:58
 #: templates/single-product/simple-upload.php:3 views/box-order-metadata.php:71
@@ -1703,104 +1713,104 @@ msgstr ""
 msgid "Upload design"
 msgstr ""
 
-#: includes/class.nbdesigner.php:959
+#: includes/class.nbdesigner.php:989
 msgid "Output"
 msgstr ""
 
-#: includes/class.nbdesigner.php:960
+#: includes/class.nbdesigner.php:990
 msgid "Libraries"
 msgstr ""
 
-#: includes/class.nbdesigner.php:961 includes/options/admin-options.php:390
+#: includes/class.nbdesigner.php:991 includes/options/admin-options.php:392
 msgid "Printing Options"
 msgstr ""
 
-#: includes/class.nbdesigner.php:978
+#: includes/class.nbdesigner.php:1008
 msgid "General Settings"
 msgstr ""
 
-#: includes/class.nbdesigner.php:979
+#: includes/class.nbdesigner.php:1009
 msgid "Notifications"
 msgstr ""
 
-#: includes/class.nbdesigner.php:980
+#: includes/class.nbdesigner.php:1010
 msgid "Application"
 msgstr ""
 
-#: includes/class.nbdesigner.php:982 includes/class.nbdesigner.php:1141
+#: includes/class.nbdesigner.php:1012 includes/class.nbdesigner.php:1176
 msgid "Tools"
 msgstr ""
 
-#: includes/class.nbdesigner.php:983
+#: includes/class.nbdesigner.php:1013
 msgid "Customization"
 msgstr ""
 
-#: includes/class.nbdesigner.php:986 includes/class.nbdesigner.php:1022
+#: includes/class.nbdesigner.php:1016 includes/class.nbdesigner.php:1052
 msgid "Design editor"
 msgstr ""
 
-#: includes/class.nbdesigner.php:988 includes/launcher/class.launcher.php:1491
+#: includes/class.nbdesigner.php:1018 includes/launcher/class.launcher.php:1492
 #: templates/launcher/store/design-table.php:15
 #: templates/mydesign/detail-design.php:43
 #: templates/quote/emails/request-quote-items.php:18
 #: templates/quote/frontend/quote-detail.php:59
-#: templates/quote/pdf/content.php:45 views/modern/sidebars/tab-nav.php:12
+#: templates/quote/pdf/content.php:45 views/modern/sidebars/tab-nav.php:11
 msgid "Product"
 msgstr ""
 
-#: includes/class.nbdesigner.php:990
+#: includes/class.nbdesigner.php:1020
 msgid "Cart, order, checkout"
 msgstr ""
 
-#: includes/class.nbdesigner.php:995
+#: includes/class.nbdesigner.php:1025
 msgid "Elements Options"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1005
+#: includes/class.nbdesigner.php:1035
 msgid "Upload settings"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1008
+#: includes/class.nbdesigner.php:1038
 msgid "Output general settings"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1009
+#: includes/class.nbdesigner.php:1039
 msgid "Synchronize"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1010
+#: includes/class.nbdesigner.php:1040
 msgid "JPG settings"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1011
+#: includes/class.nbdesigner.php:1041
 msgid "SVG settings"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1014
+#: includes/class.nbdesigner.php:1044
 msgid "Javacript settings"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1015
+#: includes/class.nbdesigner.php:1045
 msgid "CSS settings"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1019
+#: includes/class.nbdesigner.php:1049
 msgid "Catalog"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1020
+#: includes/class.nbdesigner.php:1050
 msgid "Cart"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1021
+#: includes/class.nbdesigner.php:1051
 msgid "Order"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1023
+#: includes/class.nbdesigner.php:1053
 msgid "Admin manager"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1089
+#: includes/class.nbdesigner.php:1119
 #, php-format
 msgid ""
 "If you <span style=\"color: #e25555;\">♥</span> <strong>Cmsmart</strong> "
@@ -1808,428 +1818,437 @@ msgid ""
 "thanks in advance!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1089
+#: includes/class.nbdesigner.php:1119
 msgid "Thanks :)"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1107
+#: includes/class.nbdesigner.php:1137
 msgid "Cmsmart Settings"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1113
+#: includes/class.nbdesigner.php:1143
 msgid "Manager Products"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1113 includes/options/fields-list-table.php:36
+#: includes/class.nbdesigner.php:1143 includes/options/fields-list-table.php:36
 #: includes/options/fields-list-table.php:193 templates/gallery/sidebar.php:25
 #: views/manager-product.php:97 views/modern/popup-contents/products.php:13
-#: views/options/edit-option.php:113
+#: views/options/edit-option.php:137
 msgid "Products"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1117
+#: includes/class.nbdesigner.php:1147
 msgid "Detail Design Order"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1122
+#: includes/class.nbdesigner.php:1152
 msgid "Manager Cliparts"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1122 views/editor_components/js_config.php:56
-#: views/modern/sidebars/tab-nav.php:24 views/nbdesigner-manager-arts.php:2
+#: includes/class.nbdesigner.php:1152 views/editor_components/js_config.php:56
+#: views/modern/sidebars/tab-nav.php:41 views/nbdesigner-manager-arts.php:2
 msgid "Cliparts"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1127
+#: includes/class.nbdesigner.php:1157
 msgid "Manager Fonts"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1127 views/nbdesigner-manager-fonts.php:2
+#: includes/class.nbdesigner.php:1157 views/nbdesigner-manager-fonts.php:2
 msgid "Fonts"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1132 views/nbdesigner-translate.php:3
+#: includes/class.nbdesigner.php:1162 views/nbdesigner-translate.php:3
 msgid "Frontend Translate"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1138
+#: includes/class.nbdesigner.php:1168
+#: views/nbdesigner-manager-backgrounds.php:2
+msgid "Manager Backgrounds"
+msgstr ""
+
+#: includes/class.nbdesigner.php:1168 views/editor_components/js_config.php:230
+#: views/modern/sidebars/tab-nav.php:37 views/modern/tour-guide.php:51
+msgid "Backgrounds"
+msgstr ""
+
+#: includes/class.nbdesigner.php:1173
 msgid "System info"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1141
+#: includes/class.nbdesigner.php:1176
 msgid "Cmsmart Tools"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1147
-msgid "Cmsmart Support"
+#: includes/class.nbdesigner.php:1182
+msgid "Support Ticket"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1147 templates/gallery/artist.php:124
-#: views/modern/popup-contents/hotkeys.php:12
-msgid "About"
+#: includes/class.nbdesigner.php:1182
+msgid "Ticket"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1294
+#: includes/class.nbdesigner.php:1329
 msgid "You do not have permission to add/edit font category!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1308 includes/class.nbdesigner.php:1328
+#: includes/class.nbdesigner.php:1343 includes/class.nbdesigner.php:1363
 msgid "Category has been added/edited successfully!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1315
+#: includes/class.nbdesigner.php:1350
 msgid "You do not have permission to add/edit clipart category!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1335
+#: includes/class.nbdesigner.php:1370
 msgid "You do not have permission to delete font category!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1347 includes/class.nbdesigner.php:1366
+#: includes/class.nbdesigner.php:1382 includes/class.nbdesigner.php:1401
 msgid "Category has been delete successfully!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1354
+#: includes/class.nbdesigner.php:1389
 msgid "You do not have permission to delete clipart category!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1378
+#: includes/class.nbdesigner.php:1413
 msgid "You do not have permission to add font!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1426
+#: includes/class.nbdesigner.php:1461
 msgid "The google fonts have been added successfully!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1497
+#: includes/class.nbdesigner.php:1532
 msgid "Error while upload font."
 msgstr ""
 
-#: includes/class.nbdesigner.php:1502 includes/class.nbdesigner.php:1818
+#: includes/class.nbdesigner.php:1537 includes/class.nbdesigner.php:1853
 msgid "Incorrect file extensions."
 msgstr ""
 
-#: includes/class.nbdesigner.php:1513 includes/class.nbdesigner.php:1523
+#: includes/class.nbdesigner.php:1548 includes/class.nbdesigner.php:1558
 msgid "Your font has been saved."
 msgstr ""
 
-#: includes/class.nbdesigner.php:1525
+#: includes/class.nbdesigner.php:1560
 msgid "Please choose font file or font name."
 msgstr ""
 
-#: includes/class.nbdesigner.php:1661
+#: includes/class.nbdesigner.php:1696
 msgid "You do not have permission to delete font!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1676
+#: includes/class.nbdesigner.php:1711
 msgid "The font has been deleted successfully!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1683
+#: includes/class.nbdesigner.php:1718
 msgid "You do not have permission to delete clipart!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1701
+#: includes/class.nbdesigner.php:1736
 msgid "Clipart has been deleted successfully!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1802
+#: includes/class.nbdesigner.php:1837
 msgid "Failed to copy."
 msgstr ""
 
-#: includes/class.nbdesigner.php:1813
+#: includes/class.nbdesigner.php:1848
 msgid "Your art has been saved."
 msgstr ""
 
-#: includes/class.nbdesigner.php:1815
+#: includes/class.nbdesigner.php:1850
 #, php-format
 msgid ""
-"Error while upload art, please try again! <a target=\"_blank\" href=\"%s"
-"\">Force upload SVG</a>"
+"Error while upload art, please try again! <a target=\"_blank\" "
+"href=\"%s\">Force upload SVG</a>"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1888
+#: includes/class.nbdesigner.php:1924
 msgid "Setting Cmsmart"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1889
+#: includes/class.nbdesigner.php:1925 includes/class.nbdesigner.php:1926
 msgid "Customer Design"
 msgstr ""
 
-#: includes/class.nbdesigner.php:2256
+#: includes/class.nbdesigner.php:2306
 msgid "Missing necessary information!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:2260
+#: includes/class.nbdesigner.php:2310
 msgid "Incorrect information, check again license key"
 msgstr ""
 
-#: includes/class.nbdesigner.php:2264 includes/class.nbdesigner.php:2336
+#: includes/class.nbdesigner.php:2314 includes/class.nbdesigner.php:2386
 msgid "Incorrect License key"
 msgstr ""
 
-#: includes/class.nbdesigner.php:2268
+#: includes/class.nbdesigner.php:2318
 msgid "License key is locked "
 msgstr ""
 
-#: includes/class.nbdesigner.php:2272
+#: includes/class.nbdesigner.php:2322
 msgid "License key have expired"
 msgstr ""
 
-#: includes/class.nbdesigner.php:2276
+#: includes/class.nbdesigner.php:2326
 msgid "Link your website incorrect"
 msgstr ""
 
-#: includes/class.nbdesigner.php:2280
+#: includes/class.nbdesigner.php:2330
 msgid "License key can using"
 msgstr ""
 
-#: includes/class.nbdesigner.php:2284
+#: includes/class.nbdesigner.php:2334
 msgid "Domain has been added successfully"
 msgstr ""
 
-#: includes/class.nbdesigner.php:2288
+#: includes/class.nbdesigner.php:2338
 msgid "Exceed your number of domain license"
 msgstr ""
 
-#: includes/class.nbdesigner.php:2292
+#: includes/class.nbdesigner.php:2342
 msgid "Unsuccessfully active license key"
 msgstr ""
 
-#: includes/class.nbdesigner.php:2304
+#: includes/class.nbdesigner.php:2354
 msgid "Try again later!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:2307
+#: includes/class.nbdesigner.php:2357
 msgid "Please fill your license!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:2330
+#: includes/class.nbdesigner.php:2380
 msgid "Missing necessary information"
 msgstr ""
 
-#: includes/class.nbdesigner.php:2333
+#: includes/class.nbdesigner.php:2383
 msgid "Incorrect information"
 msgstr ""
 
-#: includes/class.nbdesigner.php:2340
+#: includes/class.nbdesigner.php:2390
 msgid "Remove license key Successfully"
 msgstr ""
 
-#: includes/class.nbdesigner.php:2345
+#: includes/class.nbdesigner.php:2395
 msgid "Remove license key Unsuccessfully!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:2479
+#: includes/class.nbdesigner.php:2529
 #: templates/single-product/nbd-section.php:9
 msgid "Start and upload design"
 msgstr ""
 
-#: includes/class.nbdesigner.php:2482
+#: includes/class.nbdesigner.php:2532
 #: templates/single-product/nbd-section.php:12
 #: views/metabox-design-setting.php:39
 msgid "Upload Design"
 msgstr ""
 
-#: includes/class.nbdesigner.php:2774 includes/class.nbdesigner.php:2777
+#: includes/class.nbdesigner.php:2824 includes/class.nbdesigner.php:2827
 msgid "Your server not allow creat folder"
 msgstr ""
 
-#: includes/class.nbdesigner.php:2802
+#: includes/class.nbdesigner.php:2852
 msgid "Your server not allow writable file"
 msgstr ""
 
-#: includes/class.nbdesigner.php:3258 includes/class.nbdesigner.php:5258
+#: includes/class.nbdesigner.php:3308 includes/class.nbdesigner.php:5325
 msgid "Item not exist in cart"
 msgstr ""
 
-#: includes/class.nbdesigner.php:3394
+#: includes/class.nbdesigner.php:3444
 msgid "You have not permission to create or edit template"
 msgstr ""
 
-#: includes/class.nbdesigner.php:3686 includes/launcher/class.launcher.php:342
-#: includes/launcher/class.launcher.php:1326
+#: includes/class.nbdesigner.php:3745 includes/launcher/class.launcher.php:343
 #: includes/launcher/class.launcher.php:1327
+#: includes/launcher/class.launcher.php:1328
 #: views/modern/sidebars/tab-nav.php:5 views/vista/toolbar.php:8
 msgid "Design"
 msgstr ""
 
-#: includes/class.nbdesigner.php:3720 includes/class.nbdesigner.php:6463
+#: includes/class.nbdesigner.php:3780 includes/class.nbdesigner.php:6530
 #: templates/single-product/nbd-section.php:66 views/box-order-metadata.php:38
 msgid "Custom design"
 msgstr ""
 
-#: includes/class.nbdesigner.php:3755 includes/class.nbdesigner.php:6478
+#: includes/class.nbdesigner.php:3815 includes/class.nbdesigner.php:6545
 #: templates/mydesign/detail-design.php:47 views/detail-order.php:62
 msgid "Edit design"
 msgstr ""
 
-#: includes/class.nbdesigner.php:3789 templates/mydesign/detail-design.php:49
+#: includes/class.nbdesigner.php:3849 templates/mydesign/detail-design.php:49
 msgid "Add design"
 msgstr ""
 
-#: includes/class.nbdesigner.php:3797 includes/class.nbdesigner.php:6507
+#: includes/class.nbdesigner.php:3857 includes/class.nbdesigner.php:6574
 #: templates/gallery/main.php:49 templates/single-product/nbd-section.php:90
 msgid "Upload file"
 msgstr ""
 
-#: includes/class.nbdesigner.php:3835 includes/class.nbdesigner.php:6539
+#: includes/class.nbdesigner.php:3895 includes/class.nbdesigner.php:6606
 msgid "Reupload design"
 msgstr ""
 
-#: includes/class.nbdesigner.php:3871 includes/class.nbdesigner.php:6544
+#: includes/class.nbdesigner.php:3931 includes/class.nbdesigner.php:6611
 #: templates/single-product/nbd-section.php:93
 msgid "Extra price for design"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4078
+#: includes/class.nbdesigner.php:4140
 msgid ""
 "You don't change anything? Or an error occured saving the data, please "
 "refresh this page and check if changes took place."
 msgstr ""
 
-#: includes/class.nbdesigner.php:4081
+#: includes/class.nbdesigner.php:4143
 msgid "You haven't chosen a item."
 msgstr ""
 
-#: includes/class.nbdesigner.php:4090
+#: includes/class.nbdesigner.php:4152
 msgid "The reason cannot be empty"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4092 includes/class.nbdesigner.php:4102
+#: includes/class.nbdesigner.php:4154 includes/class.nbdesigner.php:4164
 msgid "Error while sending mail"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4097
+#: includes/class.nbdesigner.php:4159
 msgid "Your design accepted"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4097
+#: includes/class.nbdesigner.php:4159
 msgid "Your design rejected"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4121
+#: includes/class.nbdesigner.php:4183
 msgid " - Order "
 msgstr ""
 
-#: includes/class.nbdesigner.php:4132
+#: includes/class.nbdesigner.php:4194
 msgid "Approve designs - Order "
 msgstr ""
 
-#: includes/class.nbdesigner.php:4324
+#: includes/class.nbdesigner.php:4386
 msgid "File size too small or large!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4325
+#: includes/class.nbdesigner.php:4387
 msgid "Extension not allowed!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4326
+#: includes/class.nbdesigner.php:4388
 msgid "Min DPI required for JPG"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4354 includes/class.nbdesigner.php:4449
+#: includes/class.nbdesigner.php:4416 includes/class.nbdesigner.php:4511
 msgid "Upload success !"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4387 includes/class.nbdesigner.php:4423
-#: includes/class.nbdesigner.php:4452 includes/class.nbdesigner.php:6735
+#: includes/class.nbdesigner.php:4449 includes/class.nbdesigner.php:4485
+#: includes/class.nbdesigner.php:4514 includes/class.nbdesigner.php:6802
 msgid "Error occurred with file upload!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4401
+#: includes/class.nbdesigner.php:4463
 msgid "Please select at least one image!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4428
+#: includes/class.nbdesigner.php:4490
 msgid "Too large file!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4434 includes/class.nbdesigner.php:6738
+#: includes/class.nbdesigner.php:4496 includes/class.nbdesigner.php:6805
 msgid "Invalid file format!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4441
+#: includes/class.nbdesigner.php:4503
 msgid "Image resolution too low!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4481 includes/class.nbdesigner.php:6724
+#: includes/class.nbdesigner.php:4542 includes/class.nbdesigner.php:6791
 msgid "Error occurred when convert pdf!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4494
+#: includes/class.nbdesigner.php:4555
 msgid "Error occurred when convert pdf!!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4672
+#: includes/class.nbdesigner.php:4733
 msgid "NBD Gallery Page"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4675
+#: includes/class.nbdesigner.php:4736
 msgid "NBD Design Editor Page"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4678
+#: includes/class.nbdesigner.php:4739
 msgid "NBD Designer gallery Page"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4681
+#: includes/class.nbdesigner.php:4742
 msgid "NBD Product builder Page"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4684
+#: includes/class.nbdesigner.php:4745
 msgid "NBD Studio Page"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4707
+#: includes/class.nbdesigner.php:4768
 msgid "You do not have permission to edit language!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4739
+#: includes/class.nbdesigner.php:4800
 msgid "Update language success!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4742
+#: includes/class.nbdesigner.php:4803
 msgid "Update language failed!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4762
+#: includes/class.nbdesigner.php:4823
 msgid "You do not have permission to delete language!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4783
+#: includes/class.nbdesigner.php:4844
 msgid "Delete language success!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4788
+#: includes/class.nbdesigner.php:4849
 msgid "Oops! Can not delete primary language!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4795
+#: includes/class.nbdesigner.php:4856
 msgid "You do not have permission to create language!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4841
+#: includes/class.nbdesigner.php:4902
 msgid "Your language has been created successfully!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4897 includes/class.nbdesigner.php:4927
+#: includes/class.nbdesigner.php:4958 includes/class.nbdesigner.php:4988
 msgid "Invalid data"
 msgstr ""
 
-#: includes/class.nbdesigner.php:5156
+#: includes/class.nbdesigner.php:5223
 msgid "Missing product!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:5160
+#: includes/class.nbdesigner.php:5227
 msgid "Missing information!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:6266
+#: includes/class.nbdesigner.php:6333
 msgid "Has Design"
 msgstr ""
 
-#: includes/class.nbdesigner.php:6402
+#: includes/class.nbdesigner.php:6469
 #: includes/options/frontend-options.php:2125
 #, php-format
 msgid ""
@@ -2237,28 +2256,28 @@ msgid ""
 "the item is available and in stock"
 msgstr ""
 
-#: includes/class.nbdesigner.php:6405
+#: includes/class.nbdesigner.php:6472
 #: includes/options/frontend-options.php:2128
 msgid "No product quantities entered."
 msgstr ""
 
-#: includes/class.nbdesigner.php:6470 includes/class.nbdesigner.php:6531
+#: includes/class.nbdesigner.php:6537 includes/class.nbdesigner.php:6598
 msgid "(Rejected! Click "
 msgstr ""
 
-#: includes/class.nbdesigner.php:6470 includes/class.nbdesigner.php:6531
+#: includes/class.nbdesigner.php:6537 includes/class.nbdesigner.php:6598
 msgid "here "
 msgstr ""
 
-#: includes/class.nbdesigner.php:6470 includes/class.nbdesigner.php:6531
+#: includes/class.nbdesigner.php:6537 includes/class.nbdesigner.php:6598
 msgid " to design again"
 msgstr ""
 
-#: includes/class.nbdesigner.php:6473 includes/class.nbdesigner.php:6534
+#: includes/class.nbdesigner.php:6540 includes/class.nbdesigner.php:6601
 msgid "(Approved!)"
 msgstr ""
 
-#: includes/class.nbdesigner.php:6721
+#: includes/class.nbdesigner.php:6788
 msgid "Error occurred when update media attachment!"
 msgstr ""
 
@@ -2347,7 +2366,7 @@ msgstr ""
 
 #: includes/class.request-quote.php:605 includes/class.request-quote.php:620
 #: includes/class.request-quote.php:631 includes/class.request-quote.php:646
-#: views/options/edit-option.php:60
+#: views/options/edit-option.php:77
 msgid "required"
 msgstr ""
 
@@ -2493,116 +2512,116 @@ msgstr ""
 msgid "Enable vCard"
 msgstr ""
 
-#: includes/class.template-mapping.php:85 views/template/field-mapping.php:12
+#: includes/class.template-mapping.php:86 views/template/field-mapping.php:12
 #: views/template/field-mapping.php:43 views/template/field-mapping.php:75
 msgid "Field Name"
 msgstr ""
 
-#: includes/class.template-mapping.php:147
+#: includes/class.template-mapping.php:148
 msgid "Custom field"
 msgstr ""
 
-#: includes/class.template-mapping.php:150
-#: includes/class.template-mapping.php:226
+#: includes/class.template-mapping.php:151
+#: includes/class.template-mapping.php:227
 msgid "Wordpress - First name"
 msgstr ""
 
-#: includes/class.template-mapping.php:153
-#: includes/class.template-mapping.php:240
+#: includes/class.template-mapping.php:154
+#: includes/class.template-mapping.php:241
 msgid "Wordpress - Last name"
 msgstr ""
 
-#: includes/class.template-mapping.php:156
+#: includes/class.template-mapping.php:157
 msgid "Wordpress - Full name"
 msgstr ""
 
-#: includes/class.template-mapping.php:159
+#: includes/class.template-mapping.php:160
 msgid "Wordpress - Display name"
 msgstr ""
 
-#: includes/class.template-mapping.php:162
-#: includes/class.template-mapping.php:306
+#: includes/class.template-mapping.php:163
+#: includes/class.template-mapping.php:307
 msgid "Wordpress - Email"
 msgstr ""
 
-#: includes/class.template-mapping.php:165
-#: includes/class.template-mapping.php:317
+#: includes/class.template-mapping.php:166
+#: includes/class.template-mapping.php:318
 msgid "Wordpress - Website"
 msgstr ""
 
-#: includes/class.template-mapping.php:168
+#: includes/class.template-mapping.php:169
 msgid "Wordpress - Biographical Info"
 msgstr ""
 
-#: includes/class.template-mapping.php:175
+#: includes/class.template-mapping.php:176
 msgid "Woocommerce Billing - Street address 2"
 msgstr ""
 
-#: includes/class.template-mapping.php:177
+#: includes/class.template-mapping.php:178
 msgid "Woocommerce Billing - "
 msgstr ""
 
-#: includes/class.template-mapping.php:184
+#: includes/class.template-mapping.php:185
 msgid "Woocommerce Shipping - Street address 2"
 msgstr ""
 
-#: includes/class.template-mapping.php:186
+#: includes/class.template-mapping.php:187
 msgid "Woocommerce Shipping - "
 msgstr ""
 
-#: includes/class.template-mapping.php:229
+#: includes/class.template-mapping.php:230
 msgid "Woocommerce Billing - First name"
 msgstr ""
 
-#: includes/class.template-mapping.php:232
+#: includes/class.template-mapping.php:233
 msgid "Woocommerce Shipping - First name"
 msgstr ""
 
-#: includes/class.template-mapping.php:243
+#: includes/class.template-mapping.php:244
 msgid "Woocommerce Billing - Last name"
 msgstr ""
 
-#: includes/class.template-mapping.php:246
+#: includes/class.template-mapping.php:247
 msgid "Woocommerce Shipping - Last name"
 msgstr ""
 
-#: includes/class.template-mapping.php:254
+#: includes/class.template-mapping.php:255
 msgid "Woocommerce Billing - Address"
 msgstr ""
 
-#: includes/class.template-mapping.php:257
+#: includes/class.template-mapping.php:258
 msgid "Woocommerce Shipping - Address"
 msgstr ""
 
-#: includes/class.template-mapping.php:265
+#: includes/class.template-mapping.php:266
 msgid "Woocommerce Billing - City"
 msgstr ""
 
-#: includes/class.template-mapping.php:268
+#: includes/class.template-mapping.php:269
 msgid "Woocommerce Shipping - City"
 msgstr ""
 
-#: includes/class.template-mapping.php:276
+#: includes/class.template-mapping.php:277
 msgid "Woocommerce Billing - Postcode"
 msgstr ""
 
-#: includes/class.template-mapping.php:279
+#: includes/class.template-mapping.php:280
 msgid "Woocommerce Shipping - Postcode"
 msgstr ""
 
-#: includes/class.template-mapping.php:287
+#: includes/class.template-mapping.php:288
 msgid "Woocommerce Billing - Country"
 msgstr ""
 
-#: includes/class.template-mapping.php:290
+#: includes/class.template-mapping.php:291
 msgid "Woocommerce Shipping - Country"
 msgstr ""
 
-#: includes/class.template-mapping.php:298
+#: includes/class.template-mapping.php:299
 msgid "Woocommerce Billing - Phone"
 msgstr ""
 
-#: includes/class.template-mapping.php:309
+#: includes/class.template-mapping.php:310
 msgid "Woocommerce Billing - Email"
 msgstr ""
 
@@ -2642,11 +2661,11 @@ msgstr ""
 msgid "New Template tag"
 msgstr ""
 
-#: includes/class.template-tags.php:114 includes/options/admin-options.php:1426
+#: includes/class.template-tags.php:114 includes/options/admin-options.php:1428
 #: includes/settings/output.php:26 views/editor_components/js_config.php:59
 #: views/metabox-design-setting.php:167
 #: views/nbdesigner-box-design-setting-variation.php:116
-#: views/options/edit-option.php:217 views/options/templates/color.php:9
+#: views/options/edit-option.php:242 views/options/templates/color.php:9
 #: views/options/templates/field-body/attributes.php:14
 #: views/options/templates/field-body/attributes.php:105
 #: views/options/templates/nbpb_com.php:80 views/vista/sidebar/images.php:3
@@ -2655,7 +2674,7 @@ msgid "Image"
 msgstr ""
 
 #: includes/class.template-tags.php:116
-#: includes/launcher/class.launcher.php:1457
+#: includes/launcher/class.launcher.php:1458
 #: views/template/tags-extra-fields.php:8
 msgid "Featured"
 msgstr ""
@@ -2663,7 +2682,7 @@ msgstr ""
 #: includes/class.template-tags.php:254
 #: includes/table/class.product.templates.php:10
 #: views/editor_components/js_config.php:78
-#: views/modern/sidebars/tab-nav.php:20
+#: views/modern/sidebars/tab-nav.php:19
 msgid "Templates"
 msgstr ""
 
@@ -2820,247 +2839,247 @@ msgstr ""
 msgid "Design store"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:334
-#: includes/launcher/class.launcher.php:1442
+#: includes/launcher/class.launcher.php:335
+#: includes/launcher/class.launcher.php:1443
 msgid "Designers"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:340
+#: includes/launcher/class.launcher.php:341
 msgid "Admin"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:394
-#: includes/launcher/class.launcher.php:1446
+#: includes/launcher/class.launcher.php:395
+#: includes/launcher/class.launcher.php:1447
 msgid "Design Launcher"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:451
+#: includes/launcher/class.launcher.php:452
 msgid "Please choose all necessary files!"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:463
+#: includes/launcher/class.launcher.php:464
 msgid "Allow designer upload and sell solid design"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:559
+#: includes/launcher/class.launcher.php:560
 msgid "You want to sell your designs to earn commission?"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:560
+#: includes/launcher/class.launcher.php:561
 msgid "Become designer"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:580
+#: includes/launcher/class.launcher.php:581
 msgid "Designer has been enabled"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:580
+#: includes/launcher/class.launcher.php:581
 msgid "Designer has been disabled"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:584
+#: includes/launcher/class.launcher.php:585
 msgid "Featured designer has been enabled"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:584
+#: includes/launcher/class.launcher.php:585
 msgid "Featured designer has been disabled"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:732
+#: includes/launcher/class.launcher.php:733
 msgid "Please select a product before upload design!"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:855
-#: includes/launcher/class.launcher.php:902
+#: includes/launcher/class.launcher.php:856
+#: includes/launcher/class.launcher.php:903
 msgid "Upload file error!"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:860
+#: includes/launcher/class.launcher.php:861
 msgid "File size too big"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:871
+#: includes/launcher/class.launcher.php:872
 msgid "Only alllow image for product preview."
 msgstr ""
 
-#: includes/launcher/class.launcher.php:877
+#: includes/launcher/class.launcher.php:878
 msgid "Fail to create design thumbnail."
 msgstr ""
 
-#: includes/launcher/class.launcher.php:883
+#: includes/launcher/class.launcher.php:884
 msgid "Only alllow zip extension for design file."
 msgstr ""
 
-#: includes/launcher/class.launcher.php:890
+#: includes/launcher/class.launcher.php:891
 msgid "Only alllow image for content design preview."
 msgstr ""
 
-#: includes/launcher/class.launcher.php:938
-#: includes/launcher/class.launcher.php:952
+#: includes/launcher/class.launcher.php:939
+#: includes/launcher/class.launcher.php:953
 msgid "Fail to edit exist design preview image!"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:972
+#: includes/launcher/class.launcher.php:973
 msgid "Design does not exist!"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1046
+#: includes/launcher/class.launcher.php:1047
 msgid "Can not create design folder!"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1213
+#: includes/launcher/class.launcher.php:1214
 msgid "Designed by"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1303
+#: includes/launcher/class.launcher.php:1304
 msgid "Download design resource"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1410 views/options/global_field.php:81
+#: includes/launcher/class.launcher.php:1411 views/options/global_field.php:81
 #: views/quote/admin/default-form.php:35 views/quote/admin/default-form.php:49
 msgid "Actions"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1411
+#: includes/launcher/class.launcher.php:1412
 msgid "Add Note"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1413
+#: includes/launcher/class.launcher.php:1414
 msgid "All user"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1414
+#: includes/launcher/class.launcher.php:1415
 #: templates/launcher/store/withdraw-table.php:8
 #: templates/launcher/store/withdraw-table.php:17
 #: templates/single-product/option-builder.php:2210
 msgid "Amount"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1415
+#: includes/launcher/class.launcher.php:1416
 #: templates/launcher/store/dashboard.php:15
 #: templates/launcher/store/design-table.php:33
 #: templates/launcher/store/withdraw-table.php:23
 msgid "Approved"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1416
+#: includes/launcher/class.launcher.php:1417
 msgid "Approve Request"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1417
+#: includes/launcher/class.launcher.php:1418
 msgid "Auto publish new design"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1418
-#: includes/launcher/class.launcher.php:1421
+#: includes/launcher/class.launcher.php:1419
+#: includes/launcher/class.launcher.php:1422
 msgid "Artist name"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1419
+#: includes/launcher/class.launcher.php:1420
 msgid "At a Glance"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1420
-#: views/live-chat/admin-console.php:68
+#: includes/launcher/class.launcher.php:1421
+#: views/live-chat/admin-console.php:68 views/modern/main-bar.php:178
 #: views/modern/toolbars/toolbar-common.php:93
 msgid "Apply"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1423
+#: includes/launcher/class.launcher.php:1424
 msgid "awaiting approval"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1424
+#: includes/launcher/class.launcher.php:1425
 msgid "Bulk actions"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1425
+#: includes/launcher/class.launcher.php:1426
 #: templates/launcher/store/withdraw-table.php:40
 #: views/options/formula-popup.php:53 views/product-builder/js_config.php:62
 msgid "Cancel"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1426
+#: includes/launcher/class.launcher.php:1427
 msgid "Cancel request"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1427
+#: includes/launcher/class.launcher.php:1428
 #: templates/launcher/store/withdraw-table.php:25
 msgid "Cancelled"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1428 includes/settings/launcher.php:31
+#: includes/launcher/class.launcher.php:1429 includes/settings/launcher.php:31
 msgid "Combine"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1429
+#: includes/launcher/class.launcher.php:1430
 msgid "% + "
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1430
+#: includes/launcher/class.launcher.php:1431
 msgid "Do you want to delete this withdraw?"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1431
+#: includes/launcher/class.launcher.php:1432
 #: views/editor_components/js_config.php:68
 msgid "Do you want to delete this design?"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1432
+#: includes/launcher/class.launcher.php:1433
 msgid "Change Designer Avatar"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1433
+#: includes/launcher/class.launcher.php:1434
 msgid "Change banner"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1434
+#: includes/launcher/class.launcher.php:1435
 msgid "created this month"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1435
+#: includes/launcher/class.launcher.php:1436
 msgid "created this period"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1436
+#: includes/launcher/class.launcher.php:1437
 msgid "Current balance"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1437
+#: includes/launcher/class.launcher.php:1438
 #: views/modern/popup-contents/template-tags.php:28
 msgid "Custom"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1438
+#: includes/launcher/class.launcher.php:1439
 msgid "Dashboard"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1443
+#: includes/launcher/class.launcher.php:1444
 #: templates/launcher/store/designs.php:7 templates/launcher/store/tabs.php:13
 msgid "Designs"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1444
+#: includes/launcher/class.launcher.php:1445
 msgid "Designer Commission Type"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1445
+#: includes/launcher/class.launcher.php:1446
 msgid "Designer Commission"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1447
+#: includes/launcher/class.launcher.php:1448
 msgid "Designs sold"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1449
+#: includes/launcher/class.launcher.php:1450
 msgid "Download resource"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1450
+#: includes/launcher/class.launcher.php:1451
 msgid "E-mail"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1451
+#: includes/launcher/class.launcher.php:1452
 #: includes/options/fields-list-table.php:181
 #: includes/table/class.product.templates.php:188
 #: templates/launcher/store/design-table.php:52
@@ -3070,36 +3089,36 @@ msgstr ""
 msgid "Edit"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1452
+#: includes/launcher/class.launcher.php:1453
 #: includes/table/class.product.templates.php:247
 msgid "Editable"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1454
+#: includes/launcher/class.launcher.php:1455
 msgid "Enable Selling Designs"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1455
+#: includes/launcher/class.launcher.php:1456
 msgid "Error!"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1456 includes/settings/launcher.php:30
+#: includes/launcher/class.launcher.php:1457 includes/settings/launcher.php:30
 msgid "Flat"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1458
+#: includes/launcher/class.launcher.php:1459
 #: includes/table/class.product.templates.php:290
 #: views/modern/toolbars/toolbar-image.php:4
 msgid "Filter"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1459 templates/gallery/artist.php:112
+#: includes/launcher/class.launcher.php:1460 templates/gallery/artist.php:112
 #: templates/launcher/store/settings.php:82 templates/mydesign/edit-info.php:89
 #: views/user-profile.php:96
 msgid "Flickr"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1460 templates/gallery/artist.php:69
+#: includes/launcher/class.launcher.php:1461 templates/gallery/artist.php:69
 #: templates/launcher/store/settings.php:57 templates/mydesign/edit-info.php:64
 #: templates/single-product/advanced-upload.php:1113
 #: views/modern/sidebars/tab-photo.php:31 views/user-profile.php:71
@@ -3108,32 +3127,32 @@ msgstr ""
 msgid "Facebook"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1461
+#: includes/launcher/class.launcher.php:1462
 msgid "Filter by registered customer"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1462
+#: includes/launcher/class.launcher.php:1463
 msgid "Filter by product"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1463
+#: includes/launcher/class.launcher.php:1464
 #: includes/options/frontend-options.php:270
 #: templates/single-product/option-builder.php:2195
 #: templates/single-product/pricing-table-tab.php:8
-#: views/options/edit-option.php:84 views/options/templates/dimension.php:115
+#: views/options/edit-option.php:101 views/options/templates/dimension.php:115
 msgid "From"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1464 views/options/quantity.php:73
+#: includes/launcher/class.launcher.php:1465 views/options/quantity.php:73
 msgid "item"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1465
+#: includes/launcher/class.launcher.php:1466
 #: templates/single-product/option-builder.php:2171
 msgid "items"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1466 templates/gallery/artist.php:102
+#: includes/launcher/class.launcher.php:1467 templates/gallery/artist.php:102
 #: templates/launcher/store/settings.php:77 templates/mydesign/edit-info.php:84
 #: templates/single-product/advanced-upload.php:1122
 #: views/modern/sidebars/tab-photo.php:45 views/user-profile.php:91
@@ -3141,105 +3160,105 @@ msgstr ""
 msgid "Instagram"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1467
+#: includes/launcher/class.launcher.php:1468
 msgid "Last month"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1468
+#: includes/launcher/class.launcher.php:1469
 #: templates/launcher/store/settings.php:67 templates/mydesign/edit-info.php:74
 #: views/user-profile.php:81
 msgid "LinkedIn"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1469
+#: includes/launcher/class.launcher.php:1470
 msgid "Make Designer Featured"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1470
+#: includes/launcher/class.launcher.php:1471
 msgid "Manage Designers"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1471 includes/quote/functions.php:77
+#: includes/launcher/class.launcher.php:1472 includes/quote/functions.php:77
 #: views/live-chat/frontend/wrap.php:252 views/live-chat/frontend/wrap.php:253
 msgid "Message"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1472
+#: includes/launcher/class.launcher.php:1473
 msgid "( no name )"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1473 views/nbdesigner-tools.php:145
+#: includes/launcher/class.launcher.php:1474 views/nbdesigner-tools.php:145
 #: views/options/appearance.php:148
 msgid "Note"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1474
+#: includes/launcher/class.launcher.php:1475
 msgid "No designer found."
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1475
+#: includes/launcher/class.launcher.php:1476
 msgid "No transaction found."
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1476
+#: includes/launcher/class.launcher.php:1477
 msgid "No design found."
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1477 views/modern/tour-guide.php:16
+#: includes/launcher/class.launcher.php:1478 views/modern/tour-guide.php:16
 msgid "of"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1478
+#: includes/launcher/class.launcher.php:1479
 msgid "Others"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1480
+#: includes/launcher/class.launcher.php:1481
 #: templates/launcher/store/dashboard.php:18
 #: templates/launcher/store/design-table.php:31
 #: templates/launcher/store/withdraw-table.php:21
 msgid "Pending"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1481
+#: includes/launcher/class.launcher.php:1482
 msgid "Pending request"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1482 includes/settings/launcher.php:29
+#: includes/launcher/class.launcher.php:1483 includes/settings/launcher.php:29
 #: views/metabox-design-setting.php:501 views/options/quantity.php:57
 msgid "Percentage"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1483
+#: includes/launcher/class.launcher.php:1484
 msgid "Payment"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1484
+#: includes/launcher/class.launcher.php:1485
 msgid "Payment information"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1485
+#: includes/launcher/class.launcher.php:1486
 msgid "PayPal Email"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1486
+#: includes/launcher/class.launcher.php:1487
 #: templates/launcher/store/settings.php:52 templates/mydesign/edit-info.php:59
 #: views/user-profile.php:66
 msgid "Phone Number"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1487
+#: includes/launcher/class.launcher.php:1488
 #: includes/options/fields-list-table.php:169
 #: includes/options/fields-list-table.php:187
-#: templates/mydesign/detail-design.php:62 views/options/edit-option.php:67
-#: views/options/edit-option.php:103
+#: templates/mydesign/detail-design.php:62 views/options/edit-option.php:84
+#: views/options/edit-option.php:124 views/options/edit-option.php:126
 msgid "Publish"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1488
+#: includes/launcher/class.launcher.php:1489
 msgid "Publish designs"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1489
+#: includes/launcher/class.launcher.php:1490
 #: includes/table/class.product.templates.php:258
 #: templates/gallery/artist.php:219 templates/gallery/gallery-item.php:34
 #: templates/launcher/store/design-table.php:13
@@ -3250,73 +3269,73 @@ msgstr ""
 msgid "Preview"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1490
+#: includes/launcher/class.launcher.php:1491
 msgid "Private"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1492
+#: includes/launcher/class.launcher.php:1493
 msgid "Registered"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1493
+#: includes/launcher/class.launcher.php:1494
 msgid "Revenue"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1494
+#: includes/launcher/class.launcher.php:1495
 msgid "Registered since"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1495
+#: includes/launcher/class.launcher.php:1496
 msgid "Re-generate design preview"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1496
+#: includes/launcher/class.launcher.php:1497
 msgid "Save Changes"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1497
+#: includes/launcher/class.launcher.php:1498
 msgid "Select Image"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1498
+#: includes/launcher/class.launcher.php:1499
 msgid "Select & Crop Image"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1499
+#: includes/launcher/class.launcher.php:1500
 msgid "Select bulk action"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1501
+#: includes/launcher/class.launcher.php:1502
 msgid "signup this month"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1502
+#: includes/launcher/class.launcher.php:1503
 msgid "signup this period"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1503
+#: includes/launcher/class.launcher.php:1504
 #: views/options/templates/field-body.php:42
 msgid "Show"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1504
+#: includes/launcher/class.launcher.php:1505
 msgid "Social information"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1505
+#: includes/launcher/class.launcher.php:1506
 msgid "sold this month"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1506
+#: includes/launcher/class.launcher.php:1507
 msgid "sold this period"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1507
+#: includes/launcher/class.launcher.php:1508
 #: includes/table/class.product.templates.php:246
 msgid "Solid"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1508
+#: includes/launcher/class.launcher.php:1509
 #: includes/options/fields-list-table.php:33
 #: templates/launcher/store/design-table.php:14
 #: templates/launcher/store/design-table.php:28
@@ -3328,7 +3347,7 @@ msgstr ""
 msgid "Status"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1510
+#: includes/launcher/class.launcher.php:1511
 #: includes/launcher/emails/designer_disabled.php:92
 #: includes/launcher/emails/designer_enabled.php:103
 #: includes/launcher/emails/withdraw_approved.php:96
@@ -3340,43 +3359,43 @@ msgstr ""
 msgid "Subject"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1511
+#: includes/launcher/class.launcher.php:1512
 msgid "This month"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1512
+#: includes/launcher/class.launcher.php:1513
 #: templates/single-product/pricing-table-tab.php:9
-#: views/options/edit-option.php:88 views/options/templates/dimension.php:119
+#: views/options/edit-option.php:105 views/options/templates/dimension.php:119
 msgid "To"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1513
+#: includes/launcher/class.launcher.php:1514
 msgid "Toggle panel"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1514
+#: includes/launcher/class.launcher.php:1515
 msgid "Total designs"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1515
+#: includes/launcher/class.launcher.php:1516
 msgid "Total earning"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1516 templates/gallery/artist.php:77
+#: includes/launcher/class.launcher.php:1517 templates/gallery/artist.php:77
 #: templates/launcher/store/settings.php:62 templates/mydesign/edit-info.php:69
 #: views/user-profile.php:76
 msgid "Twitter"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1517
+#: includes/launcher/class.launcher.php:1518
 msgid "Upload Image"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1518
+#: includes/launcher/class.launcher.php:1519
 msgid "Update Note"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1519 templates/gallery/artist.php:192
+#: includes/launcher/class.launcher.php:1520 templates/gallery/artist.php:192
 #: templates/launcher/store/design-table.php:67
 #: templates/quote/frontend/quote-list.php:61 views/detail-order.php:154
 #: views/detail-order.php:434 views/modern/main-bar.php:100
@@ -3384,24 +3403,24 @@ msgstr ""
 msgid "View"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1520
+#: includes/launcher/class.launcher.php:1521
 msgid "View gallery"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1521
+#: includes/launcher/class.launcher.php:1522
 #: templates/launcher/store/tabs.php:16 templates/launcher/store/withdraw.php:4
 msgid "Withdraw"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1522
+#: includes/launcher/class.launcher.php:1523
 msgid "Withdrawals"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1523
+#: includes/launcher/class.launcher.php:1524
 msgid "Year"
 msgstr ""
 
-#: includes/launcher/class.launcher.php:1524 templates/gallery/artist.php:94
+#: includes/launcher/class.launcher.php:1525 templates/gallery/artist.php:94
 #: templates/launcher/store/settings.php:72 templates/mydesign/edit-info.php:79
 #: views/user-profile.php:86
 msgid "Youtube"
@@ -3667,21 +3686,21 @@ msgstr ""
 msgid "NBD options"
 msgstr ""
 
-#: includes/options/admin-options.php:319
+#: includes/options/admin-options.php:321
 msgid "Option updated."
 msgstr ""
 
-#: includes/options/admin-options.php:734
-#: includes/options/admin-options.php:736 views/metaboxes/local-settings.php:54
+#: includes/options/admin-options.php:736
+#: includes/options/admin-options.php:738 views/metaboxes/local-settings.php:54
 #: views/options/templates/field-body/title.php:5
 msgid "Option name"
 msgstr ""
 
-#: includes/options/admin-options.php:743
+#: includes/options/admin-options.php:745
 msgid "Option description"
 msgstr ""
 
-#: includes/options/admin-options.php:745 includes/options/fields/input.php:20
+#: includes/options/admin-options.php:747 includes/options/fields/input.php:20
 #: templates/product-info.php:15 views/metaboxes/design-guideline-panel.php:58
 #: views/options/appearance.php:144
 #: views/options/templates/field-body/attributes.php:44
@@ -3693,59 +3712,59 @@ msgstr ""
 msgid "Description"
 msgstr ""
 
-#: includes/options/admin-options.php:754 includes/options/fields/input.php:29
+#: includes/options/admin-options.php:756 includes/options/fields/input.php:29
 #: views/options/templates/field-body/data_type.php:5
 msgid "Data type"
 msgstr ""
 
-#: includes/options/admin-options.php:761
+#: includes/options/admin-options.php:763
 msgid "Custom input"
 msgstr ""
 
-#: includes/options/admin-options.php:765
+#: includes/options/admin-options.php:767
 msgid "Multiple options"
 msgstr ""
 
-#: includes/options/admin-options.php:773
+#: includes/options/admin-options.php:775
 #: views/options/templates/field-body/input_type.php:5
 msgid "Input type"
 msgstr ""
 
-#: includes/options/admin-options.php:787
-#: includes/options/admin-options.php:1425 includes/options/fields/input.php:37
+#: includes/options/admin-options.php:789
+#: includes/options/admin-options.php:1427 includes/options/fields/input.php:37
 #: includes/quote/functions.php:88 includes/settings/output.php:27
-#: views/modern/sidebars/tab-nav.php:23 views/modern/tour-guide.php:27
-#: views/options/edit-option.php:216 views/vista/toolbar.php:14
+#: views/modern/sidebars/tab-nav.php:22 views/modern/tour-guide.php:27
+#: views/options/edit-option.php:241 views/vista/toolbar.php:14
 msgid "Text"
 msgstr ""
 
-#: includes/options/admin-options.php:791 includes/options/fields/input.php:38
+#: includes/options/admin-options.php:793 includes/options/fields/input.php:38
 msgid "Number"
 msgstr ""
 
-#: includes/options/admin-options.php:795
+#: includes/options/admin-options.php:797
 msgid "Number range"
 msgstr ""
 
-#: includes/options/admin-options.php:799
+#: includes/options/admin-options.php:801
 #: views/modern/sidebars/tab-photo.php:14
 msgid "Upload"
 msgstr ""
 
-#: includes/options/admin-options.php:803 includes/quote/functions.php:90
+#: includes/options/admin-options.php:805 includes/quote/functions.php:90
 msgid "Textarea"
 msgstr ""
 
-#: includes/options/admin-options.php:817
+#: includes/options/admin-options.php:819
 #: views/options/templates/field-body/input_option.php:5
 msgid "Input option"
 msgstr ""
 
-#: includes/options/admin-options.php:851
+#: includes/options/admin-options.php:853
 msgid "Text input option"
 msgstr ""
 
-#: includes/options/admin-options.php:872 templates/quick-view.php:18
+#: includes/options/admin-options.php:874 templates/quick-view.php:18
 #: templates/single-product/artwork-actions.php:22
 #: views/options/templates/field-body/placeholder.php:5
 #: views/quote/admin/default-form.php:31 views/quote/admin/default-form.php:45
@@ -3753,97 +3772,97 @@ msgstr ""
 msgid "Placeholder"
 msgstr ""
 
-#: includes/options/admin-options.php:897
+#: includes/options/admin-options.php:899
 #: views/options/templates/field-body/upload_option.php:5
 msgid "Upload file option"
 msgstr ""
 
-#: includes/options/admin-options.php:919 views/options/global_field.php:7
+#: includes/options/admin-options.php:921 views/options/global_field.php:7
 #: views/options/templates/field-body/enabled.php:5
 msgid "Choose whether the option is enabled or not."
 msgstr ""
 
-#: includes/options/admin-options.php:937
+#: includes/options/admin-options.php:939
 #: views/options/templates/field-body/published.php:5
 msgid "Published"
 msgstr ""
 
-#: includes/options/admin-options.php:938
+#: includes/options/admin-options.php:940
 msgid "Show in summary options or not."
 msgstr ""
 
-#: includes/options/admin-options.php:956 includes/options/fields/input.php:56
+#: includes/options/admin-options.php:958 includes/options/fields/input.php:56
 #: views/options/templates/field-body/required.php:5
 #: views/quote/admin/default-form.php:34 views/quote/admin/default-form.php:48
 #: views/quote/admin/fields-edit.php:87
 msgid "Required"
 msgstr ""
 
-#: includes/options/admin-options.php:957
+#: includes/options/admin-options.php:959
 #: views/options/templates/field-body/required.php:5
 msgid "Choose whether the option is required or not."
 msgstr ""
 
-#: includes/options/admin-options.php:982 includes/options/fields/input.php:69
+#: includes/options/admin-options.php:984 includes/options/fields/input.php:69
 #: views/options/global_field.php:32
 #: views/options/templates/field-body/price_type.php:5
 msgid "Price type"
 msgstr ""
 
-#: includes/options/admin-options.php:983
+#: includes/options/admin-options.php:985
 #: views/options/templates/field-body/price_type.php:5
 msgid ""
 "Here you can choose how the price is calculated. Depending on the field "
 "there various types you can choose."
 msgstr ""
 
-#: includes/options/admin-options.php:989 includes/options/fields/input.php:77
+#: includes/options/admin-options.php:991 includes/options/fields/input.php:77
 #: views/options/templates/dimension.php:104
 msgid "Fixed amount"
 msgstr ""
 
-#: includes/options/admin-options.php:993 includes/options/fields/input.php:78
+#: includes/options/admin-options.php:995 includes/options/fields/input.php:78
 #: views/options/global_field.php:39
 msgid "Percent of the original price"
 msgstr ""
 
-#: includes/options/admin-options.php:997 includes/options/fields/input.php:79
+#: includes/options/admin-options.php:999 includes/options/fields/input.php:79
 #: views/options/global_field.php:40
 msgid "Percent of the original price + options"
 msgstr ""
 
-#: includes/options/admin-options.php:1001 includes/options/fields/input.php:80
+#: includes/options/admin-options.php:1003 includes/options/fields/input.php:80
 #: views/options/global_field.php:41
 msgid "Current value * price"
 msgstr ""
 
-#: includes/options/admin-options.php:1027
+#: includes/options/admin-options.php:1029
 msgid "Price per char"
 msgstr ""
 
-#: includes/options/admin-options.php:1043
+#: includes/options/admin-options.php:1045
 msgid "Math formula"
 msgstr ""
 
-#: includes/options/admin-options.php:1051 views/options/global_field.php:47
+#: includes/options/admin-options.php:1053 views/options/global_field.php:47
 #: views/options/templates/field-body/depend_quantity.php:5
 msgid "Depend quantity breaks"
 msgstr ""
 
-#: includes/options/admin-options.php:1070
+#: includes/options/admin-options.php:1072
 #: views/options/templates/field-body/depend_qty.php:5
 msgid "Depend quantity"
 msgstr ""
 
-#: includes/options/admin-options.php:1081
+#: includes/options/admin-options.php:1083
 msgid "No, the additional price is cart item fee"
 msgstr ""
 
-#: includes/options/admin-options.php:1085
+#: includes/options/admin-options.php:1087
 msgid "No, the additional price is fixed amount for all items"
 msgstr ""
 
-#: includes/options/admin-options.php:1093
+#: includes/options/admin-options.php:1095
 #: views/options/templates/field-body/attributes.php:51
 #: views/options/templates/field-body/attributes.php:63
 #: views/options/templates/field-body/attributes.php:131
@@ -3853,119 +3872,119 @@ msgstr ""
 msgid "Additional Price"
 msgstr ""
 
-#: includes/options/admin-options.php:1094
+#: includes/options/admin-options.php:1096
 #: views/options/templates/field-body/price.php:5
 msgid "Enter the price for this field or leave it blank for no price."
 msgstr ""
 
-#: includes/options/admin-options.php:1114
+#: includes/options/admin-options.php:1116
 #: views/options/templates/field-body/price_breaks.php:5
 msgid "Price depend quantity breaks"
 msgstr ""
 
-#: includes/options/admin-options.php:1135
-#: includes/options/admin-options.php:1434
+#: includes/options/admin-options.php:1137
+#: includes/options/admin-options.php:1436
 msgid "Attribute name"
 msgstr ""
 
-#: includes/options/admin-options.php:1218
+#: includes/options/admin-options.php:1220
 #: views/options/templates/field-body/attributes.php:5
 msgid "Attributes"
 msgstr ""
 
-#: includes/options/admin-options.php:1219
+#: includes/options/admin-options.php:1221
 #: views/options/templates/field-body/attributes.php:5
 msgid "Attributes let you define extra product data, such as size or color."
 msgstr ""
 
-#: includes/options/admin-options.php:1263 views/options/appearance.php:4
+#: includes/options/admin-options.php:1265 views/options/appearance.php:4
 #: views/options/quantity.php:18
 msgid "Display type"
 msgstr ""
 
-#: includes/options/admin-options.php:1270 views/options/quantity.php:23
+#: includes/options/admin-options.php:1272 views/options/quantity.php:23
 #: views/options/templates/field-body/attributes.php:91
 msgid "Dropdown"
 msgstr ""
 
-#: includes/options/admin-options.php:1274
+#: includes/options/admin-options.php:1276
 #: views/options/templates/field-body/attributes.php:92
 msgid "Radio button"
 msgstr ""
 
-#: includes/options/admin-options.php:1278
+#: includes/options/admin-options.php:1280
 #: views/options/templates/field-body/attributes.php:93
 msgid "Swatch"
 msgstr ""
 
-#: includes/options/admin-options.php:1282
+#: includes/options/admin-options.php:1284
 #: views/options/templates/field-body/attributes.php:94
 #: views/quote/admin/default-form.php:30 views/quote/admin/default-form.php:44
 #: views/quote/admin/fields-edit.php:34
 msgid "Label"
 msgstr ""
 
-#: includes/options/admin-options.php:1286
+#: includes/options/admin-options.php:1288
 msgid "Advanced Dropdown"
 msgstr ""
 
-#: includes/options/admin-options.php:1290
+#: includes/options/admin-options.php:1292
 msgid "Large label"
 msgstr ""
 
-#: includes/options/admin-options.php:1298
+#: includes/options/admin-options.php:1300
 msgid "Changes product image"
 msgstr ""
 
-#: includes/options/admin-options.php:1299
+#: includes/options/admin-options.php:1301
 msgid "Choose whether to change the product image."
 msgstr ""
 
-#: includes/options/admin-options.php:1317
+#: includes/options/admin-options.php:1319
 msgid "CSS Class"
 msgstr ""
 
-#: includes/options/admin-options.php:1326
+#: includes/options/admin-options.php:1328
 msgid "Show in archive pages"
 msgstr ""
 
-#: includes/options/admin-options.php:1327
+#: includes/options/admin-options.php:1329
 msgid "Show option in archive pages as swatch."
 msgstr ""
 
-#: includes/options/admin-options.php:1345
+#: includes/options/admin-options.php:1347
 msgid "Quantity selector"
 msgstr ""
 
-#: includes/options/admin-options.php:1346
+#: includes/options/admin-options.php:1348
 msgid "This will show a quantity selector for this option."
 msgstr ""
 
-#: includes/options/admin-options.php:1387
+#: includes/options/admin-options.php:1389
 msgid "Map print options"
 msgstr ""
 
-#: includes/options/admin-options.php:1412 views/options/edit-option.php:195
+#: includes/options/admin-options.php:1414 views/options/edit-option.php:220
 #: views/options/global_field.php:3
 msgid "Sides/Pages"
 msgstr ""
 
-#: includes/options/admin-options.php:1413 views/options/edit-option.php:196
+#: includes/options/admin-options.php:1415 views/options/edit-option.php:221
 msgid "Number of Pages"
 msgstr ""
 
-#: includes/options/admin-options.php:1414 views/options/edit-option.php:197
+#: includes/options/admin-options.php:1416 views/options/edit-option.php:222
 msgid "Side list"
 msgstr ""
 
-#: includes/options/admin-options.php:1415 views/options/edit-option.php:198
+#: includes/options/admin-options.php:1417 views/options/edit-option.php:223
 msgid "Front/Back Sides"
 msgstr ""
 
-#: includes/options/admin-options.php:1416 templates/gallery/artist.php:266
+#: includes/options/admin-options.php:1418 templates/gallery/artist.php:266
 #: views/detail-order.php:167 views/metabox-design-setting.php:170
-#: views/metaboxes/local-settings.php:140
-#: views/metaboxes/local-settings.php:188
+#: views/metaboxes/local-settings.php:172
+#: views/metaboxes/local-settings.php:220
 #: views/modern/sidebars/tab-elements.php:14
 #: views/modern/toolbars/toolbar-common.php:75
 #: views/modern/toolbars/toolbar-path.php:6
@@ -3981,196 +4000,196 @@ msgstr ""
 msgid "Color"
 msgstr ""
 
-#: includes/options/admin-options.php:1417 views/options/edit-option.php:200
+#: includes/options/admin-options.php:1419 views/options/edit-option.php:225
 msgid "Size"
 msgstr ""
 
-#: includes/options/admin-options.php:1418 views/options/edit-option.php:202
+#: includes/options/admin-options.php:1420 views/options/edit-option.php:227
 msgid "DPI"
 msgstr ""
 
-#: includes/options/admin-options.php:1419 views/metabox-design-setting.php:223
-#: views/options/edit-option.php:203
+#: includes/options/admin-options.php:1421 views/metabox-design-setting.php:223
+#: views/options/edit-option.php:228
 msgid "Area design shape"
 msgstr ""
 
-#: includes/options/admin-options.php:1420 views/detail-order.php:379
-#: views/options/edit-option.php:205
+#: includes/options/admin-options.php:1422 views/detail-order.php:379
+#: views/options/edit-option.php:230
 msgid "Orientation"
 msgstr ""
 
-#: includes/options/admin-options.php:1421 views/options/edit-option.php:201
+#: includes/options/admin-options.php:1423 views/options/edit-option.php:226
 msgid "Custom dimension"
 msgstr ""
 
-#: includes/options/admin-options.php:1422 views/options/edit-option.php:206
+#: includes/options/admin-options.php:1424 views/options/edit-option.php:231
 msgid "Padding"
 msgstr ""
 
-#: includes/options/admin-options.php:1423
+#: includes/options/admin-options.php:1425
 msgid "Rounded corner"
 msgstr ""
 
-#: includes/options/admin-options.php:1424 views/options/edit-option.php:215
+#: includes/options/admin-options.php:1426 views/options/edit-option.php:240
 msgid "Component"
 msgstr ""
 
-#: includes/options/admin-options.php:1427
+#: includes/options/admin-options.php:1429
 msgid ""
 "DPI is used to describe the resolution number of dots per inch in a digital "
 "print and the printing resolution of a hard copy print dot gain, which is "
 "the increase in the size of the halftone dots during printing."
 msgstr ""
 
-#: includes/options/admin-options.php:1428
+#: includes/options/admin-options.php:1430
 msgid "Vertical"
 msgstr ""
 
-#: includes/options/admin-options.php:1429
+#: includes/options/admin-options.php:1431
 msgid "Horizontal"
 msgstr ""
 
-#: includes/options/admin-options.php:1430
+#: includes/options/admin-options.php:1432
 msgid "Can not add more attribute for this option."
 msgstr ""
 
-#: includes/options/admin-options.php:1431
+#: includes/options/admin-options.php:1433
 msgid "Can not remove this attribute."
 msgstr ""
 
-#: includes/options/admin-options.php:1432 includes/settings/frontend.php:675
+#: includes/options/admin-options.php:1434 includes/settings/frontend.php:675
 #: views/editor_components/js_config.php:60
 #: views/metabox-design-setting.php:226
 #: views/modern/sidebars/tab-elements.php:310
 msgid "Rectangle"
 msgstr ""
 
-#: includes/options/admin-options.php:1433
+#: includes/options/admin-options.php:1435
 #: views/editor_components/js_config.php:65
 msgid "Ellipse"
 msgstr ""
 
-#: includes/options/admin-options.php:1435
+#: includes/options/admin-options.php:1437
 msgid "Sub attribute name"
 msgstr ""
 
-#: includes/options/admin-options.php:1436
+#: includes/options/admin-options.php:1438
 msgid "Can not copy this option."
 msgstr ""
 
-#: includes/options/admin-options.php:1437
+#: includes/options/admin-options.php:1439
 msgid "This option exist."
 msgstr ""
 
-#: includes/options/admin-options.php:1438
+#: includes/options/admin-options.php:1440
 msgid "Front side"
 msgstr ""
 
-#: includes/options/admin-options.php:1439
+#: includes/options/admin-options.php:1441
 msgid "Back side"
 msgstr ""
 
-#: includes/options/admin-options.php:1440
+#: includes/options/admin-options.php:1442
 msgid "1 side"
 msgstr ""
 
-#: includes/options/admin-options.php:1441
+#: includes/options/admin-options.php:1443
 msgid "Both sides"
 msgstr ""
 
-#: includes/options/admin-options.php:1442
+#: includes/options/admin-options.php:1444
 msgid "Are you sure you want to delete this field?"
 msgstr ""
 
-#: includes/options/admin-options.php:1443
+#: includes/options/admin-options.php:1445
 msgid "Are you sure you want to delete all fields?"
 msgstr ""
 
-#: includes/options/admin-options.php:1444
+#: includes/options/admin-options.php:1446
 msgid "Choose Image"
 msgstr ""
 
-#: includes/options/admin-options.php:1445
+#: includes/options/admin-options.php:1447
 #: views/options/templates/nbpb_com.php:12
 msgid "View name"
 msgstr ""
 
-#: includes/options/admin-options.php:1446 views/options/edit-option.php:166
+#: includes/options/admin-options.php:1448 views/options/edit-option.php:191
 msgid "PHP max input vars:"
 msgstr ""
 
-#: includes/options/admin-options.php:1447 views/options/edit-option.php:168
+#: includes/options/admin-options.php:1449 views/options/edit-option.php:193
 msgid "Please increase \"PHP max input vars\"!"
 msgstr ""
 
-#: includes/options/admin-options.php:1448
+#: includes/options/admin-options.php:1450
 msgid "Group name"
 msgstr ""
 
-#: includes/options/admin-options.php:1449
+#: includes/options/admin-options.php:1451
 msgid "Group description"
 msgstr ""
 
-#: includes/options/admin-options.php:1450
+#: includes/options/admin-options.php:1452
 msgid "Group note"
 msgstr ""
 
-#: includes/options/admin-options.php:1451
+#: includes/options/admin-options.php:1453
 #: views/options/templates/delivery.php:5
 msgid "Delivery"
 msgstr ""
 
-#: includes/options/admin-options.php:1452
+#: includes/options/admin-options.php:1454
 msgid "3 days"
 msgstr ""
 
-#: includes/options/admin-options.php:1453 views/options/edit-option.php:189
+#: includes/options/admin-options.php:1455 views/options/edit-option.php:214
 #: views/options/templates/actions.php:5
 msgid "Artwork actions"
 msgstr ""
 
-#: includes/options/admin-options.php:1454
+#: includes/options/admin-options.php:1456
 msgid "No thank you"
 msgstr ""
 
-#: includes/options/admin-options.php:1455
+#: includes/options/admin-options.php:1457
 #: templates/catalog-options-popup.php:26
 #: templates/single-product/artwork-actions.php:8
 msgid "Upload your design"
 msgstr ""
 
-#: includes/options/admin-options.php:1456
+#: includes/options/admin-options.php:1458
 msgid "Create your design online"
 msgstr ""
 
-#: includes/options/admin-options.php:1457
+#: includes/options/admin-options.php:1459
 msgid "Want the experts design for you"
 msgstr ""
 
-#: includes/options/admin-options.php:1458 views/metabox-design-setting.php:203
+#: includes/options/admin-options.php:1460 views/metabox-design-setting.php:203
 #: views/nbdesigner-box-design-setting-variation.php:132
-#: views/options/edit-option.php:208 views/options/templates/overlay.php:13
+#: views/options/edit-option.php:233 views/options/templates/overlay.php:13
 msgid "Overlay"
 msgstr ""
 
-#: includes/options/admin-options.php:1459 views/options/edit-option.php:209
+#: includes/options/admin-options.php:1461 views/options/edit-option.php:234
 #: views/options/templates/fold.php:5
 msgid "Folding Styles"
 msgstr ""
 
-#: includes/options/admin-options.php:1460
+#: includes/options/admin-options.php:1462
 msgid "Frame options"
 msgstr ""
 
-#: includes/options/admin-options.php:1461 views/options/edit-option.php:224
+#: includes/options/admin-options.php:1463 views/options/edit-option.php:249
 msgid "Number of upload files"
 msgstr ""
 
-#: includes/options/admin-options.php:1462
+#: includes/options/admin-options.php:1464
 msgid "Shape Name"
 msgstr ""
 
-#: includes/options/admin-options.php:1463
+#: includes/options/admin-options.php:1465
 msgid "Area Design Shape"
 msgstr ""
 
@@ -4178,12 +4197,12 @@ msgstr ""
 msgid "Printing option"
 msgstr ""
 
-#: includes/options/fields-list-table.php:9 views/options/edit-option.php:263
-#: views/options/options-list-table.php:12
+#: includes/options/fields-list-table.php:9 views/options/edit-option.php:289
+#: views/options/options-list-table.php:30
 msgid "Printing options"
 msgstr ""
 
-#: includes/options/fields-list-table.php:34 views/options/edit-option.php:73
+#: includes/options/fields-list-table.php:34 views/options/edit-option.php:90
 msgid "Priority"
 msgstr ""
 
@@ -4201,7 +4220,8 @@ msgstr ""
 msgid "No options avaliable."
 msgstr ""
 
-#: includes/options/fields-list-table.php:182 views/options/field.php:25
+#: includes/options/fields-list-table.php:182 views/modern/context-menu.php:107
+#: views/options/field.php:25
 msgid "Copy"
 msgstr ""
 
@@ -4383,8 +4403,8 @@ msgstr ""
 
 #: includes/quote/emails/class.send-quote.php:10
 msgid ""
-"This email is sent when an administrator performs the action \"Send the quote"
-"\" from Order Editor"
+"This email is sent when an administrator performs the action \"Send the "
+"quote\" from Order Editor"
 msgstr ""
 
 #: includes/quote/emails/class.send-quote.php:11
@@ -4474,265 +4494,273 @@ msgid "Hide/show bleed, safe zone as default in design editor."
 msgstr ""
 
 #: includes/settings/appearance.php:22
-msgid "Show ruler"
+msgid "Show cmsmart colorpallet"
 msgstr ""
 
 #: includes/settings/appearance.php:24
-msgid "Hide/show ruler as default in design editor."
+msgid "Show type colorpallet in design editor."
 msgstr ""
 
 #: includes/settings/appearance.php:33
-msgid "Show product dimensions"
+msgid "Show ruler"
 msgstr ""
 
 #: includes/settings/appearance.php:35
-msgid "Hide/show product dimensions as default in design editor."
+msgid "Hide/show ruler as default in design editor."
 msgstr ""
 
-#: includes/settings/appearance.php:44 views/modern/main-bar.php:107
-msgid "Show grid"
+#: includes/settings/appearance.php:44
+msgid "Show product dimensions"
 msgstr ""
 
 #: includes/settings/appearance.php:46
-msgid "Hide/show grid as default in design editor."
+msgid "Hide/show product dimensions as default in design editor."
 msgstr ""
 
-#: includes/settings/appearance.php:55
-msgid "Show layer dimension"
+#: includes/settings/appearance.php:55 views/modern/main-bar.php:107
+msgid "Show grid"
 msgstr ""
 
 #: includes/settings/appearance.php:57
-msgid "Show/hide layer dimension in design editor."
+msgid "Hide/show grid as default in design editor."
 msgstr ""
 
 #: includes/settings/appearance.php:66
-msgid "Show warning out of stage"
+msgid "Show layer dimension"
 msgstr ""
 
 #: includes/settings/appearance.php:68
-msgid "Hide/show warning out of stage as default in design editor."
+msgid "Show/hide layer dimension in design editor."
 msgstr ""
 
 #: includes/settings/appearance.php:77
-msgid "Show warning image low resolution"
+msgid "Show warning out of stage"
 msgstr ""
 
 #: includes/settings/appearance.php:79
-msgid "Hide/show warning image low resolution as default in design editor."
+msgid "Hide/show warning out of stage as default in design editor."
 msgstr ""
 
 #: includes/settings/appearance.php:88
-msgid "Show design area border"
+msgid "Show warning image low resolution"
 msgstr ""
 
 #: includes/settings/appearance.php:90
-msgid "Show/hide design area border."
+msgid "Hide/show warning image low resolution as default in design editor."
 msgstr ""
 
 #: includes/settings/appearance.php:99
-msgid "Hide Templates tab"
+msgid "Show design area border"
 msgstr ""
 
 #: includes/settings/appearance.php:101
-msgid "Hide Templates tab in modern layout"
+msgid "Show/hide design area border."
 msgstr ""
 
 #: includes/settings/appearance.php:110
-msgid "Hide Elements tab"
+msgid "Hide Templates tab"
 msgstr ""
 
 #: includes/settings/appearance.php:112
-msgid "Hide Elements tab in modern layout"
+msgid "Hide Templates tab in modern layout"
 msgstr ""
 
 #: includes/settings/appearance.php:121
-msgid "Hide Typography section"
+msgid "Hide Elements tab"
 msgstr ""
 
 #: includes/settings/appearance.php:123
-msgid "Hide Typography section in modern layout"
+msgid "Hide Elements tab in modern layout"
 msgstr ""
 
 #: includes/settings/appearance.php:132
-msgid "Hide manage layers tab"
+msgid "Hide Typography section"
 msgstr ""
 
 #: includes/settings/appearance.php:134
-msgid "Hide manage layers tab in modern layout"
+msgid "Hide Typography section in modern layout"
 msgstr ""
 
 #: includes/settings/appearance.php:143
-msgid "Show button change product"
+msgid "Hide manage layers tab"
+msgstr ""
+
+#: includes/settings/appearance.php:145
+msgid "Hide manage layers tab in modern layout"
 msgstr ""
 
 #: includes/settings/appearance.php:154
-msgid "Show all template sides when hover on the template"
+msgid "Show button change product"
 msgstr ""
 
 #: includes/settings/appearance.php:165
+msgid "Show all template sides when hover on the template"
+msgstr ""
+
+#: includes/settings/appearance.php:176
 msgid "Display template mode"
 msgstr ""
 
-#: includes/settings/appearance.php:172
+#: includes/settings/appearance.php:183
 msgid "Flatlist"
 msgstr ""
 
-#: includes/settings/appearance.php:177
+#: includes/settings/appearance.php:188
 msgid "Show button link to browse product templates gallery"
 msgstr ""
 
-#: includes/settings/appearance.php:179
+#: includes/settings/appearance.php:190
 msgid "This button will show in start design popup"
 msgstr ""
 
-#: includes/settings/appearance.php:189
+#: includes/settings/appearance.php:200
 msgid "Logo"
 msgstr ""
 
-#: includes/settings/appearance.php:191
+#: includes/settings/appearance.php:202
 msgid "Choose design editor logo if site logo not showing"
 msgstr ""
 
-#: includes/settings/appearance.php:199
+#: includes/settings/appearance.php:210
 msgid "Show design tool"
 msgstr ""
 
-#: includes/settings/appearance.php:202
+#: includes/settings/appearance.php:213
 msgid "Show design tool in product detail page or open new page"
 msgstr ""
 
-#: includes/settings/appearance.php:205
+#: includes/settings/appearance.php:216
 msgid "In product detail page"
 msgstr ""
 
-#: includes/settings/appearance.php:206
+#: includes/settings/appearance.php:217
 msgid "Open new page"
 msgstr ""
 
-#: includes/settings/appearance.php:210
+#: includes/settings/appearance.php:221
 msgid "Auto add to cart and redirect"
 msgstr ""
 
-#: includes/settings/appearance.php:212
+#: includes/settings/appearance.php:223
 msgid ""
 "Auto add to cart and redirect to cart page after save design in product "
 "detail page, depend option \"Show design tool: In product detail page\"."
 msgstr ""
 
-#: includes/settings/appearance.php:221
+#: includes/settings/appearance.php:232
 msgid "Position of design button"
 msgstr ""
 
-#: includes/settings/appearance.php:224
+#: includes/settings/appearance.php:235
 msgid "The position of the product button designer in the product page"
 msgstr ""
 
-#: includes/settings/appearance.php:227
+#: includes/settings/appearance.php:238
 msgid "Before add to cart button and after variantions option"
 msgstr ""
 
-#: includes/settings/appearance.php:228
+#: includes/settings/appearance.php:239
 msgid "Before variantions option"
 msgstr ""
 
-#: includes/settings/appearance.php:229
+#: includes/settings/appearance.php:240
 msgid "After add to cart button"
 msgstr ""
 
-#: includes/settings/appearance.php:230
+#: includes/settings/appearance.php:241
 msgid ""
 "Custom Hook, <code>echo do_shortcode( '[nbdesigner_button]' );</code> in "
 "product page"
 msgstr ""
 
-#: includes/settings/appearance.php:234
+#: includes/settings/appearance.php:245
 msgid "Separate artwork action buttons"
 msgstr ""
 
-#: includes/settings/appearance.php:236
+#: includes/settings/appearance.php:247
 msgid ""
 "Show artwork actions as buttons directly on the product page instead of wrap "
 "them on the popup."
 msgstr ""
 
-#: includes/settings/appearance.php:245
+#: includes/settings/appearance.php:256
 msgid "Class for \"Start design\" button in product page"
 msgstr ""
 
-#: includes/settings/appearance.php:246 includes/settings/appearance.php:280
+#: includes/settings/appearance.php:257 includes/settings/appearance.php:291
 msgid "Enter your class to show \"Start design\" button with your style."
 msgstr ""
 
-#: includes/settings/appearance.php:254
+#: includes/settings/appearance.php:265
 msgid "Hide button Add to cart before complete design"
 msgstr ""
 
-#: includes/settings/appearance.php:256
+#: includes/settings/appearance.php:267
 msgid "Only show button Add to cart after customer complete they design."
 msgstr ""
 
-#: includes/settings/appearance.php:267
+#: includes/settings/appearance.php:278
 msgid "Position of \"Start design\" button in the catalog"
 msgstr ""
 
-#: includes/settings/appearance.php:270
+#: includes/settings/appearance.php:281
 msgid "The position of the button in the catalog listing."
 msgstr ""
 
-#: includes/settings/appearance.php:273
+#: includes/settings/appearance.php:284
 msgid "Replace Add-to-Cart button"
 msgstr ""
 
-#: includes/settings/appearance.php:274
+#: includes/settings/appearance.php:285
 msgid "End of catalog item"
 msgstr ""
 
-#: includes/settings/appearance.php:275
+#: includes/settings/appearance.php:286
 msgid "Do not show"
 msgstr ""
 
-#: includes/settings/appearance.php:279
+#: includes/settings/appearance.php:290
 msgid "Class for \"Start design\" button in catalog page"
 msgstr ""
 
-#: includes/settings/appearance.php:288
+#: includes/settings/appearance.php:299
 msgid "Show options popup"
 msgstr ""
 
-#: includes/settings/appearance.php:290
+#: includes/settings/appearance.php:301
 msgid "Show/hide options popup when click start design button in archive page."
 msgstr ""
 
-#: includes/settings/appearance.php:301
+#: includes/settings/appearance.php:312
 msgid "Show customer design in cart, checkout page"
 msgstr ""
 
-#: includes/settings/appearance.php:303
+#: includes/settings/appearance.php:314
 msgid ""
 "Show the thumbnail of the customized product in the cart, checkout page."
 msgstr ""
 
-#: includes/settings/appearance.php:312
+#: includes/settings/appearance.php:323
 msgid "Show button edit design, reupload file in cart, checkout page"
 msgstr ""
 
-#: includes/settings/appearance.php:323
+#: includes/settings/appearance.php:334
 msgid "Show customer design in order"
 msgstr ""
 
-#: includes/settings/appearance.php:325
+#: includes/settings/appearance.php:336
 msgid "Show the thumbnail of the customized product in the order."
 msgstr ""
 
-#: includes/settings/appearance.php:336
+#: includes/settings/appearance.php:347
 msgid "Enable service \"Lets design your artword for you\""
 msgstr ""
 
-#: includes/settings/appearance.php:338
+#: includes/settings/appearance.php:349
 msgid "Allow the customer hire you design the artword for them."
 msgstr ""
 
-#: includes/settings/appearance.php:347
+#: includes/settings/appearance.php:358
 msgid "Show popup design option in category page"
 msgstr ""
 
@@ -5808,98 +5836,120 @@ msgstr ""
 msgid "Where do I get the Google Maps Static API key?"
 msgstr ""
 
-#: includes/settings/general.php:409
+#: includes/settings/general.php:404
+msgid "Open AI API key"
+msgstr ""
+
+#: includes/settings/general.php:405
+msgid ""
+"This feature allows customers to search for and insert OpenAI-generated "
+"content into their designs."
+msgstr ""
+
+#: includes/settings/general.php:405
+msgid "Where do I get the OpenAI API key?"
+msgstr ""
+
+#: includes/settings/general.php:414
+msgid "Show upload image and background"
+msgstr ""
+
+#: includes/settings/general.php:415
+msgid "Show upload image and background."
+msgstr ""
+
+#: includes/settings/general.php:427
 msgid "Force to upload SVG files"
 msgstr ""
 
-#: includes/settings/general.php:410
+#: includes/settings/general.php:428
 msgid ""
 "Some themes or plugins disable upload SVG files feature. This option force "
 "to upload SVG files."
 msgstr ""
 
-#: includes/settings/general.php:420
+#: includes/settings/general.php:438
 msgid "Enable log mode"
 msgstr ""
 
-#: includes/settings/general.php:421
+#: includes/settings/general.php:439
 #, php-format
 msgid "Enable log mode for debug. <a href=\"%s\">Logs</a>"
 msgstr ""
 
-#: includes/settings/general.php:431
+#: includes/settings/general.php:449
 msgid "Fix image URL after change domain"
 msgstr ""
 
-#: includes/settings/general.php:432
+#: includes/settings/general.php:450
 msgid ""
 "Fix image urls in templates or order designs after change domain or setup "
 "SSL."
 msgstr ""
 
-#: includes/settings/general.php:442
+#: includes/settings/general.php:460
 msgid "Fix lost images when export design into PDF"
 msgstr ""
 
-#: includes/settings/general.php:453
+#: includes/settings/general.php:471
 msgid "Enable Cmsmart cloud api to create PDF"
 msgstr ""
 
-#: includes/settings/general.php:464
+#: includes/settings/general.php:482
 msgid "Enable Cmsmart cloud api to export design into JPEG and PNG format"
 msgstr ""
 
-#: includes/settings/general.php:475
+#: includes/settings/general.php:493
 msgid "Cron job flush W3 Total cache"
 msgstr ""
 
-#: includes/settings/general.php:486
+#: includes/settings/general.php:504
 msgid "Site force login"
 msgstr ""
 
-#: includes/settings/general.php:488
+#: includes/settings/general.php:506
 msgid "Require user log in first."
 msgstr ""
 
-#: includes/settings/general.php:497
+#: includes/settings/general.php:515
 msgid "Redefine K_PATH_FONTS constant"
 msgstr ""
 
-#: includes/settings/general.php:499
+#: includes/settings/general.php:517
 msgid ""
 "Redefine K_PATH_FONTS constant if your server does not provide the write "
 "permission in the plugins folder."
 msgstr ""
 
-#: includes/settings/general.php:508
+#: includes/settings/general.php:526
 msgid "Disable NONCE in the submit form"
 msgstr ""
 
-#: includes/settings/general.php:510
+#: includes/settings/general.php:528
 msgid ""
 "Disable NONCE in the submit form if your site has a problem with cache "
 "plugins."
 msgstr ""
 
-#: includes/settings/general.php:519
+#: includes/settings/general.php:537
 msgid "Additional upload file types"
 msgstr ""
 
-#: includes/settings/general.php:521
+#: includes/settings/general.php:539
 #, php-format
 msgid ""
-"You can find out mime types of several common file extensions on <a href=\"%s"
-"\">this page</a>. Enter extension without dot. Example: ai: application/pdf, "
-"psd: image/vnd.adobe.photoshop, eps: application/postscript, indd: "
-"application/x-indesign"
+"You can find out mime types of several common file extensions on <a "
+"href=\"%s\">this page</a>. Enter extension without dot. Example: ai: "
+"application/pdf, psd: image/vnd.adobe.photoshop, eps: application/"
+"postscript, indd: application/x-indesign"
 msgstr ""
 
-#: includes/settings/general.php:523
+#: includes/settings/general.php:541
 #: views/metaboxes/design-guideline-panel.php:13
 msgid "Extension"
 msgstr ""
 
-#: includes/settings/general.php:524
+#: includes/settings/general.php:542
 msgid "MIME Type"
 msgstr ""
 
@@ -5968,7 +6018,7 @@ msgid "Completed"
 msgstr ""
 
 #: includes/settings/launcher.php:96 includes/settings/output.php:106
-#: views/options/edit-option.php:300
+#: views/options/edit-option.php:326
 msgid "Processing"
 msgstr ""
 
@@ -6187,8 +6237,8 @@ msgstr ""
 #: includes/settings/live-chat.php:275
 #, php-format
 msgid ""
-"Use default API key or get your own key <a href=\"%s\" target=\"_blank"
-"\">here</a>"
+"Use default API key or get your own key <a href=\"%s\" "
+"target=\"_blank\">here</a>"
 msgstr ""
 
 #: includes/settings/live-chat.php:281
@@ -6972,7 +7022,7 @@ msgstr ""
 #: includes/table/class.product.templates.php:209
 #: templates/mydesign/detail-design.php:67 views/faq/dashboard.php:103
 #: views/live-chat/admin-console.php:251 views/nbdesigner-manager-fonts.php:221
-#: views/nbdesigner-tools.php:28 views/options/edit-option.php:103
+#: views/nbdesigner-tools.php:28 views/options/edit-option.php:123
 msgid "Update"
 msgstr ""
 
@@ -7117,6 +7167,10 @@ msgstr ""
 
 #: templates/gallery/artist.php:85
 msgid "Google"
+msgstr ""
+
+#: templates/gallery/artist.php:124 views/modern/popup-contents/hotkeys.php:12
+msgid "About"
 msgstr ""
 
 #: templates/gallery/artist.php:176
@@ -7730,6 +7784,57 @@ msgstr ""
 msgid "How would you like to design your"
 msgstr ""
 
+#: templates/order-invoice.php:74
+msgid "Invoice No. :"
+msgstr ""
+
+#: templates/order-invoice.php:76
+msgid "Order No. :"
+msgstr ""
+
+#: templates/order-invoice.php:80
+msgid "Invoice Date :"
+msgstr ""
+
+#: templates/order-invoice.php:82
+msgid "Order Date :"
+msgstr ""
+
+#: templates/order-invoice.php:86
+msgid "Payment Method :"
+msgstr ""
+
+#: templates/order-invoice.php:88
+msgid "Shipping Method :"
+msgstr ""
+
+#: templates/order-invoice.php:93
+msgid "Billing Details"
+msgstr ""
+
+#: templates/order-invoice.php:105
+msgid "Shipping Details"
+msgstr ""
+
+#: templates/order-invoice.php:113
+msgid "Summary items"
+msgstr ""
+
+#: templates/order-invoice.php:150
+#: templates/quote/frontend/quote-detail.php:100
+#: views/metaboxes/design-guideline-panel.php:48
+#: views/metaboxes/local-settings.php:18
+msgid "Note:"
+msgstr ""
+
+#: templates/order-invoice.php:173
+msgid "If you have any questions, visit our support site at"
+msgstr ""
+
+#: templates/order-invoice.php:174
+msgid "contact us at"
+msgstr ""
+
 #: templates/order/download-pdf-option.php:7
 msgid "Option for PDF files"
 msgstr ""
@@ -7918,12 +8023,6 @@ msgstr ""
 
 #: templates/quote/frontend/quote-detail.php:50
 msgid "Quote Details"
-msgstr ""
-
-#: templates/quote/frontend/quote-detail.php:100
-#: views/metaboxes/design-guideline-panel.php:48
-#: views/metaboxes/local-settings.php:18
-msgid "Note:"
 msgstr ""
 
 #: templates/quote/frontend/quote-detail.php:117
@@ -8412,9 +8511,9 @@ msgid "Add Variation"
 msgstr ""
 
 #: templates/single-product/options-builder/bulk-options.php:49
-#: views/metaboxes/local-settings.php:161
-#: views/metaboxes/local-settings.php:209
-#: views/metaboxes/local-settings.php:268
+#: views/metaboxes/local-settings.php:193
+#: views/metaboxes/local-settings.php:241
+#: views/metaboxes/local-settings.php:300
 #: views/options/templates/dimension.php:132
 msgid "Delete Selected"
 msgstr ""
@@ -8517,6 +8616,7 @@ msgstr ""
 #: views/modern/color-palette.php:38
 #: views/modern/popup-contents/template-tags.php:76
 #: views/modern/sidebars/preview.php:11
+#: views/modern/sidebars/tab-background.php:76
 #: views/modern/sidebars/tab-elements.php:242
 #: views/modern/sidebars/tab-elements.php:273
 #: views/modern/sidebars/tab-product-option.php:27
@@ -8965,6 +9065,7 @@ msgid "View all"
 msgstr ""
 
 #: views/faq/dashboard.php:30 views/nbdesigner-manager-arts.php:24
+#: views/nbdesigner-manager-backgrounds.php:24
 #: views/nbdesigner-manager-fonts.php:123
 msgid "Add New"
 msgstr ""
@@ -9074,8 +9175,8 @@ msgstr ""
 msgid "No conversation found."
 msgstr ""
 
-#: views/live-chat/admin-console.php:60 views/options/edit-option.php:41
-#: views/options/options-list-table.php:13
+#: views/live-chat/admin-console.php:60 views/options/edit-option.php:58
+#: views/options/options-list-table.php:31
 msgid "Add new"
 msgstr ""
 
@@ -9522,7 +9623,7 @@ msgstr ""
 
 #: views/metabox-design-setting.php:628 views/metabox-design-setting.php:645
 #: views/metabox-design-setting.php:663 views/metabox-design-setting.php:665
-#: views/options/edit-option.php:164
+#: views/options/edit-option.php:189
 msgid "Notice"
 msgstr ""
 
@@ -9711,105 +9812,130 @@ msgstr ""
 msgid "Select clipart category"
 msgstr ""
 
-#: views/metaboxes/local-settings.php:100
-msgid "Font settings"
-msgstr ""
-
-#: views/metaboxes/local-settings.php:108
-msgid "Select font category"
-msgstr ""
-
-#: views/metaboxes/local-settings.php:122
+#: views/metaboxes/local-settings.php:109
+#: views/metaboxes/local-settings.php:154
 msgid "Background settings"
 msgstr ""
 
-#: views/metaboxes/local-settings.php:130
+#: views/metaboxes/local-settings.php:117
+msgid "Select background category"
+msgstr ""
+
+#: views/metaboxes/local-settings.php:132
+msgid "Font settings"
+msgstr ""
+
+#: views/metaboxes/local-settings.php:140
+msgid "Select font category"
+msgstr ""
+
+#: views/metaboxes/local-settings.php:162
 msgid "Select background colors"
 msgstr ""
 
-#: views/metaboxes/local-settings.php:143
-#: views/metaboxes/local-settings.php:191
+#: views/metaboxes/local-settings.php:175
+#: views/metaboxes/local-settings.php:223
 #: views/options/templates/nbpb_text.php:101
 msgid "Color name"
 msgstr ""
 
-#: views/metaboxes/local-settings.php:160
-#: views/metaboxes/local-settings.php:208
+#: views/metaboxes/local-settings.php:192
+#: views/metaboxes/local-settings.php:240
 msgid "Add Color"
 msgstr ""
 
-#: views/metaboxes/local-settings.php:170
+#: views/metaboxes/local-settings.php:202
 msgid "Foreground settings"
 msgstr ""
 
-#: views/metaboxes/local-settings.php:178
+#: views/metaboxes/local-settings.php:210
 msgid "Select foreground colors"
 msgstr ""
 
-#: views/metaboxes/local-settings.php:217
+#: views/metaboxes/local-settings.php:249
 msgid "Force foreground color for all layers"
 msgstr ""
 
-#: views/metaboxes/local-settings.php:223
+#: views/metaboxes/local-settings.php:255
 msgid "Color combination settings"
 msgstr ""
 
-#: views/metaboxes/local-settings.php:223
+#: views/metaboxes/local-settings.php:255
 msgid ""
 "This setting will be force color of all layers to foreground color, override "
 "background and foreground settings."
 msgstr ""
 
-#: views/metaboxes/local-settings.php:231
+#: views/metaboxes/local-settings.php:263
 msgid "Select combination colors"
 msgstr ""
 
-#: views/metaboxes/local-settings.php:241
+#: views/metaboxes/local-settings.php:273
 msgid "Background Color"
 msgstr ""
 
-#: views/metaboxes/local-settings.php:244
+#: views/metaboxes/local-settings.php:276
 msgid "Foreground color"
 msgstr ""
 
-#: views/metaboxes/local-settings.php:280
+#: views/metaboxes/local-settings.php:312
 msgid "Toggle panel: 3D preview"
 msgstr ""
 
-#: views/metaboxes/local-settings.php:282
+#: views/metaboxes/local-settings.php:314 views/modern/3d-preview.php:10
 msgid "3D preview"
 msgstr ""
 
-#: views/metaboxes/local-settings.php:285
+#: views/metaboxes/local-settings.php:317
 msgid "Enable 3D preview"
 msgstr ""
 
-#: views/metaboxes/local-settings.php:293
+#: views/metaboxes/local-settings.php:325
 msgid "3D model folder"
 msgstr ""
 
-#: views/metaboxes/local-settings.php:297
+#: views/metaboxes/local-settings.php:329
 msgid "View document"
 msgstr ""
 
-#: views/metaboxes/local-settings.php:301
+#: views/metaboxes/local-settings.php:333
 msgid "Custom mesh name"
 msgstr ""
 
-#: views/metaboxes/local-settings.php:310
+#: views/metaboxes/local-settings.php:342
 msgid "Toggle panel: Sticker cutline preview"
 msgstr ""
 
-#: views/metaboxes/local-settings.php:312 views/modern/main-bar.php:171
+#: views/metaboxes/local-settings.php:344 views/modern/main-bar.php:171
 msgid "Sticker cutline preview"
 msgstr ""
 
-#: views/metaboxes/local-settings.php:315
+#: views/metaboxes/local-settings.php:347
 msgid "Enable sticker cutline preview"
 msgstr ""
 
-#: views/metaboxes/local-settings.php:321
+#: views/metaboxes/local-settings.php:353
 msgid "Please set \"Bleed top-bottom\" and \"Bleed left-right\" for each side."
+msgstr ""
+
+#: views/modern/3d-preview.php:12
+msgid "Close 3D preview"
+msgstr ""
+
+#: views/modern/3d-preview.php:13
+msgid "Refresh 3D preview"
+msgstr ""
+
+#: views/modern/3d-preview.php:16
+msgid "Restore down"
+msgstr ""
+
+#: views/modern/3d-preview.php:22
+msgid "Maximize"
+msgstr ""
+
+#: views/modern/3d-preview.php:33
+msgid "Take screenshot"
 msgstr ""
 
 #: views/modern/await-for-print-options.php:6
@@ -9986,34 +10112,39 @@ msgstr ""
 msgid "Map layer with"
 msgstr ""
 
-#: views/modern/context-menu.php:94 views/modern/popup-contents/hotkeys.php:310
+#: views/modern/context-menu.php:119
+msgid "Paste"
+msgstr ""
+
+#: views/modern/context-menu.php:121
+#: views/modern/popup-contents/hotkeys.php:310
 #: views/modern/toolbars/toolbar-path.php:3 views/vista/context-menu.php:18
 msgid "Ungroup"
 msgstr ""
 
-#: views/modern/context-menu.php:98 views/vista/toolbar-page.php:8
+#: views/modern/context-menu.php:125 views/vista/toolbar-page.php:8
 msgid "Copy Design"
 msgstr ""
 
-#: views/modern/context-menu.php:103
+#: views/modern/context-menu.php:130
 msgid "Paste Design"
 msgstr ""
 
-#: views/modern/context-menu.php:110
+#: views/modern/context-menu.php:137
 #: views/modern/popup-contents/stage-grid-view.php:55
 msgid "Duplicate Stage"
 msgstr ""
 
-#: views/modern/context-menu.php:116
+#: views/modern/context-menu.php:143
 msgid "Add Stage"
 msgstr ""
 
-#: views/modern/context-menu.php:118
+#: views/modern/context-menu.php:145
 #: views/modern/popup-contents/stage-grid-view.php:59
 msgid "Delete Stage"
 msgstr ""
 
-#: views/modern/context-menu.php:124
+#: views/modern/context-menu.php:151
 #: views/modern/popup-contents/stage-grid-view.php:13
 msgid "Grid View"
 msgstr ""
@@ -10126,15 +10257,15 @@ msgstr ""
 msgid "Redo"
 msgstr ""
 
-#: views/modern/main-bar.php:186
+#: views/modern/main-bar.php:189
 msgid "Change Product"
 msgstr ""
 
-#: views/modern/main-bar.php:195 views/vista/save-template.php:5
+#: views/modern/main-bar.php:198 views/vista/save-template.php:5
 msgid "Save Template"
 msgstr ""
 
-#: views/modern/main-bar.php:199 views/modern/main-bar.php:212
+#: views/modern/main-bar.php:202 views/modern/main-bar.php:215
 #: views/modern/tour-guide.php:47
 msgid "Process"
 msgstr ""
@@ -10175,9 +10306,10 @@ msgid "Save this template"
 msgstr ""
 
 #: views/modern/popup-contents/global-template-category.php:29
-#: views/nbdesigner-manager-arts.php:23 views/nbdesigner-manager-fonts.php:122
-#: views/nbdesigner-translate.php:34 views/options/formula-popup.php:52
-#: views/vista/save-template.php:7
+#: views/nbdesigner-manager-arts.php:23
+#: views/nbdesigner-manager-backgrounds.php:23
+#: views/nbdesigner-manager-fonts.php:122 views/nbdesigner-translate.php:34
+#: views/options/formula-popup.php:52 views/vista/save-template.php:7
 msgid "Save"
 msgstr ""
 
@@ -10542,13 +10674,44 @@ msgstr ""
 msgid "infomation"
 msgstr ""
 
-#: views/modern/sidebars/tab-clipart.php:3
-msgid "Search clipart"
+#: views/modern/sidebars/tab-ai.php:110
+msgid ""
+"Enter your AI image description here, e.g., 'A futuristic cityscape at "
+"sunset with flying cars'."
 msgstr ""
 
+#: views/modern/sidebars/tab-ai.php:112
+msgid "Generate Image"
+msgstr ""
+
+#: views/modern/sidebars/tab-ai.php:113
+msgid "Loading"
+msgstr ""
+
+#: views/modern/sidebars/tab-background.php:38
+msgid "Search Background"
+msgstr ""
+
+#: views/modern/sidebars/tab-background.php:53
+msgid "Current background"
+msgstr ""
+
+#: views/modern/sidebars/tab-background.php:55
+msgid "upload background image"
+msgstr ""
+
+#: views/modern/sidebars/tab-background.php:56
+msgid "Remove current background"
+msgstr ""
+
+#: views/modern/sidebars/tab-background.php:94
 #: views/modern/sidebars/tab-clipart.php:31
 #: views/modern/sidebars/tab-photo.php:309
 msgid "Load more"
+msgstr ""
+
+#: views/modern/sidebars/tab-clipart.php:3
+msgid "Search clipart"
 msgstr ""
 
 #: views/modern/sidebars/tab-elements.php:3
@@ -10752,16 +10915,20 @@ msgstr ""
 msgid "Lock/Unlock"
 msgstr ""
 
-#: views/modern/sidebars/tab-nav.php:25 views/modern/tour-guide.php:43
+#: views/modern/sidebars/tab-nav.php:42 views/modern/tour-guide.php:43
 msgid "Photos"
 msgstr ""
 
-#: views/modern/sidebars/tab-nav.php:27 views/modern/tour-guide.php:39
+#: views/modern/sidebars/tab-nav.php:44 views/modern/tour-guide.php:39
 msgid "Elements"
 msgstr ""
 
-#: views/modern/sidebars/tab-nav.php:31 views/modern/tour-guide.php:31
+#: views/modern/sidebars/tab-nav.php:48 views/modern/tour-guide.php:31
 msgid "Layers"
+msgstr ""
+
+#: views/modern/sidebars/tab-nav.php:58
+msgid "AI Design"
 msgstr ""
 
 #: views/modern/sidebars/tab-photo.php:3
@@ -10996,6 +11163,10 @@ msgstr ""
 msgid "Top center"
 msgstr ""
 
+#: views/modern/toolbars/toolbar-common.php:138
+msgid "Top right"
+msgstr ""
+
 #: views/modern/toolbars/toolbar-common.php:140
 msgid "Middle left"
 msgstr ""
@@ -11106,6 +11277,10 @@ msgstr ""
 msgid "Enter your text"
 msgstr ""
 
+#: views/modern/toolbars/toolbar-text.php:74
+msgid "Text align"
+msgstr ""
+
 #: views/modern/toolbars/toolbar-text.php:82
 msgid "Center"
 msgstr ""
@@ -11188,6 +11363,22 @@ msgid ""
 "add to cart."
 msgstr ""
 
+#: views/modern/tour-guide.php:52
+msgid ""
+"Easily change your design’s background with a diverse image library or "
+"custom colors, creating a professional look in just a few clicks!"
+msgstr ""
+
+#: views/modern/tour-guide.php:55
+msgid "AI design"
+msgstr ""
+
+#: views/modern/tour-guide.php:56
+msgid ""
+"Generate stunning images instantly with AI-powered rendering—just enter a "
+"description, and let the AI bring your vision to life!"
+msgstr ""
+
 #: views/modern/warning.php:3
 msgid "Out Of Stage"
 msgstr ""
@@ -11229,7 +11420,7 @@ msgstr ""
 msgid "Relative position:"
 msgstr ""
 
-#: views/nbdesigner-frontend-modern.php:246
+#: views/nbdesigner-frontend-modern.php:245
 #: views/upload/advanced-upload-page.php:93
 #: views/upload/simple-upload-page.php:22
 msgid ""
@@ -11237,14 +11428,14 @@ msgid ""
 "combination."
 msgstr ""
 
-#: views/nbdesigner-frontend-modern.php:247
+#: views/nbdesigner-frontend-modern.php:246
 #: views/upload/advanced-upload-page.php:94
 #: views/upload/simple-upload-page.php:23
 msgid ""
 "Please select some product options before adding this product to your cart."
 msgstr ""
 
-#: views/nbdesigner-frontend-modern.php:248
+#: views/nbdesigner-frontend-modern.php:247
 #: views/upload/advanced-upload-page.php:95
 #: views/upload/simple-upload-page.php:24
 msgid ""
@@ -11260,20 +11451,25 @@ msgid "Clipart files"
 msgstr ""
 
 #: views/nbdesigner-manager-arts.php:15
+#: views/nbdesigner-manager-backgrounds.php:15
 msgid "Allow extensions: svg, png, jpg, jpeg"
 msgstr ""
 
 #: views/nbdesigner-manager-arts.php:16
+#: views/nbdesigner-manager-backgrounds.php:16
 msgid "Allow upload multiple files."
 msgstr ""
 
 #: views/nbdesigner-manager-arts.php:17
+#: views/nbdesigner-manager-backgrounds.php:17
 msgid ""
 "Note: if you export svg file from Illustrator, please choose Fonts type "
 "\"Convert to outline\""
 msgstr ""
 
-#: views/nbdesigner-manager-arts.php:48 views/nbdesigner-manager-fonts.php:147
+#: views/nbdesigner-manager-arts.php:48
+#: views/nbdesigner-manager-backgrounds.php:48
+#: views/nbdesigner-manager-fonts.php:147
 msgid "You don't have any category."
 msgstr ""
 
@@ -11285,7 +11481,9 @@ msgstr ""
 msgid "List arts "
 msgstr ""
 
-#: views/nbdesigner-manager-arts.php:64 views/nbdesigner-manager-fonts.php:163
+#: views/nbdesigner-manager-arts.php:64
+#: views/nbdesigner-manager-backgrounds.php:64
+#: views/nbdesigner-manager-fonts.php:163
 msgid "Select a category"
 msgstr ""
 
@@ -11298,6 +11496,7 @@ msgid "View mode black"
 msgstr ""
 
 #: views/nbdesigner-manager-arts.php:73
+#: views/nbdesigner-manager-backgrounds.php:71
 msgid "All arts"
 msgstr ""
 
@@ -11307,6 +11506,26 @@ msgstr ""
 
 #: views/nbdesigner-manager-arts.php:91
 msgid "arts"
+msgstr ""
+
+#: views/nbdesigner-manager-backgrounds.php:12
+msgid "Background files"
+msgstr ""
+
+#: views/nbdesigner-manager-backgrounds.php:52
+msgid "+ Add new background category"
+msgstr ""
+
+#: views/nbdesigner-manager-backgrounds.php:61
+msgid "List backgrounds "
+msgstr ""
+
+#: views/nbdesigner-manager-backgrounds.php:84
+msgid "You don't have any Background."
+msgstr ""
+
+#: views/nbdesigner-manager-backgrounds.php:89
+msgid "backgrounds"
 msgstr ""
 
 #: views/nbdesigner-manager-fonts.php:3
@@ -11522,14 +11741,18 @@ msgstr ""
 msgid "This tool will clear the NBD product transients cache!"
 msgstr ""
 
+#: views/nbdesigner-tools.php:141
+msgid "Create default Cmsmart pages"
+msgstr ""
+
 #: views/nbdesigner-tools.php:143
 msgid "Create pages"
 msgstr ""
 
 #: views/nbdesigner-tools.php:145
 msgid ""
-"This tool will install all the missing Cmsmart pages. Pages already "
-"defined and set up will not be replaced."
+"This tool will install all the missing Cmsmart pages. Pages already defined "
+"and set up will not be replaced."
 msgstr ""
 
 #: views/nbdesigner-tools.php:148
@@ -11754,103 +11977,103 @@ msgstr ""
 msgid "Popup fields"
 msgstr ""
 
-#: views/options/edit-option.php:40
+#: views/options/edit-option.php:57
 msgid "Edit Options"
 msgstr ""
 
-#: views/options/edit-option.php:58
+#: views/options/edit-option.php:75
 msgid "Enter title here"
 msgstr ""
 
-#: views/options/edit-option.php:85 views/options/edit-option.php:89
+#: views/options/edit-option.php:102 views/options/edit-option.php:106
 msgid "YYYY-MM-DD"
 msgstr ""
 
-#: views/options/edit-option.php:85 views/options/edit-option.php:89
+#: views/options/edit-option.php:102 views/options/edit-option.php:106
 msgid "Leave both fields blank to not restrict this options to a date range"
 msgstr ""
 
-#: views/options/edit-option.php:98
+#: views/options/edit-option.php:115
 msgid "Move to Trash"
 msgstr ""
 
-#: views/options/edit-option.php:111
+#: views/options/edit-option.php:135
 msgid "Apply for"
 msgstr ""
 
-#: views/options/edit-option.php:121
+#: views/options/edit-option.php:145
 msgid "Select the Products to apply the options"
 msgstr ""
 
-#: views/options/edit-option.php:123
+#: views/options/edit-option.php:147
 msgid "Search for a product&hellip;"
 msgstr ""
 
-#: views/options/edit-option.php:136
+#: views/options/edit-option.php:160
 msgid "Select the Categories to apply the options"
 msgstr ""
 
-#: views/options/edit-option.php:167
+#: views/options/edit-option.php:192
 msgid "Current input vars:"
 msgstr ""
 
-#: views/options/edit-option.php:176
+#: views/options/edit-option.php:201
 msgid "Import"
 msgstr ""
 
-#: views/options/edit-option.php:177
+#: views/options/edit-option.php:202
 msgid "Export"
 msgstr ""
 
-#: views/options/edit-option.php:182
+#: views/options/edit-option.php:207
 msgid "Printing fields"
 msgstr ""
 
-#: views/options/edit-option.php:185 views/options/edit-option.php:187
+#: views/options/edit-option.php:210 views/options/edit-option.php:212
 msgid "Default field"
 msgstr ""
 
-#: views/options/edit-option.php:187 views/options/edit-option.php:188
+#: views/options/edit-option.php:212 views/options/edit-option.php:213
 msgid "Add fields"
 msgstr ""
 
-#: views/options/edit-option.php:188
+#: views/options/edit-option.php:213
 msgid "Delivery date"
 msgstr ""
 
-#: views/options/edit-option.php:193
+#: views/options/edit-option.php:218
 msgid "Online design fields"
 msgstr ""
 
-#: views/options/edit-option.php:199
+#: views/options/edit-option.php:224
 msgid "Color/Material"
 msgstr ""
 
-#: views/options/edit-option.php:204 views/options/templates/shape.php:5
+#: views/options/edit-option.php:229 views/options/templates/shape.php:5
 msgid "Custom area design shape"
 msgstr ""
 
-#: views/options/edit-option.php:207
+#: views/options/edit-option.php:232
 msgid "Rounded corners"
 msgstr ""
 
-#: views/options/edit-option.php:213 views/options/edit-option.php:252
+#: views/options/edit-option.php:238 views/options/edit-option.php:278
 msgid "Product builder fields"
 msgstr ""
 
-#: views/options/edit-option.php:221 views/options/edit-option.php:257
+#: views/options/edit-option.php:246 views/options/edit-option.php:283
 msgid "Upload design file fields"
 msgstr ""
 
-#: views/options/edit-option.php:223
+#: views/options/edit-option.php:248
 msgid "Frame styles"
 msgstr ""
 
-#: views/options/edit-option.php:232
+#: views/options/edit-option.php:257
 msgid "Default fields"
 msgstr ""
 
-#: views/options/edit-option.php:246
+#: views/options/edit-option.php:272
 msgid "Online design fields which effect custom design configuaration."
 msgstr ""
 
@@ -11988,8 +12211,14 @@ msgstr ""
 #: views/options/meta-box.php:59
 #, php-format
 msgid ""
-"Please enable \"Printing option\" and create a <a target=\"_blank\" href=\"%s"
-"\">Print option</a>"
+"Please enable \"Printing option\" and create a <a target=\"_blank\" "
+"href=\"%s\">Print option</a>"
+msgstr ""
+
+#: views/options/options-list-table.php:12
+msgid ""
+"You have reached the limit of 5 options. Please recharge your account to add "
+"more options."
 msgstr ""
 
 #: views/options/options-mapping.php:77
@@ -12065,7 +12294,7 @@ msgid "Discount type base on quantity breaks"
 msgstr ""
 
 #: views/options/quantity.php:65
-#, php-format
+#, no-php-format
 msgid ""
 "This option allows you to create different price tiers for product based on "
 "the quantity a customer buys. For example, set it so a customer needs to buy "
@@ -12779,33 +13008,37 @@ msgstr ""
 msgid "Community"
 msgstr ""
 
-#: views/support.php:190
+#: views/support.php:184
+msgid "Cmsmart Stores"
+msgstr ""
+
+#: views/support.php:191
 msgid ""
-"Hello! You might be interested in the following NBDesigner NEWS and our "
+"Hello! You might be interested in the following Cmsmart NEWS and our "
 "printing solutions."
 msgstr ""
 
-#: views/support.php:194
+#: views/support.php:195
 msgid "Change log"
 msgstr ""
 
-#: views/support.php:225
+#: views/support.php:226
 msgid "Printing solution"
 msgstr ""
 
-#: views/support.php:228
+#: views/support.php:229
 msgid ""
 "You have a T-shirt printing business and you want your customers to have a "
 "great experience at your site."
 msgstr ""
 
-#: views/support.php:231
+#: views/support.php:232
 msgid ""
 "You got a big printing business and you want to manage all things clean and "
 "clear."
 msgstr ""
 
-#: views/support.php:236
+#: views/support.php:237
 #, php-format
 msgid "A %s project"
 msgstr ""

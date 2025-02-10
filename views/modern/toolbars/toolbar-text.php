@@ -71,7 +71,7 @@
     </ul>
     <ul class="nbd-main-menu menu-right">
         <li class="menu-item item-align" ng-if="settings.nbdesigner_text_align_left == 1 || settings.nbdesigner_text_align_center == 1 || settings.nbdesigner_text_align_right == 1">
-            <i class="icon-nbd icon-nbd-format-align-center nbd-tooltip-hover" title="Text align"></i>
+            <i class="icon-nbd icon-nbd-format-align-center nbd-tooltip-hover" title="<?php esc_html_e('Text align','web-to-print-online-designer'); ?>"></i>
             <div class="sub-menu" data-pos="center">
                 <ul>
                     <li ng-click="setTextAttribute('textAlign', 'left')" class="sub-menu-item"
