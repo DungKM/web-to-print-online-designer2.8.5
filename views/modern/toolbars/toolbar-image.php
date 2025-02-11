@@ -36,12 +36,12 @@
                 </div>
             </div>
             -->
-            <div class="sub-menu" data-pos="left">
+            <div class="sub-menu hellow" data-pos="left">
                 <div class="image-filters" ng-if="settings.enableImageFilter && stages[currentStage].states.isImage">
                     <div class="image-filter ng-scope" ng-click="removeImageFilters()" title="<?php esc_html_e('Clear filters','web-to-print-online-designer'); ?>">
                         <img ng-src="{{settings.assets_url + 'images/filter/filter.png'}}"" />
                     </div>
-                    <div class="image-filter" ng-click="addImageFilter( filter )" ng-class="stages[currentStage].states.filters[filter] ? 'active' : ''" ng-repeat="filter in availableFilters" title="{{filter}}">
+                    <div class="image-filter" ng-click="addImageFilter( filter )" ng-class="stages[currentStage].states.filters[filter] ? 'active' : ''" ng-repeat="filter in availableFilters" title="{{filter_language[filter]}}">
                         <img ng-src="{{settings.assets_url + 'images/filter/f_' + filter + '.png'}}"" />
                         <i class="icon-nbd icon-nbd-fomat-done" ></i>
                     </div>

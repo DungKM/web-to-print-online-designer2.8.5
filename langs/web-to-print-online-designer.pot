@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: web-to-print-online-designer\n"
-"POT-Creation-Date: 2025-02-10 18:19+0700\n"
+"POT-Creation-Date: 2025-02-11 18:02+0700\n"
 "PO-Revision-Date: 2021-03-05 14:31+0700\n"
 "Last-Translator: \n"
 "Language-Team: netbaseteam\n"
@@ -1867,7 +1867,7 @@ msgstr ""
 msgid "Manager Backgrounds"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1168 views/editor_components/js_config.php:230
+#: includes/class.nbdesigner.php:1168 views/editor_components/js_config.php:241
 #: views/modern/sidebars/tab-nav.php:37 views/modern/tour-guide.php:51
 msgid "Backgrounds"
 msgstr ""
@@ -5236,7 +5236,7 @@ msgstr ""
 msgid "Grayscale"
 msgstr ""
 
-#: includes/settings/frontend.php:586
+#: includes/settings/frontend.php:586 views/editor_components/js_config.php:94
 msgid "Invert"
 msgstr ""
 
@@ -5280,7 +5280,7 @@ msgstr ""
 msgid "Multiply"
 msgstr ""
 
-#: includes/settings/frontend.php:597
+#: includes/settings/frontend.php:597 views/editor_components/js_config.php:84
 #: views/modern/toolbars/toolbar-common.php:82
 msgid "Blur"
 msgstr ""
@@ -9050,6 +9050,42 @@ msgstr ""
 
 #: views/editor_components/js_config.php:83
 msgid "Wrong to convert font to outlines!"
+msgstr ""
+
+#: views/editor_components/js_config.php:85
+msgid "Desaturate"
+msgstr ""
+
+#: views/editor_components/js_config.php:86
+msgid "Contrast"
+msgstr ""
+
+#: views/editor_components/js_config.php:87
+msgid "Sepiatone"
+msgstr ""
+
+#: views/editor_components/js_config.php:88
+msgid "Hue"
+msgstr ""
+
+#: views/editor_components/js_config.php:89
+msgid "Luminance"
+msgstr ""
+
+#: views/editor_components/js_config.php:90
+msgid "Colorize"
+msgstr ""
+
+#: views/editor_components/js_config.php:91
+msgid "Posterize"
+msgstr ""
+
+#: views/editor_components/js_config.php:92
+msgid "Darken"
+msgstr ""
+
+#: views/editor_components/js_config.php:93
+msgid "Lighten"
 msgstr ""
 
 #: views/faq/dashboard.php:6

@@ -80,7 +80,18 @@
             supported_extensions2: "<?php esc_html_e('Supported extensions: PNG, JPE, JPEG, SVG, PDF', 'web-to-print-online-designer'); ?>",
             min_file_size: "<?php esc_html_e('Min file size: ', 'web-to-print-online-designer'); ?>",
             max_file_size: "<?php esc_html_e('Max file size: ', 'web-to-print-online-designer'); ?>",
-            wrong_to_convert_outline_font: "<?php esc_html_e('Wrong to convert font to outlines!', 'web-to-print-online-designer'); ?>"
+            wrong_to_convert_outline_font: "<?php esc_html_e('Wrong to convert font to outlines!', 'web-to-print-online-designer'); ?>",
+            blur: "<?php esc_html_e('Blur', 'web-to-print-online-designer'); ?>",
+            desaturate: "<?php esc_html_e('Desaturate', 'web-to-print-online-designer'); ?>",
+            contrast: "<?php esc_html_e('Contrast', 'web-to-print-online-designer'); ?>",
+            sepiatone: "<?php esc_html_e('Sepiatone', 'web-to-print-online-designer'); ?>",
+            hue: "<?php esc_html_e('Hue', 'web-to-print-online-designer'); ?>",
+            luminance: "<?php esc_html_e('Luminance', 'web-to-print-online-designer'); ?>",
+            colorize: "<?php esc_html_e('Colorize', 'web-to-print-online-designer'); ?>",
+            posterize: "<?php esc_html_e('Posterize', 'web-to-print-online-designer'); ?>",
+            darken: "<?php esc_html_e('Darken', 'web-to-print-online-designer'); ?>",
+            lighten:  "<?php esc_html_e('Lighten', 'web-to-print-online-designer'); ?>",
+            invert: "<?php esc_html_e('Invert', 'web-to-print-online-designer'); ?>",
         }
     };
     NBDESIGNCONFIG['default_variation_id'] = NBDESIGNCONFIG['variation_id'];
