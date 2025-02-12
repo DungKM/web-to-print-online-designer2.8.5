@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: web-to-print-online-designer\n"
-"POT-Creation-Date: 2025-02-11 18:02+0700\n"
+"POT-Creation-Date: 2025-02-12 11:34+0700\n"
 "PO-Revision-Date: 2021-03-05 14:31+0700\n"
 "Last-Translator: \n"
 "Language-Team: netbaseteam\n"
@@ -1709,7 +1709,7 @@ msgstr ""
 #: templates/loop/start-design.php:28
 #: templates/single-product/nbd-section.php:58
 #: templates/single-product/simple-upload.php:3 views/box-order-metadata.php:71
-#: views/options/templates/actions.php:22
+#: views/components/upload-design.php:3 views/options/templates/actions.php:22
 msgid "Upload design"
 msgstr ""
 
@@ -3746,7 +3746,7 @@ msgstr ""
 msgid "Number range"
 msgstr ""
 
-#: includes/options/admin-options.php:801
+#: includes/options/admin-options.php:801 views/components/upload-design.php:45
 #: views/modern/sidebars/tab-photo.php:14
 msgid "Upload"
 msgstr ""
@@ -7063,7 +7063,8 @@ msgid "Oops!"
 msgstr ""
 
 #: templates/ajax-cart-alert.php:25 templates/mobile.php:66
-#: templates/quote/frontend/quote-page.php:7 views/quote/frontend/alert.php:22
+#: templates/quote/frontend/quote-page.php:7
+#: views/components/upload-design.php:65 views/quote/frontend/alert.php:22
 msgid "Return to shop"
 msgstr ""
 
@@ -8113,6 +8114,7 @@ msgstr ""
 
 #: templates/single-product/advanced-upload.php:1100
 #: templates/single-product/simple-upload.php:30
+#: views/components/upload-design.php:62
 msgid "Complete"
 msgstr ""
 
@@ -8259,12 +8261,13 @@ msgstr ""
 
 #: templates/single-product/advanced-upload.php:1327
 #: templates/single-product/simple-upload.php:22
-#: views/product-builder/wrapper.php:186
+#: views/components/upload-design.php:37 views/product-builder/wrapper.php:186
 msgid "Allow extensions"
 msgstr ""
 
 #: templates/single-product/advanced-upload.php:1330
 #: templates/single-product/simple-upload.php:23
+#: views/components/upload-design.php:38
 msgid "Disallow extensions"
 msgstr ""
 
@@ -8661,14 +8664,14 @@ msgid "Click or drop file here"
 msgstr ""
 
 #: templates/single-product/simple-upload.php:24
-#: views/metabox-design-setting.php:595
+#: views/components/upload-design.php:39 views/metabox-design-setting.php:595
 #: views/options/templates/field-body/upload_option.php:11
 #: views/product-builder/wrapper.php:187
 msgid "Min size"
 msgstr ""
 
 #: templates/single-product/simple-upload.php:25
-#: views/metabox-design-setting.php:599
+#: views/components/upload-design.php:40 views/metabox-design-setting.php:599
 #: views/options/templates/field-body/upload_option.php:12
 #: views/product-builder/wrapper.php:188
 msgid "Max size"
@@ -8752,6 +8755,19 @@ msgstr ""
 
 #: views/box-order-metadata.php:137
 msgid "No design or uplod file in this order"
+msgstr ""
+
+#: views/components/upload-design.php:19
+#: views/modern/sidebars/tab-photo.php:130 views/vista/sidebar/images.php:88
+msgid "You need to be logged in to upload images!"
+msgstr ""
+
+#: views/components/upload-design.php:31
+msgid "Choose a file to upload"
+msgstr ""
+
+#: views/components/upload-design.php:64
+msgid "Or design your own"
 msgstr ""
 
 #: views/detail-order.php:60
@@ -10994,10 +11010,6 @@ msgstr ""
 
 #: views/modern/sidebars/tab-photo.php:117
 msgid "Freepik"
-msgstr ""
-
-#: views/modern/sidebars/tab-photo.php:130 views/vista/sidebar/images.php:88
-msgid "You need to be logged in to upload images!"
 msgstr ""
 
 #: views/modern/sidebars/tab-photo.php:141 views/vista/sidebar/images.php:95
