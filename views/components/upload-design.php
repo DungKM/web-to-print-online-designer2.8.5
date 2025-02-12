@@ -18,7 +18,7 @@
     ?>
     <p><?php esc_html_e('You need to be logged in to upload images!', 'web-to-print-online-designer'); ?></p> 
 <!--    <a class="btn btn-primary shadow nbdesigner_upload ng-binding" href="<?php //echo wp_login_url( $redirect ); ?>">{{(langs['LOGIN']) ? langs['LOGIN'] : "Login"}}</a>-->
-    <a class="btn btn-primary shadow nbdesigner_upload ng-binding" data-current-url="<?php echo $current_url; ?>" data-ui_mode="<?php echo $ui_mode; ?>" onclick="showPopupLogin(event, this)" data-url-ridirect="<?php echo $redirect; ?>" data-url-login="<?php echo $login_url; ?>" href="#">{{(langs['LOGIN']) ? langs['LOGIN'] : "Login"}}</a>
+    <a class="btn btn-primary shadow nbdesigner_upload ng-binding" data-current-url="<?php echo $current_url; ?>" data-ui_mode="<?php echo $ui_mode; ?>" onclick="showPopupLogin(event, this)" data-url-ridirect="<?php echo $redirect; ?>" data-url-login="<?php echo $login_url; ?>" href="#"><?php esc_html_e('Login', 'web-to-print-online-designer'); ?></a>
     <?php else: ?>
     <p>
         <input type="file" id="nbd-file-upload" autocomplete="off" ng-file-select="onFileUploadSelect($files)" class="inputfile"/> 
