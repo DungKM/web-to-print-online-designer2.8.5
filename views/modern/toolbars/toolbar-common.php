@@ -135,7 +135,7 @@
                     <li ng-click="translateLayer('vertical')"><i class="icon-nbd icon-nbd-fomat-vertical-align-center nbd-tooltip-hover" title="<?php esc_html_e('Center horizontal','web-to-print-online-designer'); ?>"></i></li>
                     <li ng-click="translateLayer('top-left')"><i class="icon-nbd icon-nbd-fomat-top-left nbd-tooltip-hover rotate-90" title="<?php esc_html_e('Top left','web-to-print-online-designer'); ?>"></i></li>
                     <li ng-click="translateLayer('top-center')"><i class="icon-nbd icon-nbd-fomat-top-left nbd-tooltip-hover rotate-45" title="<?php esc_html_e('Top center','web-to-print-online-designer'); ?>"></i></li>
-                    <li ng-click="translateLayer('top-right')"><i class="icon-nbd icon-nbd-fomat-top-left nbd-tooltip-hover" title="Top right"></i></li>
+                    <li ng-click="translateLayer('top-right')"><i class="icon-nbd icon-nbd-fomat-top-left nbd-tooltip-hover" title="<?php esc_html_e('Top right','web-to-print-online-designer'); ?>"></i></li>
                     <li ng-click="translateLayer('horizontal')"><i class="icon-nbd icon-nbd-fomat-vertical-align-center nbd-tooltip-hover rotate90" title="<?php esc_html_e('Center vertical','web-to-print-online-designer'); ?>"></i></li>
                     <li ng-click="translateLayer('middle-left')"><i class="icon-nbd icon-nbd-fomat-top-left nbd-tooltip-hover rotate-135" title="<?php esc_html_e('Middle left','web-to-print-online-designer'); ?>"></i></li>
                     <li ng-click="translateLayer('center')"><i class="icon-nbd icon-nbd-bottom-center nbd-tooltip-hover middle-center" title="<?php esc_html_e('Middle center','web-to-print-online-designer'); ?>"></i></li>

@@ -107,10 +107,10 @@
     </style>
     <div ng-app="nbd-app" ng-controller="MyController">
         <div class="nbd-search-ai">
-            <textarea placeholder="Enter your AI image description here, e.g., 'A futuristic cityscape at sunset with flying cars'." class="nbd-prompt-ai" ng-model="prompt"></textarea>
+        <textarea placeholder="<?php esc_html_e("Enter your AI image description here, e.g., 'A futuristic cityscape at sunset with flying cars'.", 'web-to-print-online-designer'); ?>" class="nbd-prompt-ai" ng-model="prompt"></textarea>
             <button class="nbd-btn-generate-image" ng-disabled="isLoading" ng-click="generateImage()">
-                <span ng-if="!isLoading" style="color:#f9f9f9">Generate Image</span>
-                <span ng-if="isLoading" style="color:#f9f9f9">Loading...</span></button>
+                <span ng-if="!isLoading" style="color:#f9f9f9"><?php esc_html_e('Generate Image','web-to-print-online-designer'); ?></span>
+                <span ng-if="isLoading" style="color:#f9f9f9"><?php esc_html_e('Loading','web-to-print-online-designer'); ?>...</span></button>
         </div>
         <div class="nbd-tab-main tab-main nbd-tab-scroll">
             <img ng-repeat="url in imageUrls track by $index"

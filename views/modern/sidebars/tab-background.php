@@ -50,10 +50,10 @@
                 </div>
         </div>
         <div class="nbd-items">
-            <div class="nbd-title-item">Current background</div>
+            <div class="nbd-title-item"><?php esc_html_e('Current background','web-to-print-online-designer'); ?></div>
             <img class="current_background" ng-src="{{stages[currentStage].canvas.backgroundImage.getSrc()}}" alt="">
-            <label nbd-upload-bg=uploadBackgroundImage(files) class="nbd-button upload-background">upload background image<input type="file" style="display:none"></label>
-            <button class="btn btn-range" ng-click="removeBgRera();">Remove current background</button>
+            <label nbd-upload-bg=uploadBackgroundImage(files) class="nbd-button upload-background"><?php esc_html_e('upload background image','web-to-print-online-designer'); ?><input type="file" style="display:none"></label>
+            <button class="btn btn-range" ng-click="removeBgRera();"><?php esc_html_e('Remove current background','web-to-print-online-designer'); ?></button>
         </div>
         <div class="nbd-items colors-items">
             <ul class="main-color-palette nbd-perfect-scroll" >
