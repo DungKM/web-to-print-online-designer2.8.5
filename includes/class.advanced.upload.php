@@ -177,6 +177,7 @@ class NBDesigner_Advanced_Upload {
                 }
                 $preview_width  = 500;
                 if( $ext == 'png' ){
+       
                     NBD_Image::nbdesigner_resize_imagepng( $new_path, $preview_width, $preview_width, $new_path_preview );
                 }else if( $ext == 'jpg' ){
                     $exif = @exif_read_data( $new_path );

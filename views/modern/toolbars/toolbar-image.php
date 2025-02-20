@@ -51,6 +51,9 @@
         <li class="menu-item menu-crop" ng-click="initCrop()">
             <i class="icon-nbd icon-nbd-round-crop nbd-tooltip-hover" title="<?php esc_html_e('Crop','web-to-print-online-designer'); ?>"></i>
         </li>
+        <li class="menu-item menu-bg-remove" ng-click="initBackgroundRemove()">
+            <i class="icon-nbd icon-nbd-round-crop nbd-tooltip-hover" title="<?php esc_html_e('Background remove','web-to-print-online-designer'); ?>"></i>
+        </li>
         <li class="menu-item menu-crop" ng-show="!stages[currentStage].states.isMasked">
             <i class="nbd-tooltip-hover nbd-svg-icon" title="<?php esc_html_e('Create clipping mask','web-to-print-online-designer'); ?>">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24px" height="24px"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>

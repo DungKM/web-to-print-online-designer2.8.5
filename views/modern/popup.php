@@ -23,6 +23,7 @@
     if( $task == 'create_template' ) {include 'popup-contents/global-template-category.php';};
     if( $show_nbo_option && ($settings['nbdesigner_display_product_option'] == '1' || wp_is_mobile() ) ) include 'popup-contents/printing-options.php';
     include 'popup-contents/crop-image.php';
+    include 'popup-contents/remove-background.php';
     include 'popup-contents/guidelines.php';
     include 'popup-contents/user-design.php';
     include 'popup-contents/my-templates2.php';

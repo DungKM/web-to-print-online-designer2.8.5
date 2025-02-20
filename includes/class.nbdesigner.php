@@ -90,6 +90,7 @@ class Nbdesigner_Plugin {
             'nbd_delete_order_design'                   => false,
             'nbd_check_use_logged_in'                   => true,
             'nbd_crop_image'                            => true,
+            'nbd_remove_bg'                             => true,
             'nbd_fix_pdf_font'                          => true,
             'nbd_upload_pdf_as_bg_image'                => true,
             'nbd_import_images'                         => true,
@@ -6664,7 +6665,53 @@ class Nbdesigner_Plugin {
         echo 'config';
         wp_die();
     }
-    public function nbd_crop_image(){
+        public function nbd_remove_bg() {
+            if (empty($_POST['url'])) {
+                wp_send_json(['flag' => 0, 'message' => 'Missing image URL']);
+            }
+            $url        = wc_clean($_POST['url'] );
+            $crop_dir   = ( isset( $_POST['crop_dir'] ) && $_POST['crop_dir'] != '' ) ? wc_clean( $_POST['crop_dir'] ) : '';
+            $path       = Nbdesigner_IO::convert_url_to_path( $url );
+
+
+
+
+            
+            $path_parts = pathinfo( $path );
+            if( $crop_dir == '' ){
+                $new_path = $path_parts['dirname'] . '/' . $path_parts['filename'].'_c'.time() . '.' . $path_parts['extension'];
+            } else {
+                $new_path = $path_parts['dirname'] . $crop_dir . '/' . $path_parts['basename'];
+                if( !file_exists( $path_parts['dirname'] . $crop_dir ) ){
+                    wp_mkdir_p( $path_parts['dirname'] . $crop_dir );
+                }
+            }
+           
+            $api_key = "cHh5NWtlNHB2c2Vjc3RxOnRta2c2bzJwbjZibW5ydW5xMnA5cTM2cnZvMGdzNmRubTkyYnJza2c5YTY1cW9wZDhvODg=";
+            $endpoint = "https://api.pixian.ai/api/v2/remove-background?test=true";
+            $response = wp_remote_post($endpoint, array(
+                'headers' => array(
+                    'Authorization' => 'Basic ' . $api_key,
+                ),
+                'body' => array(
+                    'image.url' =>   $new_path, 
+                ),
+            ));
+        
+            if (is_wp_error($response)) {
+                wp_send_json(['flag' => 0, 'message' => $response->get_error_message()]);
+            } else {
+                $body = json_decode(wp_remote_retrieve_body($response), true); 
+              var_dump($body);
+              die;
+                // if (!empty($body['data']['url'])) {
+                //     wp_send_json(['flag' => 1, 'url' => $body['data']['url']]); 
+                // } else {
+                //     wp_send_json(['flag' => 0, 'message' => 'API error']);
+                // }
+            }
+        }
+        public function nbd_crop_image(){
         if ( !wp_verify_nonce($_POST['nonce'], 'save-design') && NBDESIGNER_ENABLE_NONCE ) {
             die('Security error');
         }
