@@ -1,0 +1,73 @@
+
+#printcart-design .form-table td,
+#printcart-design .form-table th {
+  padding: 10px;
+}
+
+.nbd-setup-steps {
+  padding: 0 0 24px;
+  margin: 0;
+  list-style: none outside;
+  overflow: hidden;
+  color: #ccc;
+  width: 100%;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.nbd-setup-steps li {
+  width: 100%;
+  float: left;
+  padding: 0 0 0.8em;
+  margin: 0;
+  text-align: center;
+  position: relative;
+  border-bottom: 4px solid #ccc;
+  line-height: 1.4em;
+}
+
+.nbd-setup-steps li.active {
+  border-color: #404762;
+  color: #404762;
+}
+
+.nbd-setup-steps li::before {
+  content: "";
+  border: 4px solid #ccc;
+  border-radius: 100%;
+  width: 4px;
+  height: 4px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -6px;
+  margin-bottom: -8px;
+  background: #fff;
+  box-sizing: content-box;
+}
+
+.nbd-setup-steps li.active::before {
+  border-color: #404762;
+}
+
+.printcart-body {
+  min-height: 500px;
+}
+
+.nbd-text-start.mb-2.h6 {
+  font-size: 1rem; 
+  font-weight: 500; 
+  color: #333; 
+  background-color: #f8f9fa; 
+  padding: 10px; 
+  border-left: 4px solid #007bff; 
+  border-radius: 4px;
+} 
+
+.nbd-text-start.text-muted {
+  color: #6c757d; 
+  font-size: 0.9rem; 
+  font-style: italic;
+}

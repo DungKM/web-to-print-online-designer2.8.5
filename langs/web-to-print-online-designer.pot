@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: web-to-print-online-designer\n"
-"POT-Creation-Date: 2025-02-12 11:47+0700\n"
+"POT-Creation-Date: 2025-03-12 14:47+0700\n"
 "PO-Revision-Date: 2021-03-05 14:31+0700\n"
 "Last-Translator: \n"
 "Language-Team: netbaseteam\n"
@@ -388,7 +388,7 @@ msgid "You do not have permission to update data!"
 msgstr ""
 
 #: includes/class-debug.php:130 includes/class.nbdesigner.php:658
-#: includes/class.nbdesigner.php:6799 includes/launcher/class.launcher.php:1510
+#: includes/class.nbdesigner.php:6825 includes/launcher/class.launcher.php:1510
 msgid "Success!"
 msgstr ""
 
@@ -525,8 +525,8 @@ msgstr ""
 msgid "Date"
 msgstr ""
 
-#: includes/class-faq.php:263 includes/class.nbdesigner.php:1137
-#: includes/class.nbdesigner.php:1231 templates/launcher/store/tabs.php:19
+#: includes/class-faq.php:263 includes/class.nbdesigner.php:1156
+#: includes/class.nbdesigner.php:1251 templates/launcher/store/tabs.php:19
 msgid "Settings"
 msgstr ""
 
@@ -740,6 +740,7 @@ msgstr ""
 
 #: includes/class-live-chat.php:48 includes/class-setup-wizard.php:125
 #: includes/class.nbdesigner.php:984 includes/class.nbdesigner.php:1048
+#: includes/class.nbdesigner.php:1146 includes/class.nbdesigner.php:1147
 #: includes/class.request-quote.php:137
 #: includes/launcher/class.launcher.php:340 views/options/field.php:6
 #: views/options/global_field.php:20
@@ -953,7 +954,7 @@ msgstr ""
 msgid "Design Editor Setting"
 msgstr ""
 
-#: includes/class-settings.php:816 includes/class.nbdesigner.php:6744
+#: includes/class-settings.php:816 includes/class.nbdesigner.php:6770
 msgid "You do not have permission to do this action!"
 msgstr ""
 
@@ -1015,7 +1016,7 @@ msgstr ""
 msgid "Name"
 msgstr ""
 
-#: includes/class-setup-wizard.php:147 includes/class-util.php:3687
+#: includes/class-setup-wizard.php:147 includes/class-util.php:3689
 #: includes/class.request-quote.php:353 includes/class.template-mapping.php:135
 #: includes/options/fields/input.php:39 includes/quote/functions.php:67
 #: views/live-chat/frontend/wrap.php:94 views/live-chat/frontend/wrap.php:95
@@ -1027,7 +1028,8 @@ msgstr ""
 msgid "Get license key"
 msgstr ""
 
-#: includes/class-setup-wizard.php:160 views/nbdesigner-manager-fonts.php:483
+#: includes/class-setup-wizard.php:160 views/nbdesigner-general.php:70
+#: views/nbdesigner-manager-fonts.php:483
 msgid "Loading..."
 msgstr ""
 
@@ -1122,7 +1124,7 @@ msgstr ""
 msgid "File not found"
 msgstr ""
 
-#: includes/class-util.php:919 includes/class-util.php:3139
+#: includes/class-util.php:919 includes/class-util.php:3140
 msgid "Go to shop"
 msgstr ""
 
@@ -1138,111 +1140,111 @@ msgstr ""
 msgid "example.com"
 msgstr ""
 
-#: includes/class-util.php:1895
+#: includes/class-util.php:1896
 msgid "Oops! Try again later!"
 msgstr ""
 
-#: includes/class-util.php:1896
+#: includes/class-util.php:1897
 msgid "Complete!"
 msgstr ""
 
-#: includes/class-util.php:1897 templates/launcher/store/design-table.php:76
+#: includes/class-util.php:1898 templates/launcher/store/design-table.php:76
 msgid "Are you sure?"
 msgstr ""
 
-#: includes/class-util.php:1898
+#: includes/class-util.php:1899
 msgid "You will not be able to recover this file!"
 msgstr ""
 
-#: includes/class-util.php:1899
+#: includes/class-util.php:1900
 msgid "You will not be able to recover this category!"
 msgstr ""
 
-#: includes/class-util.php:1900
+#: includes/class-util.php:1901
 msgid "Please fill category name!"
 msgstr ""
 
-#: includes/class-util.php:1901
+#: includes/class-util.php:1902
 msgid "Restore your last data!"
 msgstr ""
 
-#: includes/class-util.php:1902
+#: includes/class-util.php:1903
 msgid "You will not be able to recover this language!"
 msgstr ""
 
-#: includes/class-util.php:1903
+#: includes/class-util.php:1904
 msgid "Please choose a setting!"
 msgstr ""
 
-#: includes/class-util.php:1904 views/metabox-design-setting.php:73
+#: includes/class-util.php:1905 views/metabox-design-setting.php:73
 msgid "Less setting"
 msgstr ""
 
-#: includes/class-util.php:1905
+#: includes/class-util.php:1906
 #: views/nbdesigner-box-design-setting-variation.php:23
 msgid "More setting"
 msgstr ""
 
-#: includes/class-util.php:2272
+#: includes/class-util.php:2273
 msgid "Any option"
 msgstr ""
 
-#: includes/class-util.php:2491
+#: includes/class-util.php:2492
 msgid "Continue Shopping &rarr;"
 msgstr ""
 
-#: includes/class-util.php:2491 includes/class-util.php:2493
+#: includes/class-util.php:2492 includes/class-util.php:2494
 #: includes/options/frontend-options.php:2222
 #, php-format
 msgid "%s products successfully added to your cart."
 msgstr ""
 
-#: includes/class-util.php:2493
+#: includes/class-util.php:2494
 msgid "View Cart &rarr;"
 msgstr ""
 
-#: includes/class-util.php:3140
+#: includes/class-util.php:3141
 msgid "No file defined"
 msgstr ""
 
-#: includes/class-util.php:3184 includes/class.nbdesigner.php:1751
-#: includes/class.nbdesigner.php:1915
+#: includes/class-util.php:3185 includes/class.nbdesigner.php:1771
+#: includes/class.nbdesigner.php:1935
 msgid "Your settings have been saved."
 msgstr ""
 
-#: includes/class-util.php:3188 includes/class-util.php:3198
-#: includes/class-util.php:3215 includes/class.nbdesigner.php:1755
-#: includes/class.nbdesigner.php:1764 includes/class.nbdesigner.php:1779
-#: includes/class.nbdesigner.php:1917
+#: includes/class-util.php:3189 includes/class-util.php:3199
+#: includes/class-util.php:3216 includes/class.nbdesigner.php:1775
+#: includes/class.nbdesigner.php:1784 includes/class.nbdesigner.php:1799
+#: includes/class.nbdesigner.php:1937
 msgid "Dismiss this notice."
 msgstr ""
 
-#: includes/class-util.php:3194 includes/class-util.php:3204
-#: includes/class.nbdesigner.php:1760 includes/class.nbdesigner.php:1769
+#: includes/class-util.php:3195 includes/class-util.php:3205
+#: includes/class.nbdesigner.php:1780 includes/class.nbdesigner.php:1789
 msgid "Irks! An error has occurred."
 msgstr ""
 
-#: includes/class-util.php:3211 includes/class.nbdesigner.php:1775
+#: includes/class-util.php:3212 includes/class.nbdesigner.php:1795
 msgid "Warning."
 msgstr ""
 
-#: includes/class-util.php:3655
+#: includes/class-util.php:3657
 msgid "Full name"
 msgstr ""
 
-#: includes/class-util.php:3659 includes/class.template-mapping.php:107
+#: includes/class-util.php:3661 includes/class.template-mapping.php:107
 msgid "First name"
 msgstr ""
 
-#: includes/class-util.php:3663 includes/class.template-mapping.php:111
+#: includes/class-util.php:3665 includes/class.template-mapping.php:111
 msgid "Last name"
 msgstr ""
 
-#: includes/class-util.php:3667 includes/class-util.php:3668
+#: includes/class-util.php:3669 includes/class-util.php:3670
 msgid "Company"
 msgstr ""
 
-#: includes/class-util.php:3671 includes/class-util.php:3672
+#: includes/class-util.php:3673 includes/class-util.php:3674
 #: includes/class.template-mapping.php:115
 #: includes/launcher/class.launcher.php:1423
 #: templates/launcher/store/settings.php:47 templates/mydesign/edit-info.php:54
@@ -1250,48 +1252,48 @@ msgstr ""
 msgid "Address"
 msgstr ""
 
-#: includes/class-util.php:3675 includes/class.template-mapping.php:123
+#: includes/class-util.php:3677 includes/class.template-mapping.php:123
 msgid "Postcode"
 msgstr ""
 
-#: includes/class-util.php:3676
+#: includes/class-util.php:3678
 msgid "12345"
 msgstr ""
 
-#: includes/class-util.php:3679 includes/class.template-mapping.php:119
+#: includes/class-util.php:3681 includes/class.template-mapping.php:119
 msgid "City"
 msgstr ""
 
-#: includes/class-util.php:3680
+#: includes/class-util.php:3682
 msgid "City Name"
 msgstr ""
 
-#: includes/class-util.php:3683 includes/class.request-quote.php:352
+#: includes/class-util.php:3685 includes/class.request-quote.php:352
 #: includes/class.template-mapping.php:131 includes/quote/functions.php:89
 msgid "Phone"
 msgstr ""
 
-#: includes/class-util.php:3684 includes/class-util.php:3692
+#: includes/class-util.php:3686 includes/class-util.php:3694
 msgid "+012 346 6789"
 msgstr ""
 
-#: includes/class-util.php:3688
+#: includes/class-util.php:3690
 msgid "example@website.com"
 msgstr ""
 
-#: includes/class-util.php:3691
+#: includes/class-util.php:3693
 msgid "Mobile"
 msgstr ""
 
-#: includes/class-util.php:3695 includes/class.template-mapping.php:139
+#: includes/class-util.php:3697 includes/class.template-mapping.php:139
 msgid "Website"
 msgstr ""
 
-#: includes/class-util.php:3696
+#: includes/class-util.php:3698
 msgid "website.com"
 msgstr ""
 
-#: includes/class-util.php:3699 includes/class-util.php:3700
+#: includes/class-util.php:3701 includes/class-util.php:3702
 #: includes/options/fields-list-table.php:32
 #: includes/options/fields/input.php:11 includes/options/fields/input.php:105
 #: includes/options/fields/input.php:114 views/faq/dashboard.php:14
@@ -1302,40 +1304,40 @@ msgstr ""
 msgid "Title"
 msgstr ""
 
-#: includes/class-util.php:3703 includes/class-util.php:3704
+#: includes/class-util.php:3705 includes/class-util.php:3706
 #: includes/class.template-mapping.php:127 includes/quote/functions.php:94
 msgid "Country"
 msgstr ""
 
-#: includes/class-util.php:3968
+#: includes/class-util.php:3970
 msgid ""
 "The size cannot be calculated. The directory is not accessible. Usually "
 "caused by invalid permissions."
 msgstr ""
 
-#: includes/class-util.php:3975
+#: includes/class-util.php:3977
 msgid ""
 "The directory size calculation has timed out. Usually caused by a very large "
 "number of sub-directories and files."
 msgstr ""
 
-#: includes/class-util.php:4002
+#: includes/class-util.php:4004
 msgid ""
 "Total size is not available. Some errors were encountered when determining "
 "the size of your installation."
 msgstr ""
 
-#: includes/class-util.php:4092 includes/class-util.php:4230
-#: includes/class-util.php:4235 includes/class-util.php:4271
-#: includes/class-util.php:4281 includes/launcher/class.launcher.php:1449
+#: includes/class-util.php:4094 includes/class-util.php:4232
+#: includes/class-util.php:4237 includes/class-util.php:4273
+#: includes/class-util.php:4283 includes/launcher/class.launcher.php:1449
 #: includes/options/fields-list-table.php:196
 #: includes/options/fields-list-table.php:211
 msgid "Disabled"
 msgstr ""
 
-#: includes/class-util.php:4096 includes/class-util.php:4104
-#: includes/class-util.php:4230 includes/class-util.php:4235
-#: includes/class-util.php:4271 includes/class-util.php:4281
+#: includes/class-util.php:4098 includes/class-util.php:4106
+#: includes/class-util.php:4232 includes/class-util.php:4237
+#: includes/class-util.php:4273 includes/class-util.php:4283
 #: includes/launcher/class.launcher.php:1454
 #: includes/options/admin-options.php:920 includes/options/fields/input.php:43
 #: views/options/global_field.php:7
@@ -1343,120 +1345,120 @@ msgstr ""
 msgid "Enabled"
 msgstr ""
 
-#: includes/class-util.php:4149
+#: includes/class-util.php:4151
 msgid "<b>Total size</b>: "
 msgstr ""
 
-#: includes/class-util.php:4159
+#: includes/class-util.php:4161
 msgid "Server IP Address"
 msgstr ""
 
-#: includes/class-util.php:4164
+#: includes/class-util.php:4166
 msgid "Wordpress version"
 msgstr ""
 
-#: includes/class-util.php:4169
+#: includes/class-util.php:4171
 msgid "Woocommerce version"
 msgstr ""
 
-#: includes/class-util.php:4174
+#: includes/class-util.php:4176
 msgid "Server architecture"
 msgstr ""
 
-#: includes/class-util.php:4179
+#: includes/class-util.php:4181
 msgid "Web server"
 msgstr ""
 
-#: includes/class-util.php:4184
+#: includes/class-util.php:4186
 msgid "PHP version"
 msgstr ""
 
-#: includes/class-util.php:4189
+#: includes/class-util.php:4191
 msgid "PHP max input variables"
 msgstr ""
 
-#: includes/class-util.php:4194
+#: includes/class-util.php:4196
 msgid "PHP memory limit"
 msgstr ""
 
-#: includes/class-util.php:4199
+#: includes/class-util.php:4201
 msgid "WP_MEMORY_LIMIT"
 msgstr ""
 
-#: includes/class-util.php:4204
+#: includes/class-util.php:4206
 msgid "PHP time limit"
 msgstr ""
 
-#: includes/class-util.php:4209
+#: includes/class-util.php:4211
 msgid "Upload max filesize"
 msgstr ""
 
-#: includes/class-util.php:4214
+#: includes/class-util.php:4216
 msgid "Maximum number of files allowed to be uploaded"
 msgstr ""
 
-#: includes/class-util.php:4219
+#: includes/class-util.php:4221
 msgid "PHP post max size"
 msgstr ""
 
-#: includes/class-util.php:4224
+#: includes/class-util.php:4226
 msgid "cURL version"
 msgstr ""
 
-#: includes/class-util.php:4229
+#: includes/class-util.php:4231
 msgid "URL fopen"
 msgstr ""
 
-#: includes/class-util.php:4234
+#: includes/class-util.php:4236
 msgid "Exif extension is enabled"
 msgstr ""
 
-#: includes/class-util.php:4239
+#: includes/class-util.php:4241
 msgid "ImageMagick version"
 msgstr ""
 
-#: includes/class-util.php:4244
+#: includes/class-util.php:4246
 msgid "ImageMagick version string"
 msgstr ""
 
-#: includes/class-util.php:4249
+#: includes/class-util.php:4251
 msgid "Ghostscript version"
 msgstr ""
 
-#: includes/class-util.php:4254
+#: includes/class-util.php:4256
 msgid "GD version"
 msgstr ""
 
-#: includes/class-util.php:4259
+#: includes/class-util.php:4261
 msgid "DOMDocument"
 msgstr ""
 
-#: includes/class-util.php:4265
+#: includes/class-util.php:4267
 msgid "WordPress directory location ( ABSPATH )"
 msgstr ""
 
-#: includes/class-util.php:4285
+#: includes/class-util.php:4287
 msgid "The uploads directory"
 msgstr ""
 
-#: includes/class-util.php:4286 includes/class-util.php:4291
+#: includes/class-util.php:4288 includes/class-util.php:4293
 msgid "Writable"
 msgstr ""
 
-#: includes/class-util.php:4286 includes/class-util.php:4291
+#: includes/class-util.php:4288 includes/class-util.php:4293
 msgid "Not writable"
 msgstr ""
 
-#: includes/class-util.php:4290
+#: includes/class-util.php:4292
 msgid "The plugins directory"
 msgstr ""
 
-#: includes/class-util.php:4295
+#: includes/class-util.php:4297
 msgid "WordPress Cron"
 msgstr ""
 
-#: includes/class-util.php:4296 includes/class-util.php:4301
-#: includes/class-util.php:4306 views/faq/panel.php:13
+#: includes/class-util.php:4298 includes/class-util.php:4303
+#: includes/class-util.php:4308 views/faq/panel.php:13
 #: views/metaboxes/design-guideline-panel.php:76
 #: views/metaboxes/local-settings.php:14 views/metaboxes/local-settings.php:82
 #: views/metaboxes/local-settings.php:113
@@ -1473,7 +1475,7 @@ msgstr ""
 msgid "Enable"
 msgstr ""
 
-#: includes/class-util.php:4296
+#: includes/class-util.php:4298
 #: views/options/templates/field-body/attributes-conditional.php:14
 #: views/options/templates/field-body/sub-attributes-conditional.php:14
 #: views/quote/admin/default-form.php:19 views/quote/admin/default-form.php:92
@@ -1481,15 +1483,15 @@ msgstr ""
 msgid "Disable"
 msgstr ""
 
-#: includes/class-util.php:4300
+#: includes/class-util.php:4302
 msgid "Remote post"
 msgstr ""
 
-#: includes/class-util.php:4305
+#: includes/class-util.php:4307
 msgid "Remote get"
 msgstr ""
 
-#: includes/class-util.php:4310
+#: includes/class-util.php:4312
 msgid "Cmsmart directory size"
 msgstr ""
 
@@ -1618,7 +1620,7 @@ msgstr ""
 msgid "Gallery design templates"
 msgstr ""
 
-#: includes/class.my.design.php:1235 includes/class.nbdesigner.php:3208
+#: includes/class.my.design.php:1235 includes/class.nbdesigner.php:3228
 msgid "Error adding to the cart"
 msgstr ""
 
@@ -1639,7 +1641,7 @@ msgid "Get a Quote"
 msgstr ""
 
 #: includes/class.nbdesigner.php:386 includes/class.nbdesigner.php:397
-#: includes/class.nbdesigner.php:2527
+#: includes/class.nbdesigner.php:2547
 #: templates/single-product/nbd-section.php:6
 msgid "Start Design"
 msgstr ""
@@ -1705,7 +1707,7 @@ msgstr ""
 msgid "Colors"
 msgstr ""
 
-#: includes/class.nbdesigner.php:988 includes/class.nbdesigner.php:3912
+#: includes/class.nbdesigner.php:988 includes/class.nbdesigner.php:3933
 #: templates/loop/start-design.php:28
 #: templates/single-product/nbd-section.php:58
 #: templates/single-product/simple-upload.php:3 views/box-order-metadata.php:71
@@ -1737,7 +1739,7 @@ msgstr ""
 msgid "Application"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1012 includes/class.nbdesigner.php:1176
+#: includes/class.nbdesigner.php:1012 includes/class.nbdesigner.php:1195
 msgid "Tools"
 msgstr ""
 
@@ -1822,433 +1824,433 @@ msgstr ""
 msgid "Thanks :)"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1137
+#: includes/class.nbdesigner.php:1156
 msgid "Cmsmart Settings"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1143
+#: includes/class.nbdesigner.php:1162
 msgid "Manager Products"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1143 includes/options/fields-list-table.php:36
+#: includes/class.nbdesigner.php:1162 includes/options/fields-list-table.php:36
 #: includes/options/fields-list-table.php:193 templates/gallery/sidebar.php:25
 #: views/manager-product.php:97 views/modern/popup-contents/products.php:13
 #: views/options/edit-option.php:137
 msgid "Products"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1147
+#: includes/class.nbdesigner.php:1166
 msgid "Detail Design Order"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1152
+#: includes/class.nbdesigner.php:1171
 msgid "Manager Cliparts"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1152 views/editor_components/js_config.php:56
+#: includes/class.nbdesigner.php:1171 views/editor_components/js_config.php:56
 #: views/modern/sidebars/tab-nav.php:41 views/nbdesigner-manager-arts.php:2
 msgid "Cliparts"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1157
+#: includes/class.nbdesigner.php:1176
 msgid "Manager Fonts"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1157 views/nbdesigner-manager-fonts.php:2
+#: includes/class.nbdesigner.php:1176 views/nbdesigner-manager-fonts.php:2
 msgid "Fonts"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1162 views/nbdesigner-translate.php:3
+#: includes/class.nbdesigner.php:1181 views/nbdesigner-translate.php:3
 msgid "Frontend Translate"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1168
+#: includes/class.nbdesigner.php:1187
 #: views/nbdesigner-manager-backgrounds.php:2
 msgid "Manager Backgrounds"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1168 views/editor_components/js_config.php:241
+#: includes/class.nbdesigner.php:1187 views/editor_components/js_config.php:241
 #: views/modern/sidebars/tab-nav.php:37 views/modern/tour-guide.php:51
 msgid "Backgrounds"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1173
+#: includes/class.nbdesigner.php:1192
 msgid "System info"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1176
+#: includes/class.nbdesigner.php:1195
 msgid "Cmsmart Tools"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1182
+#: includes/class.nbdesigner.php:1201
 msgid "Support Ticket"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1182
+#: includes/class.nbdesigner.php:1201
 msgid "Ticket"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1329
+#: includes/class.nbdesigner.php:1349
 msgid "You do not have permission to add/edit font category!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1343 includes/class.nbdesigner.php:1363
+#: includes/class.nbdesigner.php:1363 includes/class.nbdesigner.php:1383
 msgid "Category has been added/edited successfully!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1350
+#: includes/class.nbdesigner.php:1370
 msgid "You do not have permission to add/edit clipart category!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1370
+#: includes/class.nbdesigner.php:1390
 msgid "You do not have permission to delete font category!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1382 includes/class.nbdesigner.php:1401
+#: includes/class.nbdesigner.php:1402 includes/class.nbdesigner.php:1421
 msgid "Category has been delete successfully!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1389
+#: includes/class.nbdesigner.php:1409
 msgid "You do not have permission to delete clipart category!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1413
+#: includes/class.nbdesigner.php:1433
 msgid "You do not have permission to add font!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1461
+#: includes/class.nbdesigner.php:1481
 msgid "The google fonts have been added successfully!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1532
+#: includes/class.nbdesigner.php:1552
 msgid "Error while upload font."
 msgstr ""
 
-#: includes/class.nbdesigner.php:1537 includes/class.nbdesigner.php:1853
+#: includes/class.nbdesigner.php:1557 includes/class.nbdesigner.php:1873
 msgid "Incorrect file extensions."
 msgstr ""
 
-#: includes/class.nbdesigner.php:1548 includes/class.nbdesigner.php:1558
+#: includes/class.nbdesigner.php:1568 includes/class.nbdesigner.php:1578
 msgid "Your font has been saved."
 msgstr ""
 
-#: includes/class.nbdesigner.php:1560
+#: includes/class.nbdesigner.php:1580
 msgid "Please choose font file or font name."
 msgstr ""
 
-#: includes/class.nbdesigner.php:1696
+#: includes/class.nbdesigner.php:1716
 msgid "You do not have permission to delete font!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1711
+#: includes/class.nbdesigner.php:1731
 msgid "The font has been deleted successfully!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1718
+#: includes/class.nbdesigner.php:1738
 msgid "You do not have permission to delete clipart!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1736
+#: includes/class.nbdesigner.php:1756
 msgid "Clipart has been deleted successfully!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1837
+#: includes/class.nbdesigner.php:1857
 msgid "Failed to copy."
 msgstr ""
 
-#: includes/class.nbdesigner.php:1848
+#: includes/class.nbdesigner.php:1868
 msgid "Your art has been saved."
 msgstr ""
 
-#: includes/class.nbdesigner.php:1850
+#: includes/class.nbdesigner.php:1870
 #, php-format
 msgid ""
 "Error while upload art, please try again! <a target=\"_blank\" "
 "href=\"%s\">Force upload SVG</a>"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1924
+#: includes/class.nbdesigner.php:1944
 msgid "Setting Cmsmart"
 msgstr ""
 
-#: includes/class.nbdesigner.php:1925 includes/class.nbdesigner.php:1926
+#: includes/class.nbdesigner.php:1945 includes/class.nbdesigner.php:1946
 msgid "Customer Design"
 msgstr ""
 
-#: includes/class.nbdesigner.php:2306
+#: includes/class.nbdesigner.php:2326
 msgid "Missing necessary information!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:2310
+#: includes/class.nbdesigner.php:2330
 msgid "Incorrect information, check again license key"
 msgstr ""
 
-#: includes/class.nbdesigner.php:2314 includes/class.nbdesigner.php:2386
+#: includes/class.nbdesigner.php:2334 includes/class.nbdesigner.php:2406
 msgid "Incorrect License key"
 msgstr ""
 
-#: includes/class.nbdesigner.php:2318
+#: includes/class.nbdesigner.php:2338
 msgid "License key is locked "
 msgstr ""
 
-#: includes/class.nbdesigner.php:2322
+#: includes/class.nbdesigner.php:2342
 msgid "License key have expired"
 msgstr ""
 
-#: includes/class.nbdesigner.php:2326
+#: includes/class.nbdesigner.php:2346
 msgid "Link your website incorrect"
 msgstr ""
 
-#: includes/class.nbdesigner.php:2330
+#: includes/class.nbdesigner.php:2350
 msgid "License key can using"
 msgstr ""
 
-#: includes/class.nbdesigner.php:2334
+#: includes/class.nbdesigner.php:2354
 msgid "Domain has been added successfully"
 msgstr ""
 
-#: includes/class.nbdesigner.php:2338
+#: includes/class.nbdesigner.php:2358
 msgid "Exceed your number of domain license"
 msgstr ""
 
-#: includes/class.nbdesigner.php:2342
+#: includes/class.nbdesigner.php:2362
 msgid "Unsuccessfully active license key"
 msgstr ""
 
-#: includes/class.nbdesigner.php:2354
+#: includes/class.nbdesigner.php:2374
 msgid "Try again later!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:2357
+#: includes/class.nbdesigner.php:2377
 msgid "Please fill your license!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:2380
+#: includes/class.nbdesigner.php:2400
 msgid "Missing necessary information"
 msgstr ""
 
-#: includes/class.nbdesigner.php:2383
+#: includes/class.nbdesigner.php:2403
 msgid "Incorrect information"
 msgstr ""
 
-#: includes/class.nbdesigner.php:2390
+#: includes/class.nbdesigner.php:2410
 msgid "Remove license key Successfully"
 msgstr ""
 
-#: includes/class.nbdesigner.php:2395
+#: includes/class.nbdesigner.php:2415
 msgid "Remove license key Unsuccessfully!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:2529
+#: includes/class.nbdesigner.php:2549
 #: templates/single-product/nbd-section.php:9
 msgid "Start and upload design"
 msgstr ""
 
-#: includes/class.nbdesigner.php:2532
+#: includes/class.nbdesigner.php:2552
 #: templates/single-product/nbd-section.php:12
 #: views/metabox-design-setting.php:39
 msgid "Upload Design"
 msgstr ""
 
-#: includes/class.nbdesigner.php:2824 includes/class.nbdesigner.php:2827
+#: includes/class.nbdesigner.php:2844 includes/class.nbdesigner.php:2847
 msgid "Your server not allow creat folder"
 msgstr ""
 
-#: includes/class.nbdesigner.php:2852
+#: includes/class.nbdesigner.php:2872
 msgid "Your server not allow writable file"
 msgstr ""
 
-#: includes/class.nbdesigner.php:3308 includes/class.nbdesigner.php:5325
+#: includes/class.nbdesigner.php:3328 includes/class.nbdesigner.php:5351
 msgid "Item not exist in cart"
 msgstr ""
 
-#: includes/class.nbdesigner.php:3444
+#: includes/class.nbdesigner.php:3464
 msgid "You have not permission to create or edit template"
 msgstr ""
 
-#: includes/class.nbdesigner.php:3745 includes/launcher/class.launcher.php:343
+#: includes/class.nbdesigner.php:3766 includes/launcher/class.launcher.php:343
 #: includes/launcher/class.launcher.php:1327
 #: includes/launcher/class.launcher.php:1328
 #: views/modern/sidebars/tab-nav.php:5 views/vista/toolbar.php:8
 msgid "Design"
 msgstr ""
 
-#: includes/class.nbdesigner.php:3780 includes/class.nbdesigner.php:6530
+#: includes/class.nbdesigner.php:3801 includes/class.nbdesigner.php:6556
 #: templates/single-product/nbd-section.php:66 views/box-order-metadata.php:38
 msgid "Custom design"
 msgstr ""
 
-#: includes/class.nbdesigner.php:3815 includes/class.nbdesigner.php:6545
+#: includes/class.nbdesigner.php:3836 includes/class.nbdesigner.php:6571
 #: templates/mydesign/detail-design.php:47 views/detail-order.php:62
 msgid "Edit design"
 msgstr ""
 
-#: includes/class.nbdesigner.php:3849 templates/mydesign/detail-design.php:49
+#: includes/class.nbdesigner.php:3870 templates/mydesign/detail-design.php:49
 msgid "Add design"
 msgstr ""
 
-#: includes/class.nbdesigner.php:3857 includes/class.nbdesigner.php:6574
+#: includes/class.nbdesigner.php:3878 includes/class.nbdesigner.php:6600
 #: templates/gallery/main.php:49 templates/single-product/nbd-section.php:90
 msgid "Upload file"
 msgstr ""
 
-#: includes/class.nbdesigner.php:3895 includes/class.nbdesigner.php:6606
+#: includes/class.nbdesigner.php:3916 includes/class.nbdesigner.php:6632
 msgid "Reupload design"
 msgstr ""
 
-#: includes/class.nbdesigner.php:3931 includes/class.nbdesigner.php:6611
+#: includes/class.nbdesigner.php:3952 includes/class.nbdesigner.php:6637
 #: templates/single-product/nbd-section.php:93
 msgid "Extra price for design"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4140
+#: includes/class.nbdesigner.php:4161
 msgid ""
 "You don't change anything? Or an error occured saving the data, please "
 "refresh this page and check if changes took place."
 msgstr ""
 
-#: includes/class.nbdesigner.php:4143
+#: includes/class.nbdesigner.php:4164
 msgid "You haven't chosen a item."
 msgstr ""
 
-#: includes/class.nbdesigner.php:4152
+#: includes/class.nbdesigner.php:4173
 msgid "The reason cannot be empty"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4154 includes/class.nbdesigner.php:4164
+#: includes/class.nbdesigner.php:4175 includes/class.nbdesigner.php:4185
 msgid "Error while sending mail"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4159
+#: includes/class.nbdesigner.php:4180
 msgid "Your design accepted"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4159
+#: includes/class.nbdesigner.php:4180
 msgid "Your design rejected"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4183
+#: includes/class.nbdesigner.php:4204
 msgid " - Order "
 msgstr ""
 
-#: includes/class.nbdesigner.php:4194
+#: includes/class.nbdesigner.php:4215
 msgid "Approve designs - Order "
 msgstr ""
 
-#: includes/class.nbdesigner.php:4386
+#: includes/class.nbdesigner.php:4407
 msgid "File size too small or large!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4387
+#: includes/class.nbdesigner.php:4408
 msgid "Extension not allowed!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4388
+#: includes/class.nbdesigner.php:4409
 msgid "Min DPI required for JPG"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4416 includes/class.nbdesigner.php:4511
+#: includes/class.nbdesigner.php:4437 includes/class.nbdesigner.php:4532
 msgid "Upload success !"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4449 includes/class.nbdesigner.php:4485
-#: includes/class.nbdesigner.php:4514 includes/class.nbdesigner.php:6802
+#: includes/class.nbdesigner.php:4470 includes/class.nbdesigner.php:4506
+#: includes/class.nbdesigner.php:4535 includes/class.nbdesigner.php:6828
 msgid "Error occurred with file upload!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4463
+#: includes/class.nbdesigner.php:4484
 msgid "Please select at least one image!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4490
+#: includes/class.nbdesigner.php:4511
 msgid "Too large file!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4496 includes/class.nbdesigner.php:6805
+#: includes/class.nbdesigner.php:4517 includes/class.nbdesigner.php:6831
 msgid "Invalid file format!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4503
+#: includes/class.nbdesigner.php:4524
 msgid "Image resolution too low!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4542 includes/class.nbdesigner.php:6791
+#: includes/class.nbdesigner.php:4563 includes/class.nbdesigner.php:6817
 msgid "Error occurred when convert pdf!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4555
+#: includes/class.nbdesigner.php:4576
 msgid "Error occurred when convert pdf!!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4733
+#: includes/class.nbdesigner.php:4754
 msgid "NBD Gallery Page"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4736
+#: includes/class.nbdesigner.php:4757
 msgid "NBD Design Editor Page"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4739
+#: includes/class.nbdesigner.php:4760
 msgid "NBD Designer gallery Page"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4742
+#: includes/class.nbdesigner.php:4763
 msgid "NBD Product builder Page"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4745
+#: includes/class.nbdesigner.php:4766
 msgid "NBD Studio Page"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4768
+#: includes/class.nbdesigner.php:4789
 msgid "You do not have permission to edit language!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4800
+#: includes/class.nbdesigner.php:4821
 msgid "Update language success!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4803
+#: includes/class.nbdesigner.php:4824
 msgid "Update language failed!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4823
+#: includes/class.nbdesigner.php:4844
 msgid "You do not have permission to delete language!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4844
+#: includes/class.nbdesigner.php:4865
 msgid "Delete language success!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4849
+#: includes/class.nbdesigner.php:4870
 msgid "Oops! Can not delete primary language!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4856
+#: includes/class.nbdesigner.php:4877
 msgid "You do not have permission to create language!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4902
+#: includes/class.nbdesigner.php:4923
 msgid "Your language has been created successfully!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:4958 includes/class.nbdesigner.php:4988
+#: includes/class.nbdesigner.php:4979 includes/class.nbdesigner.php:5009
 msgid "Invalid data"
 msgstr ""
 
-#: includes/class.nbdesigner.php:5223
+#: includes/class.nbdesigner.php:5249
 msgid "Missing product!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:5227
+#: includes/class.nbdesigner.php:5253
 msgid "Missing information!"
 msgstr ""
 
-#: includes/class.nbdesigner.php:6333
+#: includes/class.nbdesigner.php:6359
 msgid "Has Design"
 msgstr ""
 
-#: includes/class.nbdesigner.php:6469
+#: includes/class.nbdesigner.php:6495
 #: includes/options/frontend-options.php:2125
 #, php-format
 msgid ""
@@ -2256,28 +2258,28 @@ msgid ""
 "the item is available and in stock"
 msgstr ""
 
-#: includes/class.nbdesigner.php:6472
+#: includes/class.nbdesigner.php:6498
 #: includes/options/frontend-options.php:2128
 msgid "No product quantities entered."
 msgstr ""
 
-#: includes/class.nbdesigner.php:6537 includes/class.nbdesigner.php:6598
+#: includes/class.nbdesigner.php:6563 includes/class.nbdesigner.php:6624
 msgid "(Rejected! Click "
 msgstr ""
 
-#: includes/class.nbdesigner.php:6537 includes/class.nbdesigner.php:6598
+#: includes/class.nbdesigner.php:6563 includes/class.nbdesigner.php:6624
 msgid "here "
 msgstr ""
 
-#: includes/class.nbdesigner.php:6537 includes/class.nbdesigner.php:6598
+#: includes/class.nbdesigner.php:6563 includes/class.nbdesigner.php:6624
 msgid " to design again"
 msgstr ""
 
-#: includes/class.nbdesigner.php:6540 includes/class.nbdesigner.php:6601
+#: includes/class.nbdesigner.php:6566 includes/class.nbdesigner.php:6627
 msgid "(Approved!)"
 msgstr ""
 
-#: includes/class.nbdesigner.php:6788
+#: includes/class.nbdesigner.php:6814
 msgid "Error occurred when update media attachment!"
 msgstr ""
 
@@ -2682,7 +2684,7 @@ msgstr ""
 #: includes/class.template-tags.php:254
 #: includes/table/class.product.templates.php:10
 #: views/editor_components/js_config.php:78
-#: views/modern/sidebars/tab-nav.php:19
+#: views/modern/sidebars/tab-nav.php:19 views/nbdesigner-general.php:39
 msgid "Templates"
 msgstr ""
 
@@ -4197,8 +4199,8 @@ msgstr ""
 msgid "Printing option"
 msgstr ""
 
-#: includes/options/fields-list-table.php:9 views/options/edit-option.php:289
-#: views/options/options-list-table.php:30
+#: includes/options/fields-list-table.php:9 views/nbdesigner-general.php:47
+#: views/options/edit-option.php:289 views/options/options-list-table.php:30
 msgid "Printing options"
 msgstr ""
 
@@ -11495,6 +11497,59 @@ msgstr ""
 msgid "No product has been selected"
 msgstr ""
 
+#: views/nbdesigner-general.php:12
+msgid ""
+"These are sample products that we have pre-configured with printing options "
+"and templates to help you easily set up a product."
+msgstr ""
+
+#: views/nbdesigner-general.php:66 views/options/edit-option.php:201
+msgid "Import"
+msgstr ""
+
+#: views/nbdesigner-general.php:82 views/nbdesigner-general.php:118
+msgid "Import products"
+msgstr ""
+
+#: views/nbdesigner-general.php:88
+msgid ""
+"Do not turn off the page while importing products. It may take a few minutes."
+msgstr ""
+
+#: views/nbdesigner-general.php:125
+msgid ""
+"Some products have already been imported and may be duplicated. Are you sure "
+"you want to proceed with the import?"
+msgstr ""
+
+#: views/nbdesigner-general.php:128
+msgid " (If you proceed, this will not affect the existing products)"
+msgstr ""
+
+#: views/nbdesigner-general.php:136
+msgid "Skip"
+msgstr ""
+
+#: views/nbdesigner-general.php:139
+msgid "Import product"
+msgstr ""
+
+#: views/nbdesigner-general.php:151
+msgid "Do you want to leave this page?"
+msgstr ""
+
+#: views/nbdesigner-general.php:157
+msgid "Do you want to stay on this page or go to the product page?"
+msgstr ""
+
+#: views/nbdesigner-general.php:162
+msgid "Stay on this page"
+msgstr ""
+
+#: views/nbdesigner-general.php:165
+msgid "Go to product page"
+msgstr ""
+
 #: views/nbdesigner-manager-arts.php:12
 msgid "Clipart files"
 msgstr ""
@@ -12064,10 +12119,6 @@ msgstr ""
 
 #: views/options/edit-option.php:192
 msgid "Current input vars:"
-msgstr ""
-
-#: views/options/edit-option.php:201
-msgid "Import"
 msgstr ""
 
 #: views/options/edit-option.php:202

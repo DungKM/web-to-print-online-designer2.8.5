@@ -650,7 +650,7 @@ class Nbdesigner_Plugin {
         wp_enqueue_style( array( 'nbd-general' ) );
 
         wp_register_style( 'admin_nbdesigner', NBDESIGNER_CSS_URL . 'admin-nbdesigner.css', array('wp-color-picker'), NBDESIGNER_VERSION );
-        if ( in_array( $hook, apply_filters( 'nbd_admin_hooks_need_asset', array( 'post.php', 'post-new.php', 'cmsmart_page_nbdesigner_manager_fonts', 'cmsmart_page_nbdesigner_manager_arts', 'toplevel_page_nbdesigner', 'cmsmart_page_nbdesigner_manager_product', 'toplevel_page_nbdesigner_shoper', 'cmsmart_page_nbdesigner_frontend_translate', 'cmsmart_page_nbdesigner_tools', 'cmsmart_page_manage_color', 'cmsmart_page_nbdesigner_manager_backgrounds' ) ) ) ){
+        if ( in_array( $hook, apply_filters( 'nbd_admin_hooks_need_asset', array( 'post.php', 'post-new.php', 'cmsmart_page_nbdesigner_manager_fonts', 'cmsmart_page_nbdesigner_manager_arts', 'toplevel_page_nbdesigner','cmsmart_page_nbdesigner_settings', 'cmsmart_page_nbdesigner_manager_product', 'toplevel_page_nbdesigner_shoper', 'cmsmart_page_nbdesigner_frontend_translate', 'cmsmart_page_nbdesigner_tools', 'cmsmart_page_manage_color', 'cmsmart_page_nbdesigner_manager_backgrounds' ) ) ) ){
             wp_register_script( 'admin_nbdesigner', NBDESIGNER_JS_URL . 'admin-nbdesigner.js', array('jquery', 'jquery-ui-resizable', 'jquery-ui-draggable', 'jquery-ui-autocomplete', 'wp-color-picker', 'jquery-ui-datepicker', 'jquery-ui-sortable' ), NBDESIGNER_VERSION );
             wp_localize_script( 'admin_nbdesigner', 'admin_nbds', array(
                 'url'               => admin_url( 'admin-ajax.php' ),
@@ -703,7 +703,7 @@ class Nbdesigner_Plugin {
             wp_enqueue_style( 'nbdesigner_sweetalert_css', NBDESIGNER_CSS_URL . 'sweetalert.css' );
             wp_enqueue_script( 'nbdesigner_sweetalert_js', NBDESIGNER_JS_URL . 'sweetalert.min.js' , array( 'jquery' ) );
         }
-        if( $hook == 'toplevel_page_nbdesigner' ){
+        if( $hook == 'cmsmart_page_nbdesigner_settings' ){
             wp_enqueue_media();
             wp_enqueue_style( 'nbdesigner_settings_css', NBDESIGNER_CSS_URL . 'admin-settings.css', array(), NBDESIGNER_VERSION );
         }
@@ -979,7 +979,7 @@ class Nbdesigner_Plugin {
         return $mimes;
     }
     public function nbdesigner_settings(){
-        $page_id    = 'nbdesigner';
+        $page_id    = 'nbdesigner_settings';
         $tabs       = apply_filters('nbdesigner_settings_tabs', array(
             'general'           => '<span class="dashicons dashicons-admin-generic"></span> ' . esc_html__('General', 'web-to-print-online-designer'),
             'appearance'        => '<span class="dashicons dashicons-admin-appearance"></span> '. esc_html__('Appearance', 'web-to-print-online-designer'),
@@ -1131,10 +1131,29 @@ class Nbdesigner_Plugin {
         if( isset( $_POST['nbdesigner_design_layout'] ) ){
             $layout = sanitize_text_field( $_POST['nbdesigner_design_layout'] );
         };
-        if( current_user_can( 'manage_nbd_setting' ) ) {
-            add_menu_page( 'Nbdesigner', 'Cmsmart', 'manage_nbd_setting', 'nbdesigner', array( $this, 'nbdesigner_settings'), NBDESIGNER_PLUGIN_URL . 'assets/images/logo-icon-r.svg', 26 );
+        if( current_user_can( 'manage_nbd_general' ) ) {
+            add_menu_page( 
+                'Nbdesigner', 
+                'Cmsmart', 
+                'manage_nbd_general', 
+                'nbdesigner', 
+                array( $this, 'nbd_general'), 
+                NBDESIGNER_PLUGIN_URL . 'assets/images/logo-icon-r.svg', 
+                26 
+            );
             $nbdesigner_manage = add_submenu_page(
-                'nbdesigner', esc_html__('Cmsmart Settings', 'web-to-print-online-designer'), esc_html__('Settings', 'web-to-print-online-designer'), 'manage_nbd_setting', 'nbdesigner', array( $this, 'nbdesigner_settings' )
+                'nbdesigner',  
+                esc_html__('General', 'web-to-print-online-designer'),  
+                esc_html__('General', 'web-to-print-online-designer'),  
+                'manage_nbd_general',  
+                'nbdesigner',  
+                array( $this, 'nbd_general' )  
+            );
+            add_action( 'load-'.$nbdesigner_manage, array( 'Nbdesigner_Helper', 'general_helper' ) );
+        }
+        if( current_user_can( 'manage_nbd_setting' ) ) {
+            $nbdesigner_manage = add_submenu_page(
+                'nbdesigner', esc_html__('Cmsmart Settings', 'web-to-print-online-designer'), esc_html__('Settings', 'web-to-print-online-designer'), 'manage_nbd_setting', 'nbdesigner_settings', array( $this, 'nbdesigner_settings' )
             );
             add_action( 'load-'.$nbdesigner_manage, array( 'Nbdesigner_Helper', 'settings_helper' ) );
         }
@@ -1182,6 +1201,7 @@ class Nbdesigner_Plugin {
                 'nbdesigner', esc_html__( 'Support Ticket', 'web-to-print-online-designer' ), esc_html__( 'Ticket', 'web-to-print-online-designer' ), 'manage_nbd_setting', 'nbd_ticket', array( $this, 'nbd_ticket' )
             );
         }
+       
     }
     public function nbdesigner_template_screen_option() {
         if( isset( $_GET['view'] ) && $_GET['view'] == 'templates' ){
@@ -3539,7 +3559,8 @@ class Nbdesigner_Plugin {
             24   => 'delete_nbd_template',
             25   => 'sell_nbd_design',
             26   => 'update_nbd_data',
-            27   => 'manage_nbd_setting'
+            27   => 'manage_nbd_setting',
+            28   => 'manage_nbd_general'
         );
         $admin_role = get_role('administrator');
         if (null != $admin_role) {
@@ -5017,6 +5038,11 @@ class Nbdesigner_Plugin {
         $nbd_news   = json_decode( $remote['body'] );
         include_once( NBDESIGNER_PLUGIN_DIR . 'views/ticket.php' );
     }
+    public function nbd_general()
+    {
+        include_once(NBDESIGNER_PLUGIN_DIR . 'views/nbdesigner-general.php');
+    }
+
     public function nbdesigner_variation_settings_fields( $loop, $variation_data, $variation ){
         $vid                    = $variation->ID;
         $parent_id              = $variation->post_parent;

@@ -1,4 +1,4 @@
-#nbdesigner-options-form-nbdesigner, .nbd-license {
+#nbdesigner-options-form-nbdesigner_settings, .nbd-license {
     margin-right: 15px;
 }
 .nbd_support {
@@ -13,27 +13,27 @@
     margin-top: -8px;
     z-index: 2;  
 }
-#nbdesigner-options-form-nbdesigner .nav-tab-wrapper {
+#nbdesigner-options-form-nbdesigner_settings .nav-tab-wrapper {
     border-bottom: 1px solid #ddd;
 }
-#nbdesigner-options-form-nbdesigner h2 {
+#nbdesigner-options-form-nbdesigner_settings h2 {
     margin-bottom: 0;
 }
-#nbdesigner-options-form-nbdesigner .form-table, .nbd-license table {
+#nbdesigner-options-form-nbdesigner_settings .form-table, .nbd-license table {
     background: #fff;
     margin-top: 0;    
 }
-#nbdesigner-options-form-nbdesigner .form-table:not(:last-of-type) {
+#nbdesigner-options-form-nbdesigner_settings .form-table:not(:last-of-type) {
     margin-bottom: 15px;    
 }
-#nbdesigner-options-form-nbdesigner .form-table th, .nbd-license table th {
+#nbdesigner-options-form-nbdesigner_settings .form-table th, .nbd-license table th {
     padding-left: 20px;
 }
-#nbdesigner-options-form-nbdesigner .form-table td label {
+#nbdesigner-options-form-nbdesigner_settings .form-table td label {
     font-size: 13px;
     font-weight: normal;    
 }
-#nbdesigner-options-form-nbdesigner h3, .nbd-license h3 {
+#nbdesigner-options-form-nbdesigner_settings h3, .nbd-license h3 {
     background: #fff;
     margin: 0;
     padding: 15px 10px;
@@ -64,6 +64,6 @@ input[data-depend] {
     margin: 0;
     box-shadow: 0px -3px 15px rgba(0,0,0,0.1);  
 }
-#nbdesigner-options-form-nbdesigner select {
+#nbdesigner-options-form-nbdesigner_settings select {
 /*    padding: 0;*/
 }

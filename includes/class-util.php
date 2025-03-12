@@ -1405,7 +1405,8 @@ function default_frontend_setting(){
         'nbdesigner_boosting_load_template'         => 'no',
 
         'nbdesigner_enable_cloud2print_api'         => 'no',
-        'nbdesigner_enable_font_to_outlines'        => 'no'
+        'nbdesigner_enable_font_to_outlines'        => 'no',
+        'nbdesigner_cmsmart_first_imported_product' => 'no',
     ));
 }
 function nbd_multicheckbox_settings(){
@@ -3471,6 +3472,7 @@ function nbd_get_truetype_fonts(){
 function nbd_admin_pages(){
     return apply_filters( 'nbd_admin_pages', array(
         'toplevel_page_nbdesigner', 
+        'cmsmart_page_nbdesigner_settings',
         'nbdesigner_page_nbdesigner_manager_product',
         'toplevel_page_nbdesigner_shoper',
         'nbdesigner_page_nbdesigner_frontend_translate',
