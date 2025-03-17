@@ -237,7 +237,7 @@ use Automattic\WooCommerce\Blocks\Integrations\IntegrationInterface;
 			'cart-block',
 			$style_url,
 			[],
-			$this->get_file_version( $style_path )
+			$this->get_file_version( $style_url )
 		);
 	}
 
