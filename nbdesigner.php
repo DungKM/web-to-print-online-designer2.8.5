@@ -7,7 +7,7 @@
 Plugin Name: Cmsmart
 Plugin URI: https://cmsmart.net/wordpress-plugins/woocommerce-online-product-designer-plugin
 Description: A Woocommerce printing ecosystem.
-Version: 2.8.5
+Version: 2.8.6
 Author: NetbaseTeam
 Author URI: https://cmsmart.net/
 License: GPLv2 or later
