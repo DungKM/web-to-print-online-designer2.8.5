@@ -1149,7 +1149,7 @@ class Nbdesigner_Plugin {
                 'nbdesigner',  
                 array( $this, 'nbd_general' )  
             );
-            add_action( 'load-'.$nbdesigner_manage, array( 'Nbdesigner_Helper', 'general_helper' ) );
+       
         }
         if( current_user_can( 'manage_nbd_setting' ) ) {
             $nbdesigner_manage = add_submenu_page(

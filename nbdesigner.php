@@ -49,7 +49,7 @@ if (function_exists('icl_get_home_url')) {
         }
     }
 }
-nbd_define('NBDESIGNER_VERSION',                '2.8.5');
+nbd_define('NBDESIGNER_VERSION',                '2.8.6');
 nbd_define('NBDESIGNER_NUMBER_VERSION',         285);
 nbd_define('NBDESIGNER_MINIMUM_WP_VERSION',     '4.1.1');
 nbd_define('NBDESIGNER_MINIMUM_PHP_VERSION',    '5.6.0');

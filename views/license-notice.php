@@ -16,7 +16,7 @@
 <div class="nbd-license-popup" id="nbd-license-popup" onclick="hideNBDLicensePopup(event)">
     <div class="nbd-license-popup-inner">
         <a href="https://cmsmart.net/wordpress-plugins/woocommerce-online-product-designer-plugin?utm_source=backend&utm_medium=cpc&utm_campaign=wpol&utm_content=popup" target="_blank">
-            <img src="<?php echo NBDESIGNER_ASSETS_URL . 'images/lite_version_popup.png'; ?>" alt="Lite version"/>
+            <img src="<?php echo NBDESIGNER_ASSETS_URL . 'images/lite_version.png'; ?>" alt="Lite version"/>
         </a>
         <span onclick="hideNBDLicensePopup(event, true)" class="nbd-license-popup-close">&times;</span>
     </div>
@@ -41,7 +41,7 @@
         right: -15px;
         height: 30px;
         width: 30px;
-        background: #03b591;
+        background: #9b93c9;
         color: #fff;
         text-align: center;
         line-height: 24px;
