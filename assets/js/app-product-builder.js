@@ -1526,11 +1526,13 @@ nbdpbApp.factory("FabricWindow", [
       cornerStrokeColor: "rgba(63, 70, 82, 1)",
       hoverCursor: "pointer",
       borderOpacityWhenMoving: 0,
-      selectable: NBPBCONFIG.is_creating_task == 1 ? true : false,
-      perPixelTargetFind: NBPBCONFIG.is_creating_task == 1 ? false : true,
+      selectable: true, // Đảm bảo đối tượng có thể được chọn
+      perPixelTargetFind: true,
       originX: "center",
       originY: "center",
-      centeredScaling: true,
+      centeredScaling: true, // Cho phép phóng to/thu nhỏ từ tâm
+      lockScalingX: false, // Không khóa phóng to/thu nhỏ theo trục X
+      lockScalingY: false, // Không khóa phóng to/thu nhỏ theo trục Y
       _controlsVisibility: {
         tl: true,
         tr: true,
@@ -1551,8 +1553,8 @@ nbdpbApp.factory("FabricWindow", [
       selectionColor: "rgba(1, 196, 204, 0.3)",
       selectionBorderColor: "#01c4cc",
       selectionLineWidth: 0.5,
-      centeredKey: "shiftKey",
-      uniScaleKey: "altKey",
+      centeredKey: "shiftKey", // Giữ phím Shift để phóng to/thu nhỏ từ tâm
+      uniScaleKey: "altKey", // Giữ phím Alt để phóng to/thu nhỏ đồng đều
     });
     return $window.fabric;
   },

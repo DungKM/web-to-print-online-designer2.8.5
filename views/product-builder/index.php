@@ -1,104 +1,112 @@
 <?php if (!defined('ABSPATH')) exit; ?>
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link type="text/css" href="<?php echo NBDESIGNER_ASSETS_URL.'css/spectrum.css'; ?>" rel="stylesheet" media="all"/>
-        <link type="text/css" href="<?php echo NBDESIGNER_ASSETS_URL.'css/app-product-builder.css'; ?>" rel="stylesheet" media="all"/>
-        <script type='text/javascript' src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-        <script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-        <script type='text/javascript' src="<?php echo WC()->plugin_url().'/assets/js/accounting/accounting.min.js'; ?>"></script>
-        <?php
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" href="<?php echo NBDESIGNER_ASSETS_URL.'css/spectrum.css'; ?>" rel="stylesheet" media="all" />
+    <link type="text/css" href="<?php echo NBDESIGNER_ASSETS_URL.'css/app-product-builder.css'; ?>" rel="stylesheet"
+        media="all" />
+    <script type='text/javascript' src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script type='text/javascript' src="<?php echo WC()->plugin_url().'/assets/js/accounting/accounting.min.js'; ?>">
+    </script>
+    <?php
             $is_nbpb_creating_task = true;
             $is_creating_task = 1;
             include 'js_config.php';
         ?>
-        <script type="text/javascript">
-            var nbds_frontend = [];
-        </script>
-        <link href='https://fonts.googleapis.com/css?family=Poppins:400,400i,700,700i' rel='stylesheet' type='text/css'>
-        <style type="text/css" >
-            body, html {
-                font-family: 'Poppins';
-                overflow: hidden !important;
-            }
-            .nbdpb-load-page {
-              position: fixed;
-              top: 0;
-              bottom: 0;
-              left: 0;
-              right: 0;
-              background: #fdfdfd;
-              opacity: 0;
-              visibility: hidden;
-              z-index: -1;
-              -webkit-transition: all .7s;
-              -moz-transition: all .7s;
-              transition: all .7s;
-            }
+    <script type="text/javascript">
+    var nbds_frontend = [];
+    </script>
+    <link href='https://fonts.googleapis.com/css?family=Poppins:400,400i,700,700i' rel='stylesheet' type='text/css'>
+    <style type="text/css">
+    body,
+    html {
+        font-family: 'Poppins';
+        overflow: hidden !important;
+    }
 
-            .nbdpb-load-page.nbdpb-show,
-            .nbpb-stage-loading.nbdpb-show {
-                opacity: 1;
-                visibility: visible;
-                z-index: 99999999999;
-            }
+    .nbdpb-load-page {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: #fdfdfd;
+        opacity: 0;
+        visibility: hidden;
+        z-index: -1;
+        -webkit-transition: all .7s;
+        -moz-transition: all .7s;
+        transition: all .7s;
+    }
 
-            .nbdpb-load-page .nbpb-loader,
-            .nbpb-stage-loading .nbpb-loader {
-              position: relative;
-              margin: -50px auto 0 -50px;
-              width: 100px;
-              top: 50%;
-              left: 50%;
-            }
+    .nbdpb-load-page.nbdpb-show,
+    .nbpb-stage-loading.nbdpb-show {
+        opacity: 1;
+        visibility: visible;
+        z-index: 99999999999;
+    }
 
-            .nbdpb-load-page .nbpb-loader:before,
-            .nbpb-stage-loading .nbpb-loader:before {
-              content: '';
-              display: block;
-              padding-top: 100%;
-            }
-            .nbpb-stage-loading {
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                opacity: 0;
-                visibility: hidden;
-                z-index: -1;
-                -webkit-transition: all .2s;
-                -moz-transition: all .2s;
-                transition: all .2s;
-                background: rgba(255,255,255,0.65);
-            }
-            .circular {
-              -webkit-animation: rotate 2s linear infinite;
-              animation: rotate 2s linear infinite;
-              height: 100%;
-              -webkit-transform-origin: center center;
-              transform-origin: center center;
-              width: 100%;
-              position: absolute;
-              top: 0;
-              bottom: 0;
-              left: 0;
-              right: 0;
-              margin: auto;
-            }
+    .nbdpb-load-page .nbpb-loader,
+    .nbpb-stage-loading .nbpb-loader {
+        position: relative;
+        margin: -50px auto 0 -50px;
+        width: 100px;
+        top: 50%;
+        left: 50%;
+    }
 
-            .circular .path {
-              stroke-dasharray: 1,200;
-              stroke-dashoffset: 0;
-              -webkit-animation: dash 1.5s ease-in-out infinite,color 6s ease-in-out infinite;
-              animation: dash 1.5s ease-in-out infinite,color 6s ease-in-out infinite;
-              stroke-linecap: round;
-            }
-        </style>
-    </head>
-    <body>
-        <?php
+    .nbdpb-load-page .nbpb-loader:before,
+    .nbpb-stage-loading .nbpb-loader:before {
+        content: '';
+        display: block;
+        padding-top: 100%;
+    }
+
+    .nbpb-stage-loading {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        visibility: hidden;
+        z-index: -1;
+        -webkit-transition: all .2s;
+        -moz-transition: all .2s;
+        transition: all .2s;
+        background: rgba(255, 255, 255, 0.65);
+    }
+
+    .circular {
+        -webkit-animation: rotate 2s linear infinite;
+        animation: rotate 2s linear infinite;
+        height: 100%;
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .circular .path {
+        stroke-dasharray: 1, 200;
+        stroke-dashoffset: 0;
+        -webkit-animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+        animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+        stroke-linecap: round;
+    }
+    </style>
+</head>
+
+<body>
+    <?php
             include(NBDESIGNER_PLUGIN_DIR . 'views/product-builder/wrapper.php');
             function get_nbd_print_option( $id ){
                 global $wpdb;
@@ -244,10 +252,13 @@
             }
             show_option_fields();
         ?>
-        <script type='text/javascript' src="//cdn.jsdelivr.net/npm/lodash@4.17.11/lodash.min.js"></script>
-        <script type='text/javascript' src="<?php echo NBDESIGNER_PLUGIN_URL . 'assets/libs/fontfaceobserver.js'; ?>"></script>
-        <script type='text/javascript' src="<?php echo NBDESIGNER_PLUGIN_URL . 'assets/js/spectrum.js'; ?>"></script>
-        <script type='text/javascript' src="<?php echo NBDESIGNER_PLUGIN_URL . 'assets/libs/fabric.2.6.0.min.js'; ?>"></script>
-        <script type='text/javascript' src="<?php echo NBDESIGNER_ASSETS_URL . 'js/app-product-builder.js'; ?>"></script>
-    </body>
+    <script type='text/javascript' src="//cdn.jsdelivr.net/npm/lodash@4.17.11/lodash.min.js"></script>
+    <script type='text/javascript' src="<?php echo NBDESIGNER_PLUGIN_URL . 'assets/libs/fontfaceobserver.js'; ?>">
+    </script>
+    <script type='text/javascript' src="<?php echo NBDESIGNER_PLUGIN_URL . 'assets/js/spectrum.js'; ?>"></script>
+    <script type='text/javascript' src="<?php echo NBDESIGNER_PLUGIN_URL . 'assets/libs/fabric.2.6.0.min.js'; ?>">
+    </script>
+    <script type='text/javascript' src="<?php echo NBDESIGNER_ASSETS_URL . 'js/app-product-builder.js'; ?>"></script>
+</body>
+
 </html>

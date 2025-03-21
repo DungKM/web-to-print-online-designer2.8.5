@@ -154,10 +154,15 @@ if(!class_exists('Nbdesigner_Product_Builder')) {
                         'version'   => '2.6.0',
                         'depends'  => array()
                     ),
+                    'lodash' => array( // Thêm thư viện Lodash
+                        'link' => 'https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js',
+                        'version'   => '4.17.21',
+                        'depends'  => array()
+                    ),
                     'product-builder' => array(
                         'link' => NBDESIGNER_ASSETS_URL.'js/app-product-builder.js',
                         'version'   => NBDESIGNER_VERSION,
-                        'depends'  => array('jquery', 'underscore', 'angularjs', 'fabricjs', 'fontfaceobserver', 'spectrum')
+                        'depends'  => array('jquery', 'underscore', 'angularjs', 'fabricjs', 'fontfaceobserver', 'spectrum', 'lodash')
                     )
                 );
                 $js_libs_with_design = array(
